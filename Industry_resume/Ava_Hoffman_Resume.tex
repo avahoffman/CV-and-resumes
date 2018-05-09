@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Important note:
+% Compile using LuaLaTeX, has dependencies on MiKTeX..
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage{fontawesome}
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Data}\\\textbf{Science},
+        \textbf{Inter-}\\\textbf{disciplinary}\\\textbf{focus},
+        \textbf{Big}\\\textbf{data},
+        \textbf{Data}\\\textbf{visualization},
+        \textbf{Science}\\\textbf{commun-}\\\textbf{ication},
+        \textbf{Project}\\\textbf{Manage-}\\\textbf{ment},
+       % \textbf{Technical}\\\textbf{writing},
+        \textbf{Statistical}\\\textbf{Analysis}
+    }
+}
+
+% Programming skill bars
+\programming{
+{ Python $\textbullet$ \large \LaTeX / 0.56 }, % 20000 ~ 5.. so 2233*5/20000
+{R $\textbullet$ RStan  $\textbullet$ JAGS / 5.46}} %  20000 ~ 5.. so 21844*5/20000
+%R: 21844
+%py: 1438
+%tex: 795
+
+% Projects text
+\projects{
+	\textbf{ESS 575} - Implemented Bayesian models for ecological data using JAGS\\
+        \textbf{Stan Seminars} - Implemented Bayesian models for ecological data using RStan\\
+        \textbf{NSCI 588} - Analyzed genomic data using Python\\
+        \textbf{Overheard at ESA} - Android app developed in MIT App Builder workshop \\
+        \textbf{STAT 512} - implemented more advanced principles of statistical design for research projects\\
+        \textbf{STAT 511} - participation in principles of statistical design, inference, methods, \& toolbox skills for research\\
+        \textbf{Teaching} - 7 semesters teaching \& 4 years student mentoring experience
+        }
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+\cvname{Ava Hoffman} % Your name
+\cvjobtitle{ Ecologist } % Job
+% title/career
+
+\cvlinkedin{/in/ava-hoffman-0abb6054}
+\cvgithub{avahoffman}
+\cvnumberphone{(804) 687 7476} % Phone number
+\cvsite{avahoffman.com} % Personal website
+\cvmail{avamariehoffman@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{2013 - 2018}
+        {}
+        {Ph.D, Ecology \textnormal{(GPA: 4.0/4.0)}}
+        {\href{http://www.colostate.edu/}{Colorado State University, USA}}
+        {}
+        {}
+	\twentyitem
+    	{2008 - 2012}
+		{}
+        {B.S., Biology \textnormal{(GPA: 3.7/4.0)}}
+        {\href{http://www.virginia.edu/}{University of Virginia, USA}}
+        {}
+        {}
+\end{twenty}
+
+\section{Research}
+\begin{twenty}
+	\twentyitem
+    	{2013 - 2018}
+		{}
+        {Ph.D Candidate, USDA NIFA Predoc. Fellow}
+        {\href{http://www.colostate.edu/}{Colorado State University}}
+        {}
+        {
+       	\textbf{Dissertation}: Intraspecific diversity \& drought coping mechanisms of dominant prairie grasses
+        {\begin{itemize}
+        \item Awarded \$118,112 in grants to perform research
+        \item Research Mentoring for Inclusivity \& Advancement in STEM Fellow, Sustainability Leadership Fellow, Vice President for Research Fellow, ESA Hackathon beginner app developer first place  {\includegraphics[scale=0.04]{img/trophy.png}}
+        \item \textbf{Primary Tools}: R, RStan, shell scripts \vspace{2mm}
+		\end{itemize}}
+        }
+\end{twenty}
+
+\section{Recent Publications  \href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{{\includegraphics[scale=0.18]{img/Google_Scholar_logo_2015.png}} } }
+2018. \textbf{Hoffman, AM}, et al. \href{https://peerj.com/articles/4394.pdf}{Co-dominant grasses differ in gene expression under experimental climate extremes in native tallgrass prairie.} \textit{PeerJ}.\\
+
+2017. \textbf{Hoffman, AM} and MD Smith. \href{http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12733/full}{Gene expression differs in codominant prairie grasses under drought}. \textit{Molecular Ecology Resources}.\\
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem
+   		{2018 -}
+		{present}
+        {\href{https://github.com/avahoffman/dryland-dominance}{Dominant species in dry ecosystems}}
+       	{Colorado State University}
+        {}
+        {
+        {\begin{itemize}
+        \item Processed data from existing studies to determine the predictive power of dominant grasses in response to climate change with meta-analysis
+    \end{itemize}}
+        }
+     \\
+\twentyitem
+   		{2017 -}
+		{present}
+        {\href{https://github.com/avahoffman/change-metabolomics}{Metabolic responses to nitrogen}}
+       	{Colorado State University}
+        {}
+        {
+        {\begin{itemize}
+        \item Synthesized metabolomic, physiological, \& community responses to nitrogen using path analysis with metabolite module clustering
+    \end{itemize}}
+        }
+     \\
+\twentyitem
+    	{2016 -}
+		{Present}
+        {\href{}{Genetic diversity in \textit{Bouteloua} grass}}
+        {US Dept of Agriculture}
+        {}
+        {\begin{itemize}
+        \item Quantified changes in the genomes of populations of this grass \& related them to differences in plant appearance \& drought strategy
+        \end{itemize}}
+        \\
+        
+	\twentyitem
+    	{2014 -}
+		{2018}
+        {\href{https://github.com/avahoffman/nonlinear-plasticity}{Non-linear plasticity in \textit{Andropogon} grass}}
+        {Colorado State University}
+        {}
+        {
+        {\begin{itemize}
+        \item Processed highly multivariate trait responses to a gradient of water availability
+    \end{itemize}}
+        }
+    \\   
+    	\twentyitem
+    	{2015 -}
+		{2017}
+        {Gene expression (RNA) in dominant grasses}
+        {Colorado State University}
+        {}
+        {
+        {\begin{itemize}
+        \item Analyzed gene expression responses of key grasses to drought using the \href{https://github.com/avahoffman/gene-expression}{\underline{de novo transcriptome assembler Trinity}}, next generation bioinformatics tools, \& \href{https://github.com/avahoffman/climate-extremes-gene-expression}{\underline{microarrays}}
+    \end{itemize}}
+        }
+    \\   
+        	\twentyitem
+    	{2017}
+		{}
+        {\href{https://github.com/avahoffman/grasshopper-preference}{Grasshopper preference for \textit{Bouteloua}}}
+        {Colorado State University}
+        {}
+        {
+        {\begin{itemize}
+        \item Modeled the responses of grasshoppers in response to different cultivars of \textit{Bouteloua} grass
+    \end{itemize}}
+        }
+    \\   
+
+\end{twenty}
+
+ % printing the Last Updated text
+\begin{textblock*}{4cm}(475,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
+\color{mainblue}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
+\begin{flushright}
+Last Updated \today % Last Updated text
+\end{flushright}
+\end{textblock*}
+
+
+\end{document} 

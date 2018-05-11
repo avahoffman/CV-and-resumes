@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  9 MAY 2018 13:54
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  10 MAY 2018 14:06
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Ava_Hoffman_Resume.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.179 seconds
+luaotfload | main : initialization completed in 0.189 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
@@ -1536,9 +1536,14 @@ d Bayesian
  []
 
 
-Overfull \hbox (6.76645pt too wide) in paragraph at lines 78--78
-\TU/ClearSans(0)/bx/n/10 STAT 512 \TU/ClearSans(0)/m/n/10 - im-ple-mented more 
-ad-vanced
+Overfull \hbox (13.04411pt too wide) in paragraph at lines 78--78
+\TU/ClearSans(0)/bx/n/10 NSCI 588 \TU/ClearSans(0)/m/n/10 - An-a-lyzed ge-nomic
+ data (.fastq
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
@@ -1551,10 +1556,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--101
 <img/trophy.png, id=41, 256.96pt x 256.96pt>
 File: img/trophy.png Graphic file (type png)
  <use img/trophy.png>
-Package luatex.def Info: img/trophy.png used on input line 117.
+Package luatex.def Info: img/trophy.png used on input line 118.
 (luatex.def)             Requested size: 10.27664pt x 10.27664pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--119
+Underfull \hbox (badness 10000) in paragraph at lines 103--120
 
  []
 
@@ -1562,41 +1567,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--119
 File: img/Google_Scholar_logo_2015.png Graphic file (type png)
 
 <use img/Google_Scholar_logo_2015.png>
-Package luatex.def Info: img/Google_Scholar_logo_2015.png used on input line 120
+Package luatex.def Info: img/Google_Scholar_logo_2015.png used on input line 121
 .
 (luatex.def)             Requested size: 39.97261pt x 15.31154pt.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 121.
+(Font)              scaled to size 10.0pt on input line 122.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 165.
+Package hyperref Warning: Suppressing link with empty target on input line 176.
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 165.
+(Font)              scaled to size 10.0pt on input line 176.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--206
+Package hyperref Warning: Suppressing link with empty target on input line 229.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--233
 
  []
 
-./Ava_Hoffman_Resume.tex:213: Illegal unit of measure (pt inserted).
+./Ava_Hoffman_Resume.tex:240: Illegal unit of measure (pt inserted).
 <to be read again> 
 \relax 
-l.213 \end{textblock*}
+l.240 \end{textblock*}
                     
 ? 
-./Ava_Hoffman_Resume.tex:213: Illegal unit of measure (pt inserted).
+./Ava_Hoffman_Resume.tex:240: Illegal unit of measure (pt inserted).
 <to be read again> 
 \relax 
-l.213 \end{textblock*}
+l.240 \end{textblock*}
                     
 ? 
 [1
@@ -1611,11 +1614,11 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updm
 ap/pdftex.map}
 Non-PDF special ignored!<./img/trophy.png><./img/Google_Scholar_logo_2015.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
 (./Ava_Hoffman_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `Ava_Hoffman_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
@@ -1626,7 +1629,7 @@ Here is how much of LuaTeX's memory you used:
  1393 words of node memory still in use:
    22 hlist, 1 vlist, 10 rule, 24 glue, 85 attribute, 66 glue_spec, 85 attribute
 _list, 1 write, 39 pdf_literal, 2 pdf_action, 18 pdf_colorstack nodes
-   avail lists: 1:2,2:1968,3:490,4:66,5:403,6:3015,7:1290,8:72,9:473,10:5,11:297
+   avail lists: 1:2,2:2076,3:513,4:76,5:402,6:3074,7:1406,8:75,9:500,10:5,11:300
 
  34116 multiletter control sequences out of 65536+600000
  64 fonts using 7357135 bytes
@@ -1640,7 +1643,7 @@ intel/clearsans/ClearSans-Bold.ttf></usr/local/texlive/2017/texmf-dist/fonts/tru
 etype/intel/clearsans/ClearSans-Regular.ttf><./fonts/segoeuib.ttf></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Ava_Hoffman_Resume.pdf (1 page, 126570 bytes).
+Output written on Ava_Hoffman_Resume.pdf (1 page, 126336 bytes).
 
 PDF statistics: 123 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream

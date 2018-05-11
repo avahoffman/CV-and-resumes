@@ -370,7 +370,7 @@
     %  specifies the minimum size of the bubbles
     bubble node size = 0.5cm,
     % specifies which is the distance among the bubble center node and the other bubbles
-    distance center/other bubbles = 0.3cm,
+    distance center/other bubbles = 0.4cm,
     % sets the distance from the text to the border of the bubble center node
     distance text center bubble = 0.5cm,
     % set center bubble color

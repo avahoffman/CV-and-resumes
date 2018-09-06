@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6650) (preloaded format=xelatex 2018.5.11)  23 JUL 2018 20:28
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6650) (preloaded format=xelatex 2018.5.11)  6 SEP 2018 16:15
 entering extended mode
 **"./Ava Hoffman CV.tex"
 ("Ava Hoffman CV.tex"
@@ -964,46 +964,46 @@ Overfull \hbox (4.98645pt too wide) in paragraph at lines 54--59
 [1
 
 ]
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 157--166
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 160--169
 [][] 
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 177--177
+Underfull \hbox (badness 3792) in paragraph at lines 180--180
 []|\TU/Lato-Lig(0)/bx/n/10 Daniel Robotham $\OMS/cmsy/m/n/10 ^^A$ \TU/Lato-Lig(
 0)/m/sc/10 Honors Thesis student []Thesis
  []
 
 
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 172--182
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 175--185
 [][] 
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 219--220
+Underfull \hbox (badness 2351) in paragraph at lines 222--223
 []|\TU/Lato-Lig(0)/m/sc/10 Genotypes of a tallgrass prairie species respond dif
 ferently to drought, despite high plasticity within
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  ("Ava Hoffman CV.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `"Ava Hoffman CV".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
  19787 strings out of 429721
  375466 string characters out of 3179354
- 490187 words of memory out of 3000000
+ 488187 words of memory out of 3000000
  23558 multiletter control sequences out of 15000+200000
  531253 words of font info for 49 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191

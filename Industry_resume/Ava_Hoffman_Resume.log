@@ -1,21 +1,19 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  10 MAY 2018 14:06
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650)  (format=lualatex 2018.9.22)  23 SEP 2018 23:16
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Ava_Hoffman_Resume.tex
 (./Ava_Hoffman_Resume.tex
-LaTeX2e <2017-04-15>
+LaTeX2e <2018-04-01> patch level 4
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using write cache: /Users/avahoffman/Library/texlive/2017/texmf-var/lu
-atex-cache/generic)(using read cache: /usr/local/texlive/2017/texmf-var/luatex-c
-ache/generic /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/gener
-ic)
-luaotfload | conf : Root cache directory is /Users/avahoffman/Library/texlive/20
-17/texmf-var/luatex-cache/generic/names.
+llection.(using cache: /Users/avahoffman/Library/Application Support/MiKTeX/texm
+fs/data/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /Users/avahoffman/Library/Applicatio
+n Support/MiKTeX/texmfs/data/luatex-cache/generic/names.
 luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
--resolved path “/usr/local/texlive/2017/texmf-dist/tex/luatex/luaotfload/fontl
-oader-2017-02-11.lua”.
+-resolved path “/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/in
+stall/tex/luatex/luaotfload/fontloader-2017-02-11.lua”.
 Lua-only attribute luaotfload@state = 1
 Lua-only attribute luaotfload@noligature = 2
 Lua-only attribute luaotfload@syllabe = 3
@@ -24,8 +22,8 @@ Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is /Users/avahoffman/Library/texlive/20
-17/texmf-var/luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /Users/avahoffman/Library/Applicatio
+n Support/MiKTeX/texmfs/data/luatex-cache/generic/names.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
@@ -36,48 +34,57 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.189 seconds
-Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.176 seconds
+Babel <3.20> and hyphenation patterns for 0 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /Users/avahoffman/Library/texl
-ive/2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /Us
-ers/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
-oman10-regular.luc))
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+luaotfload | db : Font names database loaded from /Users/avahoffman/Library/Appl
+ication Support/MiKTeX/texmfs/data/luatex-cache/generic/names/luaotfload-names.l
+uc(load luc: /Users/avahoffman/Library/Application Support/MiKTeX/texmfs/data/lu
+atex-cache/generic/fonts/otl/lmroman10-regular.luc))
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/05/13 L3 programming layer (loader) 
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontspec/fontspec.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3packages/xparse/xparse.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3kernel/expl3.sty"
+Package: expl3 2018-04-30 L3 programming layer (loader) 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/05/13 L3 programming layer (code)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3kernel/expl3-code.tex"
+Package: expl3 2018-04-30 L3 programming layer (code)
 \ucharcat@table=\catcodetable5
-\c_max_int=\count87
-\l_tmpa_int=\count88
-\l_tmpb_int=\count89
-\g_tmpa_int=\count90
-\g_tmpb_int=\count91
-\g__prg_map_int=\count92
-\c_log_iow=\count93
-\l_iow_line_count_int=\count94
-\l__iow_line_target_int=\count95
-\l__iow_one_indent_int=\count96
-\l__iow_indent_int=\count97
+\c_max_int=\count88
+\l_tmpa_int=\count89
+\l_tmpb_int=\count90
+\g_tmpa_int=\count91
+\g_tmpb_int=\count92
+\g__kernel_prg_map_int=\count93
+\c_log_iow=\count94
+\l_iow_line_count_int=\count95
+\l__iow_line_target_int=\count96
+\l__iow_one_indent_int=\count97
+\l__iow_indent_int=\count98
 \c_zero_dim=\dimen103
 \c_max_dim=\dimen104
 \l_tmpa_dim=\dimen105
@@ -96,52 +103,97 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count98
-\c__fp_leading_shift_int=\count99
-\c__fp_middle_shift_int=\count100
-\c__fp_trailing_shift_int=\count101
-\c__fp_big_leading_shift_int=\count102
-\c__fp_big_middle_shift_int=\count103
-\c__fp_big_trailing_shift_int=\count104
-\c__fp_Bigg_leading_shift_int=\count105
-\c__fp_Bigg_middle_shift_int=\count106
-\c__fp_Bigg_trailing_shift_int=\count107
-\c__fp_rand_size_int=\count108
-\c__fp_rand_four_int=\count109
-\c__fp_rand_eight_int=\count110
-\l__sort_length_int=\count111
-\l__sort_min_int=\count112
-\l__sort_top_int=\count113
-\l__sort_max_int=\count114
-\l__sort_true_max_int=\count115
-\l__sort_block_int=\count116
-\l__sort_begin_int=\count117
-\l__sort_end_int=\count118
-\l__sort_A_int=\count119
-\l__sort_B_int=\count120
-\l__sort_C_int=\count121
+\l_keys_choice_int=\count99
+\c__fp_leading_shift_int=\count100
+\c__fp_middle_shift_int=\count101
+\c__fp_trailing_shift_int=\count102
+\c__fp_big_leading_shift_int=\count103
+\c__fp_big_middle_shift_int=\count104
+\c__fp_big_trailing_shift_int=\count105
+\c__fp_Bigg_leading_shift_int=\count106
+\c__fp_Bigg_middle_shift_int=\count107
+\c__fp_Bigg_trailing_shift_int=\count108
+\c__fp_rand_size_int=\count109
+\c__fp_rand_four_int=\count110
+\c__fp_rand_eight_int=\count111
+\c__intarray_sp_dim=\dimen109
+\g__intarray_font_int=\count112
+\l__sort_length_int=\count113
+\l__sort_min_int=\count114
+\l__sort_top_int=\count115
+\l__sort_max_int=\count116
+\l__sort_true_max_int=\count117
+\l__sort_block_int=\count118
+\l__sort_begin_int=\count119
+\l__sort_end_int=\count120
+\l__sort_A_int=\count121
+\l__sort_B_int=\count122
+\l__sort_C_int=\count123
+\l__tl_analysis_normal_int=\count124
+\l__tl_analysis_index_int=\count125
+\l__tl_analysis_nesting_int=\count126
+\l__tl_analysis_type_int=\count127
+\l__regex_internal_a_int=\count128
+\l__regex_internal_b_int=\count129
+\l__regex_internal_c_int=\count130
+\l__regex_balance_int=\count131
+\l__regex_group_level_int=\count132
+\l__regex_mode_int=\count133
+\c__regex_cs_in_class_mode_int=\count134
+\c__regex_cs_mode_int=\count135
+\l__regex_catcodes_int=\count136
+\l__regex_default_catcodes_int=\count137
+\c__regex_catcode_L_int=\count138
+\c__regex_catcode_O_int=\count139
+\c__regex_catcode_A_int=\count140
+\c__regex_all_catcodes_int=\count141
+\l__regex_show_lines_int=\count142
+\l__regex_min_state_int=\count143
+\l__regex_max_state_int=\count144
+\l__regex_left_state_int=\count145
+\l__regex_right_state_int=\count146
+\l__regex_capturing_group_int=\count147
+\l__regex_min_pos_int=\count148
+\l__regex_max_pos_int=\count149
+\l__regex_curr_pos_int=\count150
+\l__regex_start_pos_int=\count151
+\l__regex_success_pos_int=\count152
+\l__regex_curr_char_int=\count153
+\l__regex_curr_catcode_int=\count154
+\l__regex_last_char_int=\count155
+\l__regex_case_changed_char_int=\count156
+\l__regex_curr_state_int=\count157
+\l__regex_step_int=\count158
+\l__regex_min_active_int=\count159
+\l__regex_max_active_int=\count160
+\l__regex_replacement_csnames_int=\count161
+\l__regex_match_count_int=\count162
+\l__regex_min_submatch_int=\count163
+\l__regex_submatch_int=\count164
+\l__regex_zeroth_submatch_int=\count165
+\g__regex_trace_regex_int=\count166
 \c_empty_box=\box26
 \l_tmpa_box=\box27
 \l_tmpb_box=\box28
 \g_tmpa_box=\box29
 \g_tmpb_box=\box30
-\l__box_top_dim=\dimen109
-\l__box_bottom_dim=\dimen110
-\l__box_left_dim=\dimen111
-\l__box_right_dim=\dimen112
-\l__box_top_new_dim=\dimen113
-\l__box_bottom_new_dim=\dimen114
-\l__box_left_new_dim=\dimen115
-\l__box_right_new_dim=\dimen116
+\l__box_top_dim=\dimen110
+\l__box_bottom_dim=\dimen111
+\l__box_left_dim=\dimen112
+\l__box_right_dim=\dimen113
+\l__box_top_new_dim=\dimen114
+\l__box_bottom_new_dim=\dimen115
+\l__box_left_new_dim=\dimen116
+\l__box_right_new_dim=\dimen117
 \l__box_internal_box=\box31
 \l__coffin_internal_box=\box32
-\l__coffin_internal_dim=\dimen117
-\l__coffin_offset_x_dim=\dimen118
-\l__coffin_offset_y_dim=\dimen119
-\l__coffin_x_dim=\dimen120
-\l__coffin_y_dim=\dimen121
-\l__coffin_x_prime_dim=\dimen122
-\l__coffin_y_prime_dim=\dimen123
+\l__coffin_internal_dim=\dimen118
+\l__coffin_offset_x_dim=\dimen119
+\l__coffin_offset_y_dim=\dimen120
+\l__coffin_x_dim=\dimen121
+\l__coffin_y_dim=\dimen122
+\l__coffin_x_prime_dim=\dimen123
+\l__coffin_y_prime_dim=\dimen124
 \c_empty_coffin=\box33
 \l__coffin_aligned_coffin=\box34
 \l__coffin_aligned_internal_coffin=\box35
@@ -150,257 +202,286 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_display_coffin=\box38
 \l__coffin_display_coord_coffin=\box39
 \l__coffin_display_pole_coffin=\box40
-\l__coffin_display_offset_dim=\dimen124
-\l__coffin_display_x_dim=\dimen125
-\l__coffin_display_y_dim=\dimen126
-\l__coffin_bounding_shift_dim=\dimen127
-\l__coffin_left_corner_dim=\dimen128
-\l__coffin_right_corner_dim=\dimen129
-\l__coffin_bottom_corner_dim=\dimen130
-\l__coffin_top_corner_dim=\dimen131
-\l__coffin_scaled_total_height_dim=\dimen132
-\l__coffin_scaled_width_dim=\dimen133
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count122
-\l__driver_tmp_box=\box41
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count123
-\g__xparse_grabber_int=\count124
-\l__xparse_m_args_int=\count125
-\l__xparse_mandatory_args_int=\count126
-\l__xparse_v_nesting_int=\count127
-)
-Package: fontspec 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2017/03/31 2.6a Font selection for XeLaTeX and LuaLaTeX
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2017/03/31 v2.6a Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count128
-\l__fontspec_language_int=\count129
-\l__fontspec_strnum_int=\count130
-\l__fontspec_tmp_int=\count131
-\l__fontspec_em_int=\count132
-\l__fontspec_emdef_int=\count133
-\l__fontspec_strong_int=\count134
-\l__fontspec_strongdef_int=\count135
-\l__fontspec_tmpa_dim=\dimen134
-\l__fontspec_tmpb_dim=\dimen135
-\l__fontspec_tmpc_dim=\dimen136
+\l__coffin_display_offset_dim=\dimen125
+\l__coffin_display_x_dim=\dimen126
+\l__coffin_display_y_dim=\dimen127
 \g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen128
+\l__coffin_left_corner_dim=\dimen129
+\l__coffin_right_corner_dim=\dimen130
+\l__coffin_bottom_corner_dim=\dimen131
+\l__coffin_top_corner_dim=\dimen132
+\l__coffin_scaled_total_height_dim=\dimen133
+\l__coffin_scaled_width_dim=\dimen134
+\l__seq_internal_a_int=\count167
+\l__seq_internal_b_int=\count168
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3kernel/l3pdfmode.def"
+File: l3pdfmode.def 2018-04-30 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count169
+))
+Package: xparse 2018-04-30 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count170
+\g__xparse_grabber_int=\count171
+\l__xparse_m_args_int=\count172
+\l__xparse_mandatory_args_int=\count173
+\l__xparse_v_nesting_int=\count174
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontspec/fontspec-luatex.sty"
+Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count175
+\l__fontspec_language_int=\count176
+\l__fontspec_strnum_int=\count177
+\l__fontspec_tmp_int=\count178
+\l__fontspec_em_int=\count179
+\l__fontspec_emdef_int=\count180
+\l__fontspec_strong_int=\count181
+\l__fontspec_strongdef_int=\count182
+\l__fontspec_tmpa_dim=\dimen135
+\l__fontspec_tmpb_dim=\dimen136
+\l__fontspec_tmpc_dim=\dimen137
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/tuenc.def
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/tuenc.def"
 File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'O{}mO{}' on line 475.
+. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'O{}mO{}' on line 486.
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'O{}mO{}' on line 506.
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'O{}mO{}' on line 526.
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setromanfont with sig. 'O{}mO{}' on line 546.
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'O{}mO{}' on line 550.
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 558.
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'O{}mO{}' on line 574.
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 589.
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mO{}mO{}' on line 606.
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 617.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 648.
+. Defining command \addfontfeatures with sig. 'm' on line 593.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 675.
+. Defining command \addfontfeature with sig. 'm' on line 597.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 689.
+. Defining command \newfontfeature with sig. 'mm' on line 601.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 703.
+. Defining command \newAATfeature with sig. 'mmmm' on line 605.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newICUfeature with sig. 'mmm' on line 723.
+. Defining command \newopentypefeature with sig. 'mmm' on line 609.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 727.
+. Defining command \newICUfeature with sig. 'mmm' on line 613.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 748.
+. Defining command \aliasfontfeature with sig. 'mm' on line 617.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 781.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 785.
+. Defining command \newfontscript with sig. 'mm' on line 625.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 789.
+. Defining command \newfontlanguage with sig. 'mm' on line 629.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 800.
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCommand with sig. 'mO{}m' on line 3162.
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingAccent with sig. 'mm' on line 3168.
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingSymbol with sig. 'mm' on line 3174.
+. Defining command \EncodingAccent with sig. 'mm' on line 3372.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingComposite with sig. 'mmm' on line 3180.
+. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3186.
+. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3211.
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareSymbol with sig. 'm' on line 3217.
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareComposite with sig. 'mm' on line 3225.
+. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3433.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
 .................................................
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 3410.
-LaTeX Info: Redefining \slshape on input line 3415.
-LaTeX Info: Redefining \scshape on input line 3420.
-LaTeX Info: Redefining \upshape on input line 3425.
-LaTeX Info: Redefining \em on input line 3455.
-LaTeX Info: Redefining \emph on input line 3480.
-(load luc: /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic
-/fonts/otl/lmroman10-bold.luc)(load luc: /Users/avahoffman/Library/texlive/2017/
-texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
-LaTeX Info: Redefining \- on input line 3531.
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontspec/fontspec.cfg")
+LaTeX Info: Redefining \itshape on input line 3625.
+LaTeX Info: Redefining \slshape on input line 3630.
+LaTeX Info: Redefining \scshape on input line 3635.
+LaTeX Info: Redefining \upshape on input line 3640.
+LaTeX Info: Redefining \em on input line 3670.
+LaTeX Info: Redefining \emph on input line 3695.
+(load luc: /Users/avahoffman/Library/Application Support/MiKTeX/texmfs/data/luat
+ex-cache/generic/fonts/otl/lmroman10-bold.luc)(load luc: /Users/avahoffman/Libra
+ry/Application Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/lmroman
+10-italic.luc)
+LaTeX Info: Redefining \- on input line 3749.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \oldstylenums with sig. 'm' on line 3626.
+. Redefining command \oldstylenums with sig. 'm' on line 3844.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liningnums with sig. 'm' on line 3630.
+. Defining command \liningnums with sig. 'm' on line 3848.
 .................................................
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/clearsans/ClearSans.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/clearsans/ClearSans.sty"
 Package: ClearSans 2014/03/16 (Bob Tennent) Supports Clear-Sans fonts for all La
 TeX engines.
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/ifxetex/ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xkeyval/xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkeyval.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkvutils.tex"
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count136
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/keyval.tex"))
+\XKV@depth=\count183
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -415,7 +496,8 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -480,78 +562,89 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)(load luc: /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generi
-c/fonts/otl/clearsans-regular.luc)
-\g__fontspec_family_ClearSans_int=\count137
-luaotfload | aux : font no 18 (nil) does not define feature smcp for script latn
+)(load luc: /Users/avahoffman/Library/Application Support/MiKTeX/texmfs/data/lua
+tex-cache/generic/fonts/otl/clearsans-regular.luc)
+\g__fontspec_family_ClearSans_int=\count184
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 18(load luc: /Users/avahoffman/Library/texliv
-e/2017/texmf-var/luatex-cache/generic/fonts/otl/clearsans-bold.luc)
-luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 26(load luc: /Users/avahoffman/Library/Applic
+ation Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/clearsans-bold.l
+uc)
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 19(load luc: /Users/avahoffman/Library/texliv
-e/2017/texmf-var/luatex-cache/generic/fonts/otl/clearsans-italic.luc)
-luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 27(load luc: /Users/avahoffman/Library/Applic
+ation Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/clearsans-italic
+.luc)
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 20(load luc: /Users/avahoffman/Library/texliv
-e/2017/texmf-var/luatex-cache/generic/fonts/otl/clearsans-bolditalic.luc)
-luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 28(load luc: /Users/avahoffman/Library/Applic
+ation Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/clearsans-boldit
+alic.luc)
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 21
-LaTeX Info: Redefining \sffamily on input line 58.
-luaotfload | aux : font no 18 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 29
+LaTeX Info: Redefining \sffamily on input line 60.
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 18
-luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 26
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 19
-luaotfload | aux : font no 20 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 27
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 20
-luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 28
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 21(load luc: /Users/avahoffman/Library/texliv
-e/2017/texmf-var/luatex-cache/generic/fonts/otl/clearsans-light.luc)
-luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 29(load luc: /Users/avahoffman/Library/Applic
+ation Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/clearsans-light.
+luc)
+luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 22
-luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 30
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 19
-luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 27
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 21(load luc: /Users/avahoffman/Library/texliv
-e/2017/texmf-var/luatex-cache/generic/fonts/otl/clearsans-thin.luc)
-luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 29(load luc: /Users/avahoffman/Library/Applic
+ation Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/clearsans-thin.l
+uc)
+luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 23
-luaotfload | aux : font no 19 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 31
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 19
-luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+luaotfload | aux : no font with id 27
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : no font with id 21)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pstricks/pstricks.sty
-Package: pstricks 2017/03/17 v0.63 LaTeX wrapper for `PSTricks' (RN,HV)
+luaotfload | aux : no font with id 29)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pstricks/pstricks.sty"
+Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/iftex/iftex.sty"
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, a
+nd LuaTeX
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xcolor/xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 225.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2017/01/12 v0.01h Graphics/Color for luaTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count138
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-def/luatex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -563,432 +656,478 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pstricks.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/pst-xkey.tex"
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pst-fp.tex
-`pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count139
-\pstFP@xia=\count140
-\pstFP@xib=\count141
-\pstFP@xfa=\count142
-\pstFP@xfb=\count143
-\pstFP@rega=\count144
-\pstFP@regb=\count145
-\pstFP@regs=\count146
-\pstFP@times=\count147
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pstricks/pstricks.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pstricks/pst-fp.tex" `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count185
+\pstFP@xia=\count186
+\pstFP@xib=\count187
+\pstFP@xfa=\count188
+\pstFP@xfb=\count189
+\pstFP@rega=\count190
+\pstFP@regb=\count191
+\pstFP@regs=\count192
+\pstFP@times=\count193
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-common.tex"
 \pgfutil@everybye=\toks16
-\pgfutil@tempdima=\dimen137
-\pgfutil@tempdimb=\dimen138
+\pgfutil@tempdima=\dimen138
+\pgfutil@tempdimb=\dimen139
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-common-lists.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks19
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-\pgf@x=\dimen139
-\pgf@xa=\dimen140
-\pgf@xb=\dimen141
-\pgf@xc=\dimen142
-\pgf@y=\dimen143
-\pgf@ya=\dimen144
-\pgf@yb=\dimen145
-\pgf@yc=\dimen146
-\c@pgf@counta=\count148
-\c@pgf@countb=\count149
-\c@pgf@countc=\count150
-\c@pgf@countd=\count151
-\pgfutil@tempcnta=\count152
-\pgfutil@tempcntb=\count153
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgffor.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathcalc.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathutil.code.tex"
+\pgf@x=\dimen140
+\pgf@xa=\dimen141
+\pgf@xb=\dimen142
+\pgf@xc=\dimen143
+\pgf@y=\dimen144
+\pgf@ya=\dimen145
+\pgf@yb=\dimen146
+\pgf@yc=\dimen147
+\c@pgf@counta=\count194
+\c@pgf@countb=\count195
+\c@pgf@countc=\count196
+\c@pgf@countd=\count197
+\pgfutil@tempcnta=\count198
+\pgfutil@tempcntb=\count199
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen147
-\pgfmath@count=\count154
-\pgfmath@box=\box42
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen148
+\pgfmath@count=\count266
+\pgfmath@box=\box41
 \pgfmath@toks=\toks20
 \pgfmath@stack@operand=\toks21
 \pgfmath@stack@operation=\toks22
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count155
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.basic.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.random.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.comparison.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.base.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.round.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.misc.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count267
 ))
-\pgffor@iter=\dimen148
-\pgffor@skip=\dimen149
+\pgffor@iter=\dimen149
+\pgffor@skip=\dimen150
 \pgffor@stack=\toks23
 \pgffor@toks=\toks24
 )
-\psLoopIndex=\count156
+\psLoopIndex=\count268
 
-`PSTricks' v2.73  <2017/05/18> (tvz)
-\pst@dima=\dimen150
-\pst@dimb=\dimen151
-\pst@dimc=\dimen152
-\pst@dimd=\dimen153
-\pst@dimg=\dimen154
-\pst@dimh=\dimen155
-\pst@dimm=\dimen156
-\pst@dimn=\dimen157
-\pst@dimo=\dimen158
-\pst@dimp=\dimen159
-\pst@hbox=\box43
-\pst@ibox=\box44
-\pst@boxg=\box45
-\pst@cnta=\count157
-\pst@cntb=\count158
-\pst@cntc=\count159
-\pst@cntd=\count160
-\pst@cntg=\count161
-\pst@cnth=\count162
-\pst@cntm=\count163
-\pst@cntn=\count164
-\pst@cnto=\count165
-\pst@cntp=\count166
-\@zero=\count167
+`PSTricks' v2.86  <2018/08/23> (tvz,hv)
+\pst@dima=\dimen151
+\pst@dimb=\dimen152
+\pst@dimc=\dimen153
+\pst@dimd=\dimen154
+\pst@dimg=\dimen155
+\pst@dimh=\dimen156
+\pst@dimm=\dimen157
+\pst@dimn=\dimen158
+\pst@dimo=\dimen159
+\pst@dimp=\dimen160
+\pst@hbox=\box42
+\pst@ibox=\box43
+\pst@boxg=\box44
+\pst@cnta=\count269
+\pst@cntb=\count270
+\pst@cntc=\count271
+\pst@cntd=\count272
+\pst@cntg=\count273
+\pst@cnth=\count274
+\pst@cntm=\count275
+\pst@cntn=\count276
+\pst@cnto=\count277
+\pst@cntp=\count278
+\@zero=\count279
 \pst@toks=\toks25
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pstricks.con)
-\psunit=\dimen160
-\psxunit=\dimen161
-\psyunit=\dimen162
-\pst@C@@rType=\count168
-\pslinewidth=\dimen163
-\psk@startLW=\dimen164
-\psk@endLW=\dimen165
-\pst@customdefs=\toks26
-\pslinearc=\dimen166
-\pst@symbolStep=\dimen167
-\pst@symbolWidth=\dimen168
-\pst@symbolLinewidth=\dimen169
-\everypsbox=\toks27
-\psframesep=\dimen170
-\pslabelsep=\dimen171
-\sh@wgridXunit=\dimen172
-\sh@wgridYunit=\dimen173
-\pst@shift=\dimen174
-)
-File: pstricks.tex 2017/05/18 v2.73 `PSTricks' (tvz,hv)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pstricks/pst-fp.tex)
-File: pst-fp.tex 2017/05/18 v2.73 `PST-fp' (hv)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pstricks/pstricks.con")
+\psunit=\dimen161
+\psxunit=\dimen162
+\psyunit=\dimen163
+\pst@C@@rType=\count280
+\pslinewidth=\dimen164
+\psk@startLW=\dimen165
+\psk@endLW=\dimen166
+\pst@customdefs=\toks26
+\pslinearc=\dimen167
+\pst@symbolStep=\dimen168
+\pst@symbolWidth=\dimen169
+\pst@symbolLinewidth=\dimen170
+\everypsbox=\toks27
+\psframesep=\dimen171
+\pslabelsep=\dimen172
+\sh@wgridXunit=\dimen173
+\sh@wgridYunit=\dimen174
+\pst@shift=\dimen175
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+File: pstricks.tex 2018/08/23 v2.86 `PSTricks' (tvz,hv)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pstricks/pst-fp.tex")
+File: pst-fp.tex 2018/08/23 v2.86 `PST-fp' (hv)
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/fontawesome.sty"
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
-neric.tex)
-luaotfload | cache : Lookup cache loaded from /Users/avahoffman/Library/texlive/
-2017/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc:
- /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl
-/fontawesome.luc)
-luaotfload | aux : font no 24 (nil) defines no feature for script latn
-luaotfload | aux : no font with id 24
-\g__fontspec_family_FontAwesome_int=\count169
-luaotfload | aux : font no 24 (nil) does not define feature smcp for script  wit
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/fontawesomesymbols-generic.tex")
+luaotfload | cache : Lookup cache loaded from /Users/avahoffman/Library/Applicat
+ion Support/MiKTeX/texmfs/data/luatex-cache/generic/names/luaotfload-lookup-cach
+e.luc.(load luc: /Users/avahoffman/Library/Application Support/MiKTeX/texmfs/dat
+a/luatex-cache/generic/fonts/otl/fontawesome.luc)
+luaotfload | aux : font no 32 (nil) defines no feature for script latn
+luaotfload | aux : no font with id 32
+\g__fontspec_family_FontAwesome_int=\count281
+luaotfload | aux : font no 32 (nil) does not define feature smcp for script  wit
 h language 
-luaotfload | aux : no font with id 24
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xe
-luatex.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
+luaotfload | aux : no font with id 32
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/fontawesomesymbols-xeluatex.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/frontendlayer/tikz.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/basiclayer/pgf.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/utilities/pgfrcs.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-common.tex"
 \pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen175
-\pgfutil@tempdimb=\dimen176
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box46
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-common-lists.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box45
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ms/everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/basiclayer/pgfcore.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 99.
 )
-\Gin@req@height=\dimen177
-\Gin@req@width=\dimen178
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/systemlayer/pgfsys.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-\pgf@x=\dimen179
-\pgf@y=\dimen180
-\pgf@xa=\dimen181
-\pgf@ya=\dimen182
-\pgf@xb=\dimen183
-\pgf@yb=\dimen184
-\pgf@xc=\dimen185
-\pgf@yc=\dimen186
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeys.code.tex")
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count170
-\c@pgf@countb=\count171
-\c@pgf@countc=\count172
-\c@pgf@countd=\count173
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-luatex.def
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
-ef
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsys-luatex.def"
 File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count174
-\pgfsyssoftpath@bigbuffer@items=\count175
+\pgfsyssoftpath@smallbuffer@items=\count286
+\pgfsyssoftpath@bigbuffer@items=\count287
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen187
-\pgf@picmaxx=\dimen188
-\pgf@picminy=\dimen189
-\pgf@picmaxy=\dimen190
-\pgf@pathminx=\dimen191
-\pgf@pathmaxx=\dimen192
-\pgf@pathminy=\dimen193
-\pgf@pathmaxy=\dimen194
-\pgf@xx=\dimen195
-\pgf@xy=\dimen196
-\pgf@yx=\dimen197
-\pgf@yy=\dimen198
-\pgf@zx=\dimen199
-\pgf@zy=\dimen256
+\pgf@picminx=\dimen188
+\pgf@picmaxx=\dimen189
+\pgf@picminy=\dimen190
+\pgf@picmaxy=\dimen191
+\pgf@pathminx=\dimen192
+\pgf@pathmaxx=\dimen193
+\pgf@pathminy=\dimen194
+\pgf@pathmaxy=\dimen195
+\pgf@xx=\dimen196
+\pgf@xy=\dimen197
+\pgf@yx=\dimen198
+\pgf@yy=\dimen199
+\pgf@zx=\dimen256
+\pgf@zy=\dimen257
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen257
-\pgf@path@lasty=\dimen258
+\pgf@path@lastx=\dimen258
+\pgf@path@lasty=\dimen259
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen259
-\pgf@shorten@start@additional=\dimen260
+\pgf@shorten@end@additional=\dimen260
+\pgf@shorten@start@additional=\dimen261
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box47
-\pgf@hbox=\box48
-\pgf@layerbox@main=\box49
-\pgf@picture@serial@count=\count176
+\pgfpic=\box46
+\pgf@hbox=\box47
+\pgf@layerbox@main=\box48
+\pgf@picture@serial@count=\count288
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen261
+\pgflinewidth=\dimen262
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen262
-\pgf@pt@y=\dimen263
-\pgf@pt@temp=\dimen264
+\pgf@pt@x=\dimen263
+\pgf@pt@y=\dimen264
+\pgf@pt@temp=\dimen265
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen265
+\pgfarrowsep=\dimen266
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen266
-\pgf@sys@shading@range@num=\count177
+\pgf@max=\dimen267
+\pgf@sys@shading@range@num=\count289
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box50
+\pgfexternal@startupbox=\box49
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/modules/pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box51
+\pgfnodeparttextbox=\box50
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/modules/pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/compatibility/pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen267
-\pgf@nodesepend=\dimen268
+\pgf@nodesepstart=\dimen268
+\pgf@nodesepend=\dimen269
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/compatibility/pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
- (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/utilities/pgffor.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/utilities/pgfkeys.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeys.code.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/math/pgfmath.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen269
-\pgffor@skip=\dimen270
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex")
+\pgffor@iter=\dimen270
+\pgffor@skip=\dimen271
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/libraries/pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count178
-\pgfplotmarksize=\dimen271
+\pgf@plot@mark@count=\count290
+\pgfplotmarksize=\dimen272
 )
-\tikz@lastx=\dimen272
-\tikz@lasty=\dimen273
-\tikz@lastxsaved=\dimen274
-\tikz@lastysaved=\dimen275
-\tikzleveldistance=\dimen276
-\tikzsiblingdistance=\dimen277
-\tikz@figbox=\box52
-\tikz@figbox@bg=\box53
-\tikz@tempbox=\box54
-\tikz@tempbox@bg=\box55
-\tikztreelevel=\count179
-\tikznumberofchildren=\count180
-\tikznumberofcurrentchild=\count181
-\tikz@fig@count=\count182
+\tikz@lastx=\dimen273
+\tikz@lasty=\dimen274
+\tikz@lastxsaved=\dimen275
+\tikz@lastysaved=\dimen276
+\tikzleveldistance=\dimen277
+\tikzsiblingdistance=\dimen278
+\tikz@figbox=\box51
+\tikz@figbox@bg=\box52
+\tikz@tempbox=\box53
+\tikz@tempbox@bg=\box54
+\tikztreelevel=\count291
+\tikznumberofchildren=\count292
+\tikznumberofcurrentchild=\count293
+\tikz@fig@count=\count294
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/modules/pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count183
-\pgfmatrixcurrentcolumn=\count184
-\pgf@matrix@numberofcolumns=\count185
+\pgfmatrixcurrentrow=\count295
+\pgfmatrixcurrentcolumn=\count296
+\pgf@matrix@numberofcolumns=\count297
 )
-\tikz@expandcount=\count186
+\tikz@expandcount=\count298
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/textpos/textpos.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/textpos/textpos.sty"
 Package: textpos 2016/06/07 v1.8
 
 Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
-\TP@textbox=\box56
-\TP@holdbox=\box57
-\TPHorizModule=\dimen278
-\TPVertModule=\dimen279
-\TP@margin=\dimen280
-\TP@absmargin=\dimen281
+\TP@textbox=\box55
+\TP@holdbox=\box56
+\TPHorizModule=\dimen279
+\TPVertModule=\dimen280
+\TP@margin=\dimen281
+\TP@absmargin=\dimen282
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen282
-\TP@ox=\dimen283
-\TP@oy=\dimen284
+\TPboxrulesize=\dimen283
+\TP@ox=\dimen284
+\TP@oy=\dimen285
 \TP@tbargs=\toks34
-\TP@prevdepth=\dimen285
+\TP@prevdepth=\dimen286
 TextBlockOrigin set to 0pt x 0pt
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/ragged2e.sty
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ms/ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everysel.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ms/everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip49
@@ -1006,38 +1145,67 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip61
 \JustifyingParindent=\skip62
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count187
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/etoolbox/etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
-Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ifmtarg/ifmtarg.sty"
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/marvosym/marvosym.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/marvosym/marvosym.sty"
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2001/04/09 non-zero parskip adjustments
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/parskip/parskip.sty"
+Package: parskip 2018-08-24 v2.0a non-zero parskip adjustments
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+))))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/enumitem/enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks35
 \labelindent=\skip63
-\enit@outerparindent=\dimen286
+\enit@outerparindent=\dimen287
 \enit@toks=\toks36
-\enit@inbox=\box58
-\enitdp@description=\count188
+\enit@inbox=\box57
+\enitdp@description=\count300
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/hyperref.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1047,13 +1215,14 @@ Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
 
-(/usr/local/texlive/2017/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+(/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/scripts/obe
+rdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -1074,64 +1243,66 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-)
-\@linkdim=\dimen287
-\Hy@linkcounter=\count189
-\Hy@pagecounter=\count190
+\@linkdim=\dimen288
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/pd1enc.def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count191
+\Hy@SavedSpaceFactor=\count303
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/00miktex/hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count192
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count304
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/url/url.sty"
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen288
-\Fld@menulength=\count193
-\Field@Width=\dimen289
-\Fld@charsize=\dimen290
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count194
-\c@Item=\count195
-\c@Hfootnote=\count196
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen289
+\Fld@menulength=\count305
+\Field@Width=\dimen290
+\Fld@charsize=\dimen291
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
 )
+Package hyperref Info: Driver (autodetected): hluatex.
 
-Package hyperref Message: Driver (autodetected): hluatex.
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/hluatex.def"
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2017/03/14 v6.85a Hyperref driver for luaTeX
-\Fld@listcount=\count197
-\c@bookmark@seq@number=\count198
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
@@ -1139,92 +1310,98 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip64
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 39.
-(load luc: /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic
-/fonts/otl/segoeuib.luc)
-\g__fontspec_family_segoeuib.ttf_int=\count199
+(load luc: /Users/avahoffman/Library/Application Support/MiKTeX/texmfs/data/luat
+ex-cache/generic/fonts/otl/segoeuib.luc)
+\g__fontspec_family_segoeuib.ttf_int=\count311
 \imagewidth=\skip65
 \imagescale=\skip66
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
-\Gm@bindingoffset=\dimen291
-\Gm@wd@mp=\dimen292
-\Gm@odd@mp=\dimen293
-\Gm@even@mp=\dimen294
-\Gm@layoutwidth=\dimen295
-\Gm@layoutheight=\dimen296
-\Gm@layouthoffset=\dimen297
-\Gm@layoutvoffset=\dimen298
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.sty"
+Package: geometry 2018/03/24 v5.7 Page Geometry
+\Gm@cnth=\count312
+\Gm@cntv=\count313
+\c@Gm@tempcnt=\count314
+\Gm@bindingoffset=\dimen292
+\Gm@wd@mp=\dimen293
+\Gm@odd@mp=\dimen294
+\Gm@even@mp=\dimen295
+\Gm@layoutwidth=\dimen296
+\Gm@layoutheight=\dimen297
+\Gm@layouthoffset=\dimen298
+\Gm@layoutvoffset=\dimen299
 \Gm@dimlist=\toks38
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.cfg"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/smartdiagram/smartdiagram.sty"
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams from
  lists of items.
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xstring/xstring.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xstring/xstring.tex"
 \@xs@message=\write4
-\integerpart=\count269
-\decimalpart=\count270
+\integerpart=\count315
+\decimalpart=\count316
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarybackgrounds.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex"
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box59
-\pgf@layerboxsaved@background=\box60
+\pgf@layerbox@background=\box58
+\pgf@layerboxsaved@background=\box59
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarycalc.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex"
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryfadings.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex"
 File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
-.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/libraries/pgflibraryfadings.code.tex"
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshadows.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex"
 File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.arrows.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex"
 File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.arrows.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex"
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibraryshapes.symbols.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex"
 File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
-shapes.symbols.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex"
 File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
 ))
-\pgf@layerbox@smart diagram arrow back=\box61
-\pgf@layerboxsaved@smart diagram arrow back=\box62
+\pgf@layerbox@smart diagram arrow back=\box60
+\pgf@layerboxsaved@smart diagram arrow back=\box61
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryc
-ore.definitions.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/smartdiagram/smartdiagramlibrarycore.definitions.code.tex"
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \smartdiagramset with sig. 'm' on line 262.
 .................................................
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryc
-ore.styles.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/smartdiagram/smartdiagramlibraryc
-ore.commands.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/smartdiagram/smartdiagramlibrarycore.styles.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/smartdiagram/smartdiagramlibrarycore.commands.code.tex"
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1235,145 +1412,149 @@ ore.commands.code.tex
 . 
 . Defining command \smartdiagramanimated with sig. 'r[] m' on line 487.
 .................................................
-))) (./Ava_Hoffman_Resume.aux)
+)))
+(./Ava_Hoffman_Resume.aux)
 \openout1 = Ava_Hoffman_Resume.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 77.
+(Font)              scaled to size 10.0pt on input line 92.
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 77.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 77.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 77.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 77.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 77.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 77.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 77.
-LaTeX Font Info:    Redeclaring math accent \check on input line 77.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 77.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 77.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 77.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 92.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 92.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 92.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 92.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 92.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 92.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 92.
+LaTeX Font Info:    Redeclaring math accent \check on input line 92.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 92.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 92.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 92.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 92.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
+(Font)              `operators' in the math version `normal' on input line 92.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 77.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 92.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
+(Font)              `operators' in the math version `bold' on input line 92.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 77.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 92.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 77.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 92.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 77.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 92.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 77.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 92.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/ClearSans(0)/m/n on input line 77.
+(Font)                  OT1/cmss/m/n --> TU/ClearSans(0)/m/n on input line 92.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 77.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 92.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 77.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 92.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 77.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 92.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/ClearSans(0)/bx/n on input line 77.
+(Font)                  OT1/cmss/bx/n --> TU/ClearSans(0)/bx/n on input line 92.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 77.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 92.
 
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/conte
+xt/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
-\scratchdimen=\dimen299
-\scratchbox=\box63
-\nofMPsegments=\count272
-\nofMParguments=\count273
+\scratchcounter=\count317
+\scratchdimen=\dimen300
+\scratchbox=\box62
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count274
-\MPscratchDim=\dimen300
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen301
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks40
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 8.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
 ,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+) ABD: EveryShipout initializing macros
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 92.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 92.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-
-))
-ABD: EveryShipout initializing macros ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 77.
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring OFF on input line 77.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count277
+\c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
-
-(./Ava_Hoffman_Resume.out) (./Ava_Hoffman_Resume.out)
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
+ (./Ava_Hoffman_Resume.out)
+(./Ava_Hoffman_Resume.out)
 \@outlinefile=\write5
 
 \openout5 = Ava_Hoffman_Resume.out
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: luatex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1405,201 +1586,193 @@ LaTeX Info: Redefining \nameref on input line 77.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 78.
+(Font)              scaled to size 24.88pt on input line 93.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 78.
-(load luc: /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic
-/fonts/otl/lmroman7-regular.luc)(load luc: /Users/avahoffman/Library/texlive/201
-7/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)
+(Font)              scaled to size 14.4pt on input line 93.
+(load luc: /Users/avahoffman/Library/Application Support/MiKTeX/texmfs/data/luat
+ex-cache/generic/fonts/otl/lmroman7-regular.luc)(load luc: /Users/avahoffman/Lib
+rary/Application Support/MiKTeX/texmfs/data/luatex-cache/generic/fonts/otl/lmrom
+an5-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <5> on input line 93.
 
 
-LaTeX Font Warning: Command \Huge invalid in math mode on input line 78.
+LaTeX Font Warning: Command \Huge invalid in math mode on input line 93.
 
 
-Overfull \hbox (3.57698pt too wide) in paragraph at lines 78--78
+Overfull \hbox (3.57698pt too wide) in paragraph at lines 93--93
 []$[]$| 
  []
 
 
-LaTeX Font Warning: Command \huge invalid in math mode on input line 78.
+LaTeX Font Warning: Command \huge invalid in math mode on input line 93.
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 78.
+(Font)              scaled to size 20.74pt on input line 93.
 
-Overfull \hbox (7.28821pt too wide) in paragraph at lines 78--78
+Overfull \hbox (7.28821pt too wide) in paragraph at lines 93--93
 []$[]$| 
  []
 
 
-LaTeX Font Warning: Command \huge invalid in math mode on input line 78.
+LaTeX Font Warning: Command \huge invalid in math mode on input line 93.
 
 
-Overfull \hbox (9.40044pt too wide) in paragraph at lines 78--78
+Overfull \hbox (9.40044pt too wide) in paragraph at lines 93--93
 []$[]$| 
  []
 
 
-LaTeX Font Warning: Command \huge invalid in math mode on input line 78.
+LaTeX Font Warning: Command \huge invalid in math mode on input line 93.
 
 
-Overfull \hbox (7.85725pt too wide) in paragraph at lines 78--78
+Overfull \hbox (7.85725pt too wide) in paragraph at lines 93--93
 []$[]$| 
  []
 
 
-LaTeX Font Warning: Command \huge invalid in math mode on input line 78.
+LaTeX Font Warning: Command \huge invalid in math mode on input line 93.
 
 
-Overfull \hbox (7.85725pt too wide) in paragraph at lines 78--78
+Overfull \hbox (7.85725pt too wide) in paragraph at lines 93--93
 []$[]$| 
  []
 
 
-Overfull \hbox (14.22643pt too wide) in paragraph at lines 78--78
+Overfull \hbox (14.22643pt too wide) in paragraph at lines 93--93
 [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 78.
+(Font)              scaled to size 12.0pt on input line 93.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 78.
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 78.
+(Font)              scaled to size 12.0pt on input line 93.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 78.
-./Ava_Hoffman_Resume.tex:78: Undefined control sequence.
-\c@lor@to@ps ->\PSTricks 
-                         _Not_Configured_For_This_Format
-l.78 \makeprofile
-                % Print the sidebar
-? 
-./Ava_Hoffman_Resume.tex:78: Undefined control sequence.
-\XC@usec@lor ...string \color@ #1#2\endcsname \@@ 
-                                                  \fi \space 
-l.78 \makeprofile
-                % Print the sidebar
-? 
-./Ava_Hoffman_Resume.tex:78: Undefined control sequence.
-\c@lor@to@ps ->\PSTricks 
-                         _Not_Configured_For_This_Format
-l.78 \makeprofile
-                % Print the sidebar
-? 
-./Ava_Hoffman_Resume.tex:78: Undefined control sequence.
-\XC@usec@lor ...string \color@ #1#2\endcsname \@@ 
-                                                  \fi \space 
-l.78 \makeprofile
-                % Print the sidebar
-? 
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 78.
-
-(load luc: /Users/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic
-/fonts/otl/lmroman12-regular.luc)(load luc: /Users/avahoffman/Library/texlive/20
-17/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc)(load luc: /Use
-rs/avahoffman/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
-man6-regular.luc)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 78.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 78.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 78.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 78.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 78.
-
-
-Overfull \hbox (11.43414pt too wide) in paragraph at lines 78--78
-[][] 
- []
-
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 78.
-
-Overfull \hbox (1.14633pt too wide) in paragraph at lines 78--78
-[]\TU/ClearSans(0)/bx/n/10 ESS 575 \TU/ClearSans(0)/m/n/10 - Im-ple-mented Baye
-sian mod-
- []
-
-
-Overfull \hbox (4.67903pt too wide) in paragraph at lines 78--78
-\TU/ClearSans(0)/bx/n/10 Stan Sem-i-nars \TU/ClearSans(0)/m/n/10 - Im-ple-mente
-d Bayesian
- []
-
-
-Overfull \hbox (13.04411pt too wide) in paragraph at lines 78--78
-\TU/ClearSans(0)/bx/n/10 NSCI 588 \TU/ClearSans(0)/m/n/10 - An-a-lyzed ge-nomic
- data (.fastq
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
-
- []
-
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 83.
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--101
-
- []
-
-<img/trophy.png, id=41, 256.96pt x 256.96pt>
-File: img/trophy.png Graphic file (type png)
- <use img/trophy.png>
-Package luatex.def Info: img/trophy.png used on input line 118.
-(luatex.def)             Requested size: 10.27664pt x 10.27664pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--120
-
- []
-
-<img/Google_Scholar_logo_2015.png, id=43, 222.07968pt x 85.06781pt>
-File: img/Google_Scholar_logo_2015.png Graphic file (type png)
-
-<use img/Google_Scholar_logo_2015.png>
-Package luatex.def Info: img/Google_Scholar_logo_2015.png used on input line 121
-.
-(luatex.def)             Requested size: 39.97261pt x 15.31154pt.
+(Font)              scaled to size 10.0pt on input line 93.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 122.
+(Font)              scaled to size 10.0pt on input line 93.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Overfull \hbox (11.30338pt too wide) in paragraph at lines 93--93
+\TU/ClearSans(0)/bx/n/10 Python \TU/ClearSans(0)/m/n/10 - manipulating genomic 
+datasets,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 176.
-
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/it' will be
-(Font)              scaled to size 10.0pt on input line 176.
-
-Package hyperref Warning: Suppressing link with empty target on input line 229.
+Overfull \hbox (1.23502pt too wide) in paragraph at lines 93--93
+[]\TU/ClearSans(0)/bx/n/10 Stan (Rstan) \TU/ClearSans(0)/m/n/10 - hierarchical 
+and mixture
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--233
+Overfull \hbox (3.65561pt too wide) in paragraph at lines 93--93
+\TU/ClearSans(0)/m/n/10 models, design matrices, validation and
+ []
+
+
+Overfull \hbox (8.60489pt too wide) in paragraph at lines 93--93
+\TU/ClearSans(0)/bx/n/10 SAS \TU/ClearSans(0)/m/n/10 - repeated measures, mixed
+ models,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 
  []
 
-./Ava_Hoffman_Resume.tex:240: Illegal unit of measure (pt inserted).
+LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
+(Font)              scaled to size 7.0pt on input line 93.
+
+Overfull \hbox (5.53526pt too wide) in paragraph at lines 93--93
+[]\TU/ClearSans(0)/bx/n/10 L[]T[]X \TU/ClearSans(0)/m/n/10 - manuscript and rep
+ort generation
+ []
+
+
+Overfull \hbox (6.67935pt too wide) in paragraph at lines 93--93
+\TU/ClearSans(0)/bx/n/10 Markdown \TU/ClearSans(0)/m/n/10 - report generation (
+familiar) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+
+ []
+
+LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 98.
+LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 107.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--116
+
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 143--143
+[]\TU/ClearSans(0)/m/n/10 Modeled linkages between genomics and plant appearanc
+e &
+ []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 169.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--221
+
+ []
+
+./Ava_Hoffman_Resume.tex:233: Illegal unit of measure (pt inserted).
 <to be read again> 
 \relax 
-l.240 \end{textblock*}
+l.233 \end{textblock*}
                     
 ? 
-./Ava_Hoffman_Resume.tex:240: Illegal unit of measure (pt inserted).
+./Ava_Hoffman_Resume.tex:233: Illegal unit of measure (pt inserted).
 <to be read again> 
 \relax 
-l.240 \end{textblock*}
+l.233 \end{textblock*}
                     
 ? 
 [1
@@ -1611,42 +1784,37 @@ Non-PDF special ignored!
 
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updm
-ap/pdftex.map}
-Non-PDF special ignored!<./img/trophy.png><./img/Google_Scholar_logo_2015.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
-(./Ava_Hoffman_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Non-PDF special ignored!{/Users/avahoffman/Library/Application Support/MiKTeX/te
+xmfs/data/pdftex/config/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+ (./Ava_Hoffman_Resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `Ava_Hoffman_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 31177 strings out of 494481
- 100000,794899 words of node,token memory allocated
- 1393 words of node memory still in use:
-   22 hlist, 1 vlist, 10 rule, 24 glue, 85 attribute, 66 glue_spec, 85 attribute
-_list, 1 write, 39 pdf_literal, 2 pdf_action, 18 pdf_colorstack nodes
-   avail lists: 1:2,2:2076,3:513,4:76,5:402,6:3074,7:1406,8:75,9:500,10:5,11:300
+ 32175 strings out of 494427
+ 100000,953878 words of node,token memory allocated
+ 1375 words of node memory still in use:
+   22 hlist, 1 vlist, 10 rule, 24 glue, 83 attribute, 66 glue_spec, 83 attribute
+_list, 1 write, 39 pdf_literal, 18 pdf_colorstack nodes
+   avail lists: 1:2,2:1096,3:250,4:60,5:394,6:65,7:3999,8:54,9:368,10:5,11:7
+ 35139 multiletter control sequences out of 65536+200000
+ 59 fonts using 10949015 bytes
+ 61i,17n,75p,831b,661s stack positions out of 5000i,500n,10000p,200000b,50000s
+</Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/fonts/truet
+ype/intel/clearsans/ClearSans-Italic.ttf></Users/avahoffman/Library/Application 
+Support/MiKTeX/texmfs/install/fonts/opentype/public/fontawesome/FontAwesome.otf>
+</Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/fonts/truet
+ype/intel/clearsans/ClearSans-Bold.ttf></Users/avahoffman/Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/truetype/intel/clearsans/ClearSans-Regular.ttf
+><./fonts/segoeuib.ttf>
+Output written on Ava_Hoffman_Resume.pdf (1 page, 65140 bytes).
 
- 34116 multiletter control sequences out of 65536+600000
- 64 fonts using 7357135 bytes
- 61i,17n,75p,831b,790s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/fontawesome/FontAwe
-some.otf></usr/local/texlive/2017/texmf-dist/fonts/truetype/intel/clearsans/Clea
-rSans-BoldItalic.ttf></usr/local/texlive/2017/texmf-dist/fonts/truetype/intel/cl
-earsans/ClearSans-Italic.ttf></usr/local/texlive/2017/texmf-dist/fonts/truetype/
-intel/clearsans/ClearSans-Bold.ttf></usr/local/texlive/2017/texmf-dist/fonts/tru
-etype/intel/clearsans/ClearSans-Regular.ttf><./fonts/segoeuib.ttf></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Ava_Hoffman_Resume.pdf (1 page, 126336 bytes).
-
-PDF statistics: 123 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)
- 178 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 100000000)
 

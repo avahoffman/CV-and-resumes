@@ -245,22 +245,34 @@
     \vspace{4mm}
     \profilesection{Skills}{4cm}
     
-    {\large \textbf{Overview}}
+    {\large \textbf{Languages}}
 
-	\skills
-        
+	\languages
+	
+    {\large \textbf{Statistical languages}}
+
+	\statistical
+	
+	{\large \textbf{Typesetting}}
+
+	\typesetting
+	
+{\large \textbf{Databases \& Other}}
+
+	\databases
+	    
         %------------------------------------------------
         
-        \vspace{3mm}
+        %\vspace{3mm}
        
-	 {\large \textbf{Programming}} 
+%	 {\large \textbf{Programming}} 
 
-		 \programming
+%		 \programming
          
-        \vspace{3mm}
-        \profilesection{Training}{3cm} 
-        
-        \projects
+%        \vspace{3mm}
+%        \profilesection{Honors \& Awards}{0.5cm} 
+%        
+%        \projects
       
   \end{textblock}
 }

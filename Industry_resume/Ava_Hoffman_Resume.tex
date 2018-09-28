@@ -23,38 +23,49 @@
 \usepackage{fontawesome}
 
 % Command for printing skill overview bubbles
-\newcommand\skills{ 
-~
-	\smartdiagram[bubble diagram]{
-        \textbf{Data}\\\textbf{Science},
-        \textbf{Inter-}\\\textbf{disciplinary}\\\textbf{focus},
-        \textbf{Big}\\\textbf{data},
-        \textbf{Data}\\\textbf{visualization},
-        \textbf{Science}\\\textbf{commun-}\\\textbf{ication},
-        \textbf{Project}\\\textbf{Manage-}\\\textbf{ment},
-       % \textbf{Technical}\\\textbf{writing},
-        \textbf{Statistical}\\\textbf{Analysis}
-    }
+% see cls for other headings like 'Overview'
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\newcommand\languages{ 
+\vspace{1mm}
+	\textbf{R} - (experienced) \vspace{1mm}\\ 
+		\textit{statistical:} lavaan, leaps, rstan, \\segmented \vspace{0mm} \\
+		\textit{manipulation:} dplyr, reshape2, sva \vspace{0mm} \\
+		\textit{visualization:} bayesplot, ggplot2, \\ggtree, ggrepel, gridExtra, semPlot \vspace{0mm} \\ 
+		\textit{bioinformatics:} adegenet, ade4, ape, edgeR, phytools, poppr, WGCNA \vspace{3mm} \\
+        \textbf{Unix shell / command line} - SLURM, software compilation, server and local machines (experienced) \vspace{3mm} \\ 
+        \textbf{Python} - manipulating genomic datasets, basic visualization and tests (familiar) \\
 }
 
+\newcommand\statistical{ 
+	\textbf{Stan (Rstan)} - hierarchical and mixture models, design matrices, validation and predictive check (experienced) \vspace{3mm} \\ 
+	\textbf{JAGS} - hierarchical models, validation and predictive check (experienced) \vspace{3mm} \\ 
+	\textbf{SAS} - repeated measures, mixed models, variety of regression models \\(experienced) \\ 
+}
+
+\newcommand\typesetting{
+	\textbf{\LaTeX} - manuscript and report generation (familiar) \vspace{2mm} \\ 
+	\textbf{Markdown} - report generation (familiar) \\ 
+}
+
+\newcommand\databases{ 
+	\textbf{SQL} - (some exposure)\\ 
+	\textbf{HTML} - (some exposure)\\ 
+	\textbf{Arduino} - (some exposure)\\ 
+}
+
+
 % Programming skill bars
-\programming{
-{ Python $\textbullet$ \large \LaTeX / 0.56 }, % 20000 ~ 5.. so 2233*5/20000
-{R $\textbullet$ RStan  $\textbullet$ JAGS / 5.46}} %  20000 ~ 5.. so 21844*5/20000
+%\programming{
+%{ Python $\textbullet$ \large \LaTeX / 0.56 }, % 20000 ~ 5.. so 2233*5/20000
+%{R $\textbullet$ RStan  $\textbullet$ JAGS / 5.46}} %  20000 ~ 5.. so 21844*5/20000
 %R: 21844
 %py: 1438
 %tex: 795
-
-% Projects text
-\projects{
-	\textbf{ESS 575} - Implemented Bayesian models for ecological data using JAGS \vspace{2mm} \\ 
-        \textbf{Stan Seminars} - Implemented Bayesian models for ecological data using RStan \vspace{-1mm} \\ 
-        \textbf{NSCI 588} - Analyzed genomic data (.fastq and .fasta) using Python \vspace{2mm} \\
-        \textbf{Overheard at ESA} - Android app developed in MIT App Builder workshop \vspace{2mm} \\
-        \textbf{STAT 511 \& 512 } - implemented principles of statistical design, inference, methods, \& toolbox skills for research \vspace{2mm} \\
-        \textbf{Teaching} - 7 semesters teaching \& 4 years student mentoring experience \vspace{2mm} \\
-        %\textbf{DuPont-Pioneer} - performed innovative drought research in the biotech industry for 1 year\\
-        }
+        
 
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
@@ -63,9 +74,8 @@
 
 
 \cvname{Ava Hoffman} % Your name
-\cvjobtitle{ Ecologist } % Job
+\cvjobtitle{ Fort Collins, CO } % Job
 % title/career
-
 \cvlinkedin{/in/ava-hoffman-0abb6054}
 \cvgithub{avahoffman}
 \cvnumberphone{(804) 687 7476} % Phone number
@@ -73,6 +83,11 @@
 \cvmail{avamariehoffman@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
 \makeprofile % Print the sidebar
@@ -86,135 +101,60 @@
 	\twentyitem
     	{2013 - 2018}
         {}
-        {Ph.D, Ecology \textnormal{(GPA: 4.0/4.0)}}
+        {PhD, Ecology}
         {\href{http://www.colostate.edu/}{Colorado State University, USA}}
         {}
         {}
 	\twentyitem
     	{2008 - 2012}
 		{}
-        {B.S., Biology \textnormal{(GPA: 3.7/4.0)}}
+        {BS, Biology}
         {\href{http://www.virginia.edu/}{University of Virginia, USA}}
         {}
         {}
 \end{twenty}
 
-\section{Research}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
 \begin{twenty}
-	\twentyitem
-    	{2013 - 2018}
-		{}
-        {Ph.D Candidate, USDA NIFA Predoc. Fellow}
-        {\href{http://www.colostate.edu/}{Colorado State University}}
-        {}
-        {
-       	%\textbf{Dissertation}: Intraspecific diversity \& drought coping mechanisms of dominant prairie grasses
-	\vspace{-2mm}
-        {\begin{itemize}
-        \item Awarded \$118,112 in grants to perform research
-        \item Research Mentoring for Inclusivity \& Advancement in STEM Fellow, Sustainability Leadership Fellow, Vice President for Research Fellow, ESA Hackathon beginner app developer first place  {\includegraphics[scale=0.04]{img/trophy.png}}
-        \item \textbf{Primary Tools}: R, RStan, shell scripts \vspace{2mm}
-		\end{itemize}}
-        }
-\end{twenty}
 
-\section{Recent Publications  \href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{{\includegraphics[scale=0.18]{img/Google_Scholar_logo_2015.png}} } }
-2018. \textbf{Hoffman, AM}, et al. \href{https://peerj.com/articles/4394.pdf}{Co-dominant grasses differ in gene expression under experimental climate extremes in native tallgrass prairie.} \textit{PeerJ}.\\
-\vspace{-2mm}
-
-2017. \textbf{Hoffman, AM} and MD Smith. \href{http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12733/full}{Gene expression differs in codominant prairie grasses under drought}. \textit{Molecular Ecology Resources}.\\
-
-
-%----------------------------------------------------------------------------------------
-%	 EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\section{Projects}
-
-\begin{twenty} % Environment for a list with descriptions
-    \twentyitem
-   		{2018 -}
-		{present}
-        {\href{https://github.com/avahoffman/dryland-dominance}{Dominant species in dry ecosystems}}
-       	{Colorado State University}
-        {}
-        {
-        \vspace{-2mm}
-        {\begin{itemize}
-        \item Processed data from existing studies in meta-analysis
-        \item Determined the predictive power of dominant grasses in response to climate change
-    \end{itemize}}
-        }
-     \\
-\twentyitem
-   		{2017 -}
-		{present}
-        {\href{https://github.com/avahoffman/change-metabolomics}{Metabolic responses to nitrogen}}
-       	{Colorado State University}
-        {}
-        {
-        \vspace{-2mm}
-        {\begin{itemize}
-        \item Synthesized scalar response to nitrogen (metabolomic, physiological, \& community) 
-        \item Used path analysis, module clustering, \& Bayesian analysis
-    \end{itemize}}
-        }
-     \\
-\twentyitem
-    	{2016 -}
-		{Present}
-        {\href{}{Genetic diversity in \textit{Bouteloua} grass}}
-        {US Dept of Agriculture}
-        {}
-       {
-         \vspace{-2mm}
-        {\begin{itemize}
-        \item Quantified changes in the genomes of grass populations \& 
-        \item Related genomics to differences in plant appearance \& drought strategy
-        \item Developed hierarchical model for flowering rates
-        \end{itemize}}
-        }
-        \\
-        
-	\twentyitem
-    	{2014 -}
-		{2018}
-        {\href{https://github.com/avahoffman/nonlinear-plasticity}{Non-linear plasticity in \textit{Andropogon} grass}}
-        {Colorado State University}
-        {}
-        {
-        \vspace{-2mm}
-        {\begin{itemize}
-        \item Processed highly multivariate trait responses to a gradient of water availability using Bayesian analysis and principal components
-    \end{itemize}}
-        }
-    \\   
-    	\twentyitem
-    	{2015 -}
-		{2017}
-        {Gene expression (RNA) in dominant grasses}
-        {Colorado State University}
-        {}
-        {
-        \vspace{-2mm}
-        {\begin{itemize}
-        \item Analyzed gene expression responses of key grasses to drought using the \href{https://github.com/avahoffman/gene-expression}{\underline{de novo transcriptome assembler Trinity}}, next generation bioinformatics tools, \& \href{https://github.com/avahoffman/climate-extremes-gene-expression}{\underline{microarrays}}
-    \end{itemize}}
-        }
-    \\   
         	\twentyitem
-    	{2017}
-		{}
-        {\href{https://github.com/avahoffman/grasshopper-preference}{Grasshopper preference for \textit{Bouteloua}}}
-        {Colorado State University}
-        {}
-        {
-        \vspace{-2mm}
+    	{2018}{}{Insight Data Science Fellow}{Remote Program}
+        	{}
+        { \vspace{-2mm}
         {\begin{itemize}
-        \item Modeled the responses of grasshoppers in response to different cultivars of grass with Bayesian analysis
-    \end{itemize}}
-        }
-    \\   
+        \item Forecasted optimal park attendance time for visitors according to FB Prophet model and user preferences  \vspace{0.4mm} 
+        \item Deployed webapp using Flask and Python
+    \end{itemize}}  \vspace{6mm} } 
+    
+       \twentyitem
+    	{2017 - }{2018}{NIFA Predoctoral Fellow}{US Dept of Agriculture}
+        	{}
+        { \vspace{-2mm}
+        {\begin{itemize}
+        \item Pioneered genomic sequencing of a key grass species  \vspace{0.4mm} 
+        \item Leveraged >9,000 genomic features to cluster populations and guide conservation \vspace{0.4mm} 
+        \item Modeled linkages between genomics and plant appearance \& drought strategy \vspace{0.4mm} 
+        \item Managed 6 team members for a large-scale project \vspace{0.4mm} 
+    \end{itemize}}  \vspace{6mm}  } 
+
+       \twentyitem
+    	{2013 - }{2018}{Doctoral Researcher}{Colorado State University}
+        	{}
+        { \vspace{-2mm}
+        {\begin{itemize}
+        \item Optimized bioinformatics pipeline for gene expression of key prairie plants (using the Trinity algorithm and Trinotate tools), examining expression of >100,000 gene transcripts \vspace{0.4mm} 
+        \item Synthesized data from existing studies in meta-analysis to quantify predictive power of dominant grass for ecosystem response to climate change. \vspace{0.4mm} 
+        \item Modeled scalar response to nitrogen (metabolomic, physiological, \& community) using path analysis, module clustering, \& Bayesian analysis of grasses in response to climate change \vspace{0.4mm} 
+       	\item Processed highly multivariate trait responses to a gradient of water availability using Bayesian analysis and principal components \vspace{0.4mm} 
+	\item Mentored 7 undergraduate researchers \vspace{0.4mm} 
+	\item Submitted 3 project reports to grant agencies, published 12 peer reviewed manuscripts, presented 15 scientific talks
+    \end{itemize}}  \vspace{6mm}  }
+
 \twentyitem
     	{2012 -}
 		{2013}
@@ -229,10 +169,63 @@
         }
     \\   
 
+
+                
 \end{twenty}
 
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Recent Publications  \href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{{\includegraphics[scale=0.18]{img/Google_Scholar_logo_2015.png}} } }
+%2018. \textbf{Hoffman, AM}, et al. \href{https://peerj.com/articles/4394.pdf}{Co-dominant grasses differ in gene expression under experimental climate extremes in native tallgrass prairie.} \textit{PeerJ}.\\
+%\vspace{-2mm}
+%
+%2017. \textbf{Hoffman, AM} and MD Smith. \href{http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12733/full}{Gene expression differs in codominant prairie grasses under drought}. \textit{Molecular Ecology Resources}.\\
+
+
+%----------------------------------------------------------------------------------------
+%	 HONORS
+%----------------------------------------------------------------------------------------
+
+\section{Honors \& Awards}
+
+\begin{twenty} % Environment for a list with descriptions
+
+\twentyitem
+    	{2017 -}{2018}{NIFA Predoctoral Fellowship}{US Dept of Agriculture}
+        {20\% acceptance rate \vspace{0.4mm} }
+        {}    
+
+\twentyitem
+    	{2018}{}{Research Mentoring for Inclusivity \& \\Advancement in STEM Fellow}{Colorado State University}
+        {25\% acceptance rate \vspace{0.6mm} }
+        { {} }  
+
+\twentyitem
+    	{2017 -}{2018}{Sustainability Leadership Fellow}{Colorado State University}
+        {<10\% acceptance rate \vspace{0.6mm} }
+        { {} } 
+
+\twentyitem
+    	{2016 -}{2017}{Vice President for Research Fellow}{Colorado State University}
+        {<10\% acceptance rate \vspace{0.6mm} }
+        { {} }  
+        
+\twentyitem
+    	{2016}{}{Ecological Society of America Hackathon}{Ft. Lauderdale, FL}
+        {First place beginner app developer award \vspace{0.6mm} }
+        { {} }  
+        
+\end{twenty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
  % printing the Last Updated text
-\begin{textblock*}{4cm}(475,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
+\begin{textblock*}{5cm}(450,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
 \color{mainblue}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 \begin{flushright}
 Last Updated \today % Last Updated text

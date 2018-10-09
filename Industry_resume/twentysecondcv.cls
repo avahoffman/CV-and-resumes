@@ -89,9 +89,13 @@
 \definecolor{materialbrown}{HTML}{795548}
 \definecolor{materialred}{HTML}{FF4436}
 \definecolor{materialorange}{HTML}{FF5722}
-\definecolor{linkedin}{HTML}{0085AE}
-\definecolor{test}{HTML}{0077be}
-\definecolor{yt}{HTML}{c71610}
+%\definecolor{linkedin}{HTML}{0085AE}
+\definecolor{linkedin}{HTML}{1b941b}
+%\definecolor{test}{HTML}{0077be}
+\definecolor{test}{HTML}{1b941b}
+%\definecolor{yt}{HTML}{c71610}
+\definecolor{yt}{HTML}{1b941b}
+\definecolor{special}{HTML}{1b941b} %color for special heading.. I did this
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -245,21 +249,25 @@
     \vspace{4mm}
     \profilesection{Skills}{4cm}
     
-    {\large \textbf{Languages}}
+    {\large \textcolor{special}{\textbf{Languages}}}
 
 	\languages
 	
-    {\large \textbf{Statistical languages}}
+{\large \textcolor{special}{\textbf{Databases}}}
+
+	\databases
+	
+    {\large \textcolor{special}{\textbf{Techniques}}}
 
 	\statistical
 	
-	{\large \textbf{Typesetting}}
+	{\large \textcolor{special}{\textbf{Typesetting}}}
 
 	\typesetting
 	
-{\large \textbf{Databases \& Other}}
+{\large \textcolor{special}{\textbf{Other}}}
 
-	\databases
+	\othersec
 	    
         %------------------------------------------------
         

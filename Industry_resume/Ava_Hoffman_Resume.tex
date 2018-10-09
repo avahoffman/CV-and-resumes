@@ -30,33 +30,54 @@
 %----------------------------------------------------------------------------------------
 
 \newcommand\languages{ 
-\vspace{1mm}
-	\textbf{R} - (experienced) \vspace{1mm}\\ 
-		\textit{statistical:} lavaan, leaps, rstan, \\segmented \vspace{0mm} \\
-		\textit{manipulation:} dplyr, reshape2, sva \vspace{0mm} \\
-		\textit{visualization:} bayesplot, ggplot2, \\ggtree, ggrepel, gridExtra, semPlot \vspace{0mm} \\ 
-		\textit{bioinformatics:} adegenet, ade4, ape, edgeR, phytools, poppr, WGCNA \vspace{3mm} \\
-        \textbf{Unix shell / command line} - SLURM, software compilation, server and local machines (experienced) \vspace{3mm} \\ 
-        \textbf{Python} - manipulating genomic datasets, basic visualization and tests (familiar) \\
-}
 
-\newcommand\statistical{ 
-	\textbf{Stan (Rstan)} - hierarchical and mixture models, design matrices, validation and predictive check (experienced) \vspace{3mm} \\ 
-	\textbf{JAGS} - hierarchical models, validation and predictive check (experienced) \vspace{3mm} \\ 
-	\textbf{SAS} - repeated measures, mixed models, variety of regression models \\(experienced) \\ 
-}
+\vspace{-1mm}
 
-\newcommand\typesetting{
-	\textbf{\LaTeX} - manuscript and report generation (familiar) \vspace{2mm} \\ 
-	\textbf{Markdown} - report generation (familiar) \\ 
+\textbf{Python} \\
+	SciKit-learn $\cdot$ SciPy $\cdot$ NumPy $\cdot$ Statsmodels\\
+	Pandas $\cdot$ Natural Language Toolkit (NLTK)\\
+	Gensim $\cdot$ Seaborn $\cdot$ Matplotlib $\cdot$ Bokeh\\
+	Jupyter Notebook \vspace{1mm}\\
+\textbf{Shell / command line}\\
+	Git $\cdot$ SLURM $\cdot$ software compilation $\cdot$ server \& local machines \vspace{1mm}\\ 
+\textbf{R}\\
+	RStan $\cdot$ lavaan $\cdot$ leaps $\cdot$ segmented\\
+	dplyr $\cdot$ reshape2 $\cdot$ sva $\cdot$ bayesplot $\cdot$ ggplot2\\
+	ggtree $\cdot$ ggrepel $\cdot$ gridExtra $\cdot$ semPlot\\
+	RStudio $\cdot$ RMarkdown\\
+	\textit{bioinformatics:} extensive, see GitHub \vspace{3mm}
 }
 
 \newcommand\databases{ 
-	\textbf{SQL} - (some exposure)\\ 
-	\textbf{HTML} - (some exposure)\\ 
-	\textbf{Arduino} - (some exposure)\\ 
+\vspace{-1mm}
+	\textbf{PostgreSQL}\\
+	Python interface $\cdot$ SQLAlchemy $\cdot$ psycopg2\\
+	Amazon Web Services interface \vspace{2mm}
 }
 
+\newcommand\statistical{ 
+\vspace{-1mm}
+	\textbf{Prediction} - Linear/nonlinear regression\\
+	hierarchical models $\cdot$ mixture models\\
+	repeated measures $\cdot$ time series analysis\\
+	structural equation modeling $\cdot$ design matrices $\cdot$ validation \& predictive check\\
+	hypothesis testing\\
+	\textit{tools:} Rstan $\cdot$ JAGS $\cdot$ SAS \vspace{1mm}\\ 
+	\textbf{Clustering} - feature reduction
+	\\unsupervised learning \vspace{3mm}
+}
+
+\newcommand\typesetting{
+\vspace{-1mm}
+	\textbf{\LaTeX} - manuscript \& report generation\\ 
+	\textbf{Markdown} - report generation \vspace{3mm}
+}
+
+\newcommand\othersec{
+\vspace{-1mm}
+	\textbf{HTML / CSS} - (some exposure)\\ 
+	\textbf{Arduino} - (some exposure)\\ 
+}
 
 % Programming skill bars
 %\programming{
@@ -76,7 +97,7 @@
 \cvname{Ava Hoffman} % Your name
 \cvjobtitle{ Fort Collins, CO } % Job
 % title/career
-\cvlinkedin{/in/ava-hoffman-0abb6054}
+\cvlinkedin{/in/avahoffman}
 \cvgithub{avahoffman}
 \cvnumberphone{(804) 687 7476} % Phone number
 \cvsite{avahoffman.com} % Personal website
@@ -99,16 +120,16 @@
 
 \begin{twenty} % Environment for a list with descriptions
 	\twentyitem
-    	{2013 - 2018}
+    	{2018}
         {}
-        {PhD, Ecology}
+        {PhD $\cdot$ Ecology}
         {\href{http://www.colostate.edu/}{Colorado State University, USA}}
         {}
         {}
 	\twentyitem
-    	{2008 - 2012}
+    	{2012}
 		{}
-        {BS, Biology}
+        {BS $\cdot$ Biology}
         {\href{http://www.virginia.edu/}{University of Virginia, USA}}
         {}
         {}
@@ -126,48 +147,60 @@
     	{2018}{}{Insight Data Science Fellow}{Remote Program}
         	{}
         { \vspace{-2mm}
+        \textbf{Project: \textcolor{special}{\href{http://www.nationalperks.fun}{National Perks}}}
+        \vspace{1mm} 
         {\begin{itemize}
-        \item Forecasted optimal park attendance time for visitors according to FB Prophet model and user preferences  \vspace{0.4mm} 
-        \item Deployed webapp using Flask and Python
+        \item Launched to improve visitor experience in crowded National Parks
+        \vspace{1mm} 
+        \item Leveraged large National Park Service and NOAA datasets to forecast optimal time to visit parks using time series (FB Prophet and ARIMA models)
+       \vspace{1mm} 
+        \item Weighted user preferences for crowd level, plus minimum \& maximum temperature with euclidean distance to personalize visitor experience
+        \vspace{1mm} 
+        \item Built a customized web app using Git, Python, Flask, Heroku, PostgreSQL, \& Amazon Web Services providing visitors with an actionable recommendation for optimal visit time and access to further resources 
     \end{itemize}}  \vspace{6mm} } 
     
        \twentyitem
     	{2017 - }{2018}{NIFA Predoctoral Fellow}{US Dept of Agriculture}
         	{}
-        { \vspace{-2mm}
+	{ \vspace{-2mm}
+        \textbf{Project: \textcolor{special}{\href{https://github.com/avahoffman/blue-grama-diversity}{Blue Grama Diversity}}}
+        \vspace{1mm} 
         {\begin{itemize}
-        \item Pioneered genomic sequencing of a key grass species  \vspace{0.4mm} 
-        \item Leveraged >9,000 genomic features to cluster populations and guide conservation \vspace{0.4mm} 
-        \item Modeled linkages between genomics and plant appearance \& drought strategy \vspace{0.4mm} 
-        \item Managed 6 team members for a large-scale project \vspace{0.4mm} 
+        \item Designed to inform natural area stakeholders about genetic diversity in a foundational prairie grass, blue grama
+        \vspace{1mm} 
+        \item Pioneered genomic feature detection (sequencing) of a key grass species, discovering >9,000 genomic features to cluster populations \& guide conservation from 15GB of data
+        \vspace{1mm} 
+        \item Modeled heriarchical linkages between genomics, populations, \& plant appearance using R and RStan
+        \vspace{1mm} 
+        \item Communicated genetic clusters in ggplot data visualizations 
+        \item Facilitated 6-member team collaboration for a large-scale project 
     \end{itemize}}  \vspace{6mm}  } 
 
        \twentyitem
-    	{2013 - }{2018}{Doctoral Researcher}{Colorado State University}
+    	{2013 - }{2017}{PhD Researcher}{Colorado State University}
         	{}
-        { \vspace{-2mm}
+        { \vspace{-1mm}
         {\begin{itemize}
-        \item Optimized bioinformatics pipeline for gene expression of key prairie plants (using the Trinity algorithm and Trinotate tools), examining expression of >100,000 gene transcripts \vspace{0.4mm} 
-        \item Synthesized data from existing studies in meta-analysis to quantify predictive power of dominant grass for ecosystem response to climate change. \vspace{0.4mm} 
-        \item Modeled scalar response to nitrogen (metabolomic, physiological, \& community) using path analysis, module clustering, \& Bayesian analysis of grasses in response to climate change \vspace{0.4mm} 
-       	\item Processed highly multivariate trait responses to a gradient of water availability using Bayesian analysis and principal components \vspace{0.4mm} 
-	\item Mentored 7 undergraduate researchers \vspace{0.4mm} 
-	\item Submitted 3 project reports to grant agencies, published 12 peer reviewed manuscripts, presented 15 scientific talks
+        \item Discovered diversity within key prairie grasses in response to drought to guide management of grassland resources 
+       \vspace{1mm} 
+	\item Optimized analytics pipeline for genes \& contrasted fluctuation of >100,000 genes under different conditions using bash scripts.
+	\vspace{1mm} 
+	\item Quantified predictive relationships among plant, traits, \& ecosystem by implementing trait feature reduction, Bayesian hierarchical models, path analysis, module clustering, literature data mining, linear regression, \& meta-analysis in R.
     \end{itemize}}  \vspace{6mm}  }
 
-\twentyitem
-    	{2012 -}
-		{2013}
-        {\href{}{Drought gene discovery}}
-        {DuPont-Pioneer}
-        {}
-        {
-        \vspace{-2mm}
-        {\begin{itemize}
-        \item Performed assays \& gene analysis in biotech industry
-    \end{itemize}}
-        }
-    \\   
+%\twentyitem
+%    	{2012 -}
+%		{2013}
+%        {\href{}{Drought gene discovery}}
+%        {DuPont-Pioneer}
+%        {}
+%        {
+%        \vspace{-2mm}
+%        {\begin{itemize}
+%        \item Performed assays \& gene analysis in biotech industry
+%    \end{itemize}}
+%        }
+%    \\   
 
 
                 
@@ -188,34 +221,34 @@
 %	 HONORS
 %----------------------------------------------------------------------------------------
 
-\section{Honors \& Awards}
+\section{Honors}
 
 \begin{twenty} % Environment for a list with descriptions
 
-\twentyitem
-    	{2017 -}{2018}{NIFA Predoctoral Fellowship}{US Dept of Agriculture}
-        {20\% acceptance rate \vspace{0.4mm} }
-        {}    
+%\twentyitem
+%	{2017 -}{2018}{NIFA Predoctoral Fellowship}{US Dept of Agriculture}
+%    {20\% acceptance rate \vspace{0.4mm} }
+%    {}    
 
 \twentyitem
     	{2018}{}{Research Mentoring for Inclusivity \& \\Advancement in STEM Fellow}{Colorado State University}
-        {25\% acceptance rate \vspace{0.6mm} }
+        {25\% acceptance rate \vspace{1mm} }
         { {} }  
 
 \twentyitem
     	{2017 -}{2018}{Sustainability Leadership Fellow}{Colorado State University}
-        {<10\% acceptance rate \vspace{0.6mm} }
+        {<10\% acceptance rate \vspace{1mm} }
         { {} } 
 
 \twentyitem
     	{2016 -}{2017}{Vice President for Research Fellow}{Colorado State University}
-        {<10\% acceptance rate \vspace{0.6mm} }
+        {<10\% acceptance rate}
         { {} }  
         
-\twentyitem
-    	{2016}{}{Ecological Society of America Hackathon}{Ft. Lauderdale, FL}
-        {First place beginner app developer award \vspace{0.6mm} }
-        { {} }  
+%\twentyitem
+%    	{2016}{}{Ecological Society of America Hackathon}{Ft. Lauderdale, FL}
+%        {First place beginner app developer award \vspace{0.6mm} }
+%        { {} }  
         
 \end{twenty}
 
@@ -225,12 +258,12 @@
 
 
  % printing the Last Updated text
-\begin{textblock*}{5cm}(450,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
-\color{mainblue}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
-\begin{flushright}
-Last Updated \today % Last Updated text
-\end{flushright}
-\end{textblock*}
+%\begin{textblock*}{5cm}(450,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
+%\color{mainblue}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
+%\begin{flushright}
+%Last Updated \today % Last Updated text
+%\end{flushright}
+%\end{textblock*}
 
 
 \end{document} 

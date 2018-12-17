@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650)  (format=lualatex 2018.9.22)  4 OCT 2018 17:37
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650)  (format=lualatex 2018.9.22)  17 DEC 2018 12:21
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Ava_Hoffman_Resume.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.251 seconds
+luaotfload | main : initialization completed in 0.178 seconds
 Babel <3.20> and hyphenation patterns for 0 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
@@ -1661,12 +1661,6 @@ $ \TU/ClearSans(0)/m/n/10 Statsmodels
  []
 
 
-Overfull \hbox (10.98871pt too wide) in paragraph at lines 114--114
-\TU/ClearSans(0)/m/n/10 Pandas $\OMS/cmsy/m/n/10 $ \TU/ClearSans(0)/m/n/10 Nat
-ural Language Toolkit (NLTK) 
- []
-
-
 Overfull \hbox (13.75691pt too wide) in paragraph at lines 114--114
 \TU/ClearSans(0)/m/n/10 Git $\OMS/cmsy/m/n/10 $ \TU/ClearSans(0)/m/n/10 SLURM 
 $\OMS/cmsy/m/n/10 $ \TU/ClearSans(0)/m/n/10 software compilation $\OMS/cmsy/m/
@@ -1703,6 +1697,12 @@ Overfull \hbox (6.56pt too wide) in paragraph at lines 114--114
 Overfull \hbox (0.66644pt too wide) in paragraph at lines 114--114
 \TU/ClearSans(0)/m/n/10 matrices $\OMS/cmsy/m/n/10 $ \TU/ClearSans(0)/m/n/10 v
 alidation & predictive check 
+ []
+
+
+Overfull \hbox (5.27257pt too wide) in paragraph at lines 114--114
+\TU/ClearSans(0)/m/n/10 linear discriminant analysis $\OMS/cmsy/m/n/10 $ \TU/C
+learSans(0)/m/n/10 hypothesis
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
@@ -1820,7 +1820,7 @@ Here is how much of LuaTeX's memory you used:
  1375 words of node memory still in use:
    22 hlist, 1 vlist, 10 rule, 24 glue, 83 attribute, 66 glue_spec, 83 attribute
 _list, 1 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:2,2:1060,3:252,4:69,5:411,6:65,7:4075,8:49,9:332,10:9,11:4
+   avail lists: 1:2,2:1060,3:250,4:69,5:409,6:65,7:4104,8:49,9:333,10:9,11:4
  35141 multiletter control sequences out of 65536+200000
  59 fonts using 10949015 bytes
  61i,17n,75p,831b,661s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1832,7 +1832,7 @@ ype/intel/clearsans/ClearSans-Bold.ttf></Users/avahoffman/Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/truetype/intel/clearsans/ClearSans-Regular.ttf
 ><./fonts/segoeuib.ttf></Users/avahoffman/Library/Application Support/MiKTeX/tex
 mfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Ava_Hoffman_Resume.pdf (1 page, 72621 bytes).
+Output written on Ava_Hoffman_Resume.pdf (1 page, 72599 bytes).
 
 PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)

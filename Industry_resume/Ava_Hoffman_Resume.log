@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650)  (format=lualatex 2018.9.22)  19 DEC 2018 12:26
+This is LuaTeX, Version 1.07.0 (MiKTeX 2.9.6650)  (format=lualatex 2018.9.22)  19 DEC 2018 12:36
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Ava_Hoffman_Resume.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.196 seconds
+luaotfload | main : initialization completed in 0.223 seconds
 Babel <3.20> and hyphenation patterns for 0 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class

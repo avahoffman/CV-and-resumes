@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6650) (preloaded format=xelatex 2018.5.11)  6 SEP 2018 16:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6650) (preloaded format=xelatex 2018.5.11)  8 JAN 2019 08:06
 entering extended mode
 **"./Ava Hoffman CV.tex"
 ("Ava Hoffman CV.tex"
@@ -921,6 +921,25 @@ isodate: babel.sty, (n)german.sty have not been loaded
 . <->"[fonts/lato/Lato-Lig]/OT:script=latn;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 46.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 46.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 46.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <16> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11.19995> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 46.
+
 \g__fontspec_family_Raleway-Medium_int=\count272
 .................................................
 . fontspec info: "defining-font"
@@ -945,11 +964,11 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 46.
 /marvosym/umvs.fd")
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/m/sc' undefined
-(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 53.
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 55.
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(1)/m/sc' undefined
-(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 53.
+(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 55.
 
 
 ("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
@@ -957,55 +976,59 @@ ic/oberdiek/se-ascii-print.def"
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 54--59
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 56--61
  [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 160--169
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 171--180
 [][] 
  []
 
 
-Underfull \hbox (badness 3792) in paragraph at lines 180--180
+Underfull \hbox (badness 3792) in paragraph at lines 191--191
 []|\TU/Lato-Lig(0)/bx/n/10 Daniel Robotham $\OMS/cmsy/m/n/10 ^^A$ \TU/Lato-Lig(
 0)/m/sc/10 Honors Thesis student []Thesis
  []
 
 
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 175--185
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 186--196
 [][] 
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 222--223
+Underfull \hbox (badness 2351) in paragraph at lines 236--237
 []|\TU/Lato-Lig(0)/m/sc/10 Genotypes of a tallgrass prairie species respond dif
 ferently to drought, despite high plasticity within
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
  ("Ava Hoffman CV.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 282.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `"Ava Hoffman CV".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 19787 strings out of 429721
- 375466 string characters out of 3179354
- 488187 words of memory out of 3000000
- 23558 multiletter control sequences out of 15000+200000
- 531253 words of font info for 49 fonts, out of 3000000 for 9000
+ 19817 strings out of 429721
+ 376070 string characters out of 3179354
+ 490187 words of memory out of 3000000
+ 23580 multiletter control sequences out of 15000+200000
+ 534019 words of font info for 61 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  52i,11n,118p,10403b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 

@@ -258,9 +258,9 @@
 
 	\statistical
 	
-	{\large \textcolor{special}{\textbf{Typesetting}}}
-
-	\typesetting
+%	{\large \textcolor{special}{\textbf{Typesetting}}}
+%
+%	\typesetting
 	
 {\large \textcolor{special}{\textbf{Other}}}
 

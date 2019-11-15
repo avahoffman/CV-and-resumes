@@ -1,6 +1,10 @@
+% Written by Ava Hoffman
+% Please use as you like, but it would be nice if you credited me :)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	PACKAGES AND PREAMBLE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \documentclass[fontsize=10pt]{scrlttr2}
 \usepackage{fontawesome}
 %% Select font
@@ -12,7 +16,81 @@
 % Force page width tables
 \usepackage{tabularx} % in the preamble
 % Add background graphic if desired
-%\usepackage{tikz}
+\usepackage{tikz}
+% Allow and define colors to be used
+\RequirePackage{xcolor}
+\definecolor{special}{HTML}{1b941b} 
+\definecolor{darkgray}{HTML}{333333}
+\definecolor{lightgray}{HTML}{999999}
+% Allow hyperlinks
+\RequirePackage[hidelinks]{hyperref}
+% Allow logos/images
+\usepackage{graphicx}
+\graphicspath{ {./logos/} }
+% Graphic text box
+\usepackage{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	USER DEFINED FUNCTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\experienceboxsize}{8in}
+\newcommand{\educationboxsize}{8in}
+\newcommand{\toolboxsize}{8in}
+\newcommand{\logosize}{0.6cm}
+\newcommand{\logopad}{-0.6cm}
+
+\newcommand{\educationitem}[6]{
+	\begin{tabular}{c}
+		{\includegraphics[width=\logosize, height=\logosize]{#6}} \hspace{\logopad}
+	\end{tabular}
+        & 
+         \begin{tabular}{ll}
+                \small\textbf{#1 $\cdot$ #2 $\cdot$ #3} \vspace{-0.1cm} \\
+                \scriptsize\textcolor{darkgray}{#4 $\cdot$ #5} \\
+         \end{tabular} \vspace{0.1cm} \\
+}
+\newcommand{\experienceitem}[6]{
+    {\begin{tabularx}{\experienceboxsize}{lX}
+    	\begin{tabular}{c}
+		{\includegraphics[width=\logosize, height=\logosize]{#6}} \hspace{\logopad}
+	\end{tabular}
+        & 
+         \begin{tabular}{ll}
+                \small\textbf{#1} \\
+                \small\textbf{#2} \vspace{-0.1cm} \\
+                \scriptsize\textcolor{darkgray}{#3 $\cdot$ #4} \\
+         \end{tabular}
+    \end{tabularx}} \\
+    
+    % Header 1 items
+    \vspace{-0.5cm}
+    \begin{itemize}
+    \footnotesize 
+    \itemsep-0.5em 
+	#5
+    \end{itemize} \\
+}
+\newcommand\toolboxitem[1]{%
+    \tikz[baseline]{%
+        \node[anchor=base, 
+                    text=white, 
+                    fill=lightgray, 
+                    text depth=.5mm, 
+                    rounded corners=0.1cm] 
+        {#1};
+    }%
+}
+\newcommand{\achievementitem}[4]{
+	\begin{tabular}{c}
+		{\includegraphics[width=\logosize, height=\logosize]{#4}} \hspace{\logopad}
+	\end{tabular}
+        & 
+         \begin{tabular}{ll}
+                \small\textbf{#1} \vspace{-0.1cm} \\
+                \scriptsize\textcolor{darkgray}{#2 $\cdot$ #3} \\
+         \end{tabular} \vspace{0.1cm} \\
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	CONTENTS
@@ -28,7 +106,7 @@
 \begin{tabularx}{\textwidth}{Xr}
     \begin{tabular}{l}
         \Huge AVA HOFFMAN \\
-        \large Data Scientist $\cdot$ Ecologist \\
+        \large \textcolor{darkgray}{Data Scientist $\cdot$ Ecologist} \\
     \end{tabular}
     & 
     \begin{tabular}{rc}
@@ -44,29 +122,126 @@
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
-\newcommand{\experienceboxsize}{6in}
-
 \begin{tabularx}{\experienceboxsize}{X}
 
-    \Large\underline{EXPERIENCE} \\
+    \Large\underline{EXPERIENCE} \vspace{0.2cm}\\
     
-    {\begin{tabularx}{\experienceboxsize}{lXr}
-	{\faEnvelopeO} 
-        & 
-         \begin{tabular}{ll}
-                \small \textbf{Data Scientist} \\
-                \small \textbf{Boston Consulting Group - Gamma}
-         \end{tabular}
-        &
-         \footnotesize March 2019 \\
+    \experienceitem{Data Scientist}{Boston Consulting Group - Gamma}{Boston, MA}{March 2019+}{
+            \item entry in the list
+            \item Another entry in the list
+            \item entry in the list
+            \item Another entry in the list
+    }{gamma} \\
     
+    \vspace{-0.8cm}
+    
+    \experienceitem{Data Science Fellow}{Insight Data Science}{Remote Program}{September 2018 - March 2019}{
+        \item Launched  \textcolor{special}{\href{http://www.nationalperks.fun}{National Perks Project}} to improve visitor experience in crowded National Parks
+        		\vspace{1mm} 
+        \item Leveraged large National Park Service, NOAA, \& web-scraped datasets to forecast optimal time to visit parks using time series (FB Prophet and ARIMA models)
+        	        \vspace{1mm} 
+        \item Weighted user preferences for crowd level, plus minimum \& maximum temperature with euclidean distance to personalize visitor experience
+        		\vspace{1mm} 
+        \item Identified, defined, \& structured data management with PostgreSQL \& Amazon Web Services
+                \vspace{1mm} 
+        \item Built a customized web app using Git, Python, Flask, \& Heroku providing visitors with an actionable recommendation for optimal visit time and access to further resources 
+    }{insight} \\
+    
+        \vspace{-0.8cm}
+    
+    \experienceitem{USDA NIFA Predoctoral Fellow}{Colorado State University}{Fort Collins, CO}{January 2017 - December 2018}{
+        \item Designed \textcolor{special}{\href{https://github.com/avahoffman/blue-grama-diversity}{Blue Grama Diversity Project}} to inform natural area stakeholders about genetic diversity in a foundational prairie grass, blue grama
+        		\vspace{1mm} 
+        \item Pioneered genomic feature detection (sequencing) of a key grass species, discovering >9,000 genomic features to cluster populations \& guide conservation from 15GB of data
+        		\vspace{1mm} 
+        \item Modeled hierarchical linkages between genomics, populations, \& plant appearance \& developed analytical workflows using R and RStan
+        		\vspace{1mm} 
+        \item Communicated genetic clusters in ggplot data visualizations 
+                \vspace{1mm} 
+        \item Facilitated 6-member team collaboration for a large-scale project 
+    }{csu} \\
+    
+    \vspace{-0.8cm}
+    
+    \experienceitem{Doctoral Researcher}{Colorado State University}{Fort Collins, CO}{August 2013 - December 2016}{
+        \item Discovered diversity within key prairie grasses in response to drought to guide management of grassland resources 
+      		\vspace{1mm} 
+	\item Optimized analytics pipeline for genes \& contrasted fluctuation of >100,000 genes under different conditions using bash scripts
+		\vspace{1mm} 
+	\item Planned \& implemented management of diverse data structures
+	       \vspace{1mm} 
+	\item Quantified predictive relationships among plant, traits, \& ecosystem by implementing trait feature reduction, Bayesian hierarchical models, path analysis, module clustering, literature data mining, linear regression, \& meta-analysis in R, leading to domain innovation
+    }{csu} \\
+    
+\end{tabularx} \\
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-0.5cm}
+
+\begin{tabularx}{\textwidth}{XX}
+
+
+{\begin{tabularx}{\educationboxsize}{X} \vspace{-0.2cm}
+
+    \Large\underline{EDUCATION} \vspace{0.2cm}\\
+    
+    {\begin{tabularx}{\educationboxsize}{lX}
+    
+	\educationitem{PhD}{Ecology}{Colorado State University}{Fort Collins, CO}{May 2019}{csu}
+	\educationitem{BS}{Biology}{University of Virginia}{Charlottesville, VA}{May 2012}{uva}
+         
     \end{tabularx}} \\
     
-    \footnotesize Weighted user preferences for crowd level, plus minimum \& maximum 
-    temperature with euclidean distance to personalize visitor experience euclidean distance to personalize visitor experience 
+\end{tabularx} \ }
+
+&
+%----------------------------------------------------------------------------------------
+%	 ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+{\begin{tabularx}{\educationboxsize}{X} \vspace{-0.2cm}
+
+    \Large\underline{ACHIEVEMENTS} \vspace{0.2cm}\\
     
+    {\begin{tabularx}{\educationboxsize}{lX}
+    
+	\achievementitem{Sustainability Leadership Fellow}{Colorado State University}{2017-2018}{csu}
+         
+    \end{tabularx}} \\
+    
+\end{tabularx} \ }
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	 TOOLBOX
+%----------------------------------------------------------------------------------------
+\vspace{-0.5cm}
+\begin{tabularx}{\toolboxsize}{X} \vspace{0.5cm}
+
+    \Large\underline{TOOLS} \vspace{0.2cm}\\
+   
+   \toolboxitem{Python}
+   \toolboxitem{R}
+   \toolboxitem{\LaTeX}
     
 \end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	 TECHNIQUES
+%----------------------------------------------------------------------------------------
+\vspace{-0.5cm}
+\begin{tabularx}{\toolboxsize}{X} \vspace{0.5cm}
+
+    \Large\underline{TECHNIQUES} \vspace{0.2cm}\\
+   
+   \toolboxitem{Python}
+   \toolboxitem{R}
+   \toolboxitem{\LaTeX}
+    
+\end{tabularx}
+
 
 
 %

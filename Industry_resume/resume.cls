@@ -89,7 +89,7 @@
 
 \newcommand{\achievementitem}[4]{
 	\begin{tabular}{c}
-		{\includegraphics[width=\logosize, height=\logosize]{#4}} \hspace{\logopad}
+		#4 \hspace{\logopad}
 	\end{tabular}
         & 
          \begin{tabular}{ll}
@@ -102,7 +102,7 @@
 %	 PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
 % custom functions to be more user friendly
-\newcommand{\name}[1]{\renewcommand{\name}{#1}}
+\newcommand{\name}[1]{\renewcommand{\name}{\textcolor{special}{#1}}}
 \newcommand{\jobtitle}[1]{\renewcommand{\jobtitle}{#1}}
 \newcommand{\email}[1]{\renewcommand{\email}{#1}}
 \newcommand{\phone}[1]{\renewcommand{\phone}{#1}}

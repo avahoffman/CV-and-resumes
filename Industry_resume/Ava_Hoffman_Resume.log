@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 NOV 2019 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 NOV 2019 06:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,88 +820,87 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 34--35
 <./logos/csu.png, id=19, 627.34375pt x 628.3475pt> <use ./logos/csu.png>
 <./logos/uva.png, id=21, 200.75pt x 200.75pt> <use ./logos/uva.png>
 <use ./logos/csu.png> <use ./logos/csu.png>
-<./logos/none.png, id=22, 432.61626pt x 432.61626pt> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
-<./logos/gamma.png, id=24, 432.61626pt x 432.61626pt> <use ./logos/gamma.png>
-<./logos/insight.png, id=25, 301.125pt x 301.125pt> <use ./logos/insight.png>
-<./logos/nifa.png, id=27, 76.6062pt x 77.088pt> <use ./logos/nifa.png>
+<./logos/gamma.png, id=23, 432.61626pt x 432.61626pt> <use ./logos/gamma.png>
+<./logos/insight.png, id=24, 301.125pt x 301.125pt> <use ./logos/insight.png>
+<./logos/nifa.png, id=26, 76.6062pt x 77.088pt> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
- []
-
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (550.60545pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (568.17294pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (550.60545pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (587.90475pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (568.17294pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (587.90475pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (587.90475pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (587.90475pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (587.90475pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (631.60411pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (587.90475pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (649.27907pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (631.60411pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
 <use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-Overfull \vbox (649.27907pt too high) detected at line 203
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (649.27907pt too high) detected at line 209
+ []
+
+<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
+<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
+<use ./logos/csu.png> <use ./logos/csu.png>
+Overfull \vbox (649.27907pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
@@ -909,60 +908,55 @@ Overfull \vbox (649.27907pt too high) detected at line 203
 <use ./logos/csu.png> <use ./logos/uva.png>
 File: ./logos/csu.png Graphic file (type png)
  <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 203.
+Package pdftex.def Info: ./logos/csu.png used on input line 209.
 (pdftex.def)             Requested size: 17.06773pt x 17.06627pt.
 File: ./logos/uva.png Graphic file (type png)
 
 <use ./logos/uva.png>
-Package pdftex.def Info: ./logos/uva.png used on input line 203.
+Package pdftex.def Info: ./logos/uva.png used on input line 209.
 (pdftex.def)             Requested size: 17.07117pt x 17.07117pt.
 
-Underfull \hbox (badness 1158) in paragraph at lines 203--203
+Underfull \hbox (badness 1158) in paragraph at lines 209--209
 []  []  []  []  []
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 203--203
+Underfull \hbox (badness 1178) in paragraph at lines 209--209
 []  []  []
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 203--203
+Underfull \hbox (badness 1337) in paragraph at lines 209--209
 []|[]  []  []  []
  []
 
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/none.png>
-File: ./logos/csu.png Graphic file (type png)
-
+<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/csu.png>
 <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 203.
+File: ./logos/csu.png Graphic file (type png)
+ <use ./logos/csu.png>
+Package pdftex.def Info: ./logos/csu.png used on input line 209.
 (pdftex.def)             Requested size: 17.06773pt x 17.06627pt.
 File: ./logos/csu.png Graphic file (type png)
  <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 203.
+Package pdftex.def Info: ./logos/csu.png used on input line 209.
 (pdftex.def)             Requested size: 17.06773pt x 17.06627pt.
-File: ./logos/none.png Graphic file (type png)
- <use ./logos/none.png>
-Package pdftex.def Info: ./logos/none.png used on input line 203.
-(pdftex.def)             Requested size: 17.07065pt x 17.07065pt.
 
-Overfull \vbox (649.27907pt too high) detected at line 203
+Overfull \vbox (649.27907pt too high) detected at line 209
  []
 
 <use ./logos/gamma.png> <use ./logos/gamma.png> <use ./logos/gamma.png>
 File: ./logos/gamma.png Graphic file (type png)
 
 <use ./logos/gamma.png>
-Package pdftex.def Info: ./logos/gamma.png used on input line 203.
+Package pdftex.def Info: ./logos/gamma.png used on input line 209.
 (pdftex.def)             Requested size: 17.07065pt x 17.07065pt.
 
-Overfull \hbox (38.43884pt too wide) in paragraph at lines 203--203
+Overfull \hbox (38.43884pt too wide) in paragraph at lines 209--209
 []|[]| 
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 203--203
+Underfull \hbox (badness 7012) in paragraph at lines 209--209
 []\T1/Chivo-TLF/l/n/9 Built PyS-park pro-duc-tion-al-ized en-sem-ble lo-gis-tic
  re-gres-sion
  []
@@ -971,15 +965,15 @@ Underfull \hbox (badness 7012) in paragraph at lines 203--203
 File: ./logos/insight.png Graphic file (type png)
 
 <use ./logos/insight.png>
-Package pdftex.def Info: ./logos/insight.png used on input line 203.
+Package pdftex.def Info: ./logos/insight.png used on input line 209.
 (pdftex.def)             Requested size: 17.06964pt x 17.06964pt.
 
-Overfull \hbox (38.43784pt too wide) in paragraph at lines 203--203
+Overfull \hbox (38.43784pt too wide) in paragraph at lines 209--209
 []|[]| 
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 203--203
+Underfull \hbox (badness 1005) in paragraph at lines 209--209
 []\T1/Chivo-TLF/l/n/9 Leveraged large Na-tional Park Ser-vice, NOAA, & web-scra
 ped
  []
@@ -988,15 +982,15 @@ ped
 File: ./logos/nifa.png Graphic file (type png)
 
 <use ./logos/nifa.png>
-Package pdftex.def Info: ./logos/nifa.png used on input line 203.
+Package pdftex.def Info: ./logos/nifa.png used on input line 209.
 (pdftex.def)             Requested size: 17.07083pt x 17.07115pt.
 
-Overfull \hbox (38.43903pt too wide) in paragraph at lines 203--203
+Overfull \hbox (38.43903pt too wide) in paragraph at lines 209--209
 []|[]| 
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 203--203
+Underfull \hbox (badness 1577) in paragraph at lines 209--209
 \T1/Chivo-TLF/l/n/9 stake-hold-ers about ge-netic di-ver-sity in a foun-da-tion
 al prairie
  []
@@ -1005,47 +999,47 @@ al prairie
 File: ./logos/csu.png Graphic file (type png)
 
 <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 203.
+Package pdftex.def Info: ./logos/csu.png used on input line 209.
 (pdftex.def)             Requested size: 17.06773pt x 17.06627pt.
 
-Overfull \hbox (38.43593pt too wide) in paragraph at lines 203--203
+Overfull \hbox (38.43593pt too wide) in paragraph at lines 209--209
 []|[]| 
  []
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 203--204
+Overfull \hbox (10.0pt too wide) in paragraph at lines 209--210
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
-/csu.png> <./logos/uva.png> <./logos/none.png> <./logos/gamma.png> <./logos/ins
-ight.png> <./logos/nifa.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+/csu.png> <./logos/uva.png> <./logos/gamma.png> <./logos/insight.png> <./logos/
+nifa.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (./Ava_Hoffman_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `Ava_Hoffman_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 20845 strings out of 492995
- 396033 string characters out of 6132704
- 628972 words of memory out of 5000000
- 24047 multiletter control sequences out of 15000+600000
- 40505 words of font info for 58 fonts, out of 8000000 for 9000
+ 20841 strings out of 492995
+ 395967 string characters out of 6132704
+ 628035 words of memory out of 5000000
+ 24044 multiletter control sequences out of 15000+600000
+ 40821 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,25n,79p,959b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/chivo/chi_qbau2s.enc}{/us
@@ -1056,10 +1050,10 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/chivo/Chivo-Light.pfb></usr
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Ava_Hoffman_Resume.pdf (1 page, 180377 bytes).
+Output written on Ava_Hoffman_Resume.pdf (1 page, 179703 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

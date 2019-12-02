@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  14 NOV 2019 12:22
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  2 DEC 2019 08:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,21 +663,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ABD: EveryShipout initializing macros
 isodate: babel.sty, (n)german.sty have not been loaded
 
-Package fontspec Info: Font family 'Raleway-ExtraLight(1)' created for font
-(fontspec)             'Raleway-ExtraLight' with options [Path =
-(fontspec)             fonts/raleway/].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[fonts/raleway/Raleway-ExtraLight]/OT:script=latn;la
-nguage=DFLT;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[fonts/raleway/Raleway-ExtraLight]/OT:script=latn;la
-nguage=DFLT;+smcp;"
-
-
 Package fontspec Info: Font family 'Lato-Hai(0)' created for font 'Lato-Hai'
 (fontspec)             with options [Path = fonts/lato/].
 (fontspec)              
@@ -701,24 +686,24 @@ Package fontspec Info: Font family 'Lato-Lig(1)' created for font 'Lato-Lig'
 
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 46.
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 44.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 46.
+(Font)              size <17.28> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 46.
+(Font)              size <17.28> substituted on input line 44.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <16> on input line 46.
+(Font)              <16> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.19995> on input line 46.
+(Font)              <11.19995> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <8> on input line 44.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 46.
+(Font)              size <17.28> substituted on input line 44.
 
 
 Package fontspec Info: Font family 'Raleway-Medium(0)' created for font
@@ -735,44 +720,44 @@ ge=DFLT;"
 ge=DFLT;+smcp;"
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 46.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
+(Font)              <5> on input line 44.
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/m/sc' undefined
-(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 55.
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 53.
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(1)/m/sc' undefined
-(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 55.
+(Font)              using `TU/Lato-Lig(1)/m/n' instead on input line 53.
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 56--61
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 54--59
  [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 184--193
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 182--191
 [][] 
  []
 
 
-Overfull \hbox (4.98645pt too wide) in paragraph at lines 199--209
+Overfull \hbox (4.98645pt too wide) in paragraph at lines 197--207
 [][] 
  []
 
 [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
  (./Ava Hoffman CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
 Package rerunfilecheck Info: File `"Ava Hoffman CV".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
@@ -783,14 +768,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
  ) 
 Here is how much of TeX's memory you used:
- 21278 strings out of 492916
- 404789 string characters out of 6133346
+ 21268 strings out of 492916
+ 404328 string characters out of 6133346
  518533 words of memory out of 5000000
- 25205 multiletter control sequences out of 15000+600000
- 535704 words of font info for 67 fonts, out of 8000000 for 9000
+ 25197 multiletter control sequences out of 15000+600000
+ 535688 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,11n,118p,489b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 

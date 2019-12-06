@@ -39,11 +39,13 @@
 
 % Logo size, and how much to pad
 \newcommand{\logosize}{0.6cm}
-\newcommand{\logopad}{-0.6cm}
+\newcommand{\logopad}{-0.5cm}
 
 \newcommand{\educationitem}[6]{
 	\begin{tabular}{c}
-		{\includegraphics[width=\logosize, height=\logosize]{#6}} \hspace{\logopad}
+		\hspace{-0.4cm}
+		{\includegraphics[width=\logosize, height=\logosize]{#6}} 
+		\hspace{\logopad}
 	\end{tabular}
         & 
          \begin{tabular}{ll}
@@ -56,7 +58,9 @@
 \vspace{0.1cm}
     {\begin{tabularx}{\experienceboxsize}{lX}
     	\begin{tabular}{c}
-		{\includegraphics[width=\logosize, height=\logosize]{#6}} \hspace{\logopad}
+		\hspace{\logopad}
+		{\includegraphics[width=\logosize, height=\logosize]{#6}} 
+		\hspace{\logopad}
 	\end{tabular}
         & 
          {\begin{tabularx}{\experienceboxsize}{X}
@@ -89,7 +93,9 @@
 
 \newcommand{\achievementitem}[4]{
 	\begin{tabular}{c}
-		#4 \hspace{\logopad}
+		\hspace{-0.7cm}
+		#4 
+		\hspace{\logopad}
 	\end{tabular}
         & 
          \begin{tabular}{ll}

@@ -15,6 +15,8 @@
 \usepackage[letterpaper, margin=0.2in]{geometry}
 % Force page width tables that wrap text
 \usepackage{tabularx}
+% Allow alignment of bullet points left
+\usepackage{enumitem}
 % Add background graphic (if desired) and little boxes for skills
 \usepackage{tikz}
 % Allow and define colors to be used
@@ -40,6 +42,10 @@
 % Logo size, and how much to pad
 \newcommand{\logosize}{0.6cm}
 \newcommand{\logopad}{-0.5cm}
+
+\newlength\bulletpad
+\settowidth\bulletpad{\textbullet}
+\addtolength\bulletpad{-3mm}
 
 \newcommand{\educationitem}[6]{
 	\begin{tabular}{c}
@@ -71,8 +77,8 @@
     \end{tabularx}} 
     
     % Bullet points
-    \vspace{-0.2cm}
-    \begin{itemize}
+    \vspace{-5mm}
+    \noindent\begin{itemize}[leftmargin=*,labelsep=-\bulletpad]
     \small
     \itemsep0.6mm
 	#5

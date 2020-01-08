@@ -88,7 +88,7 @@
     % Bullet points
     \vspace{-5mm}
     \noindent\begin{itemize}[leftmargin=*,labelsep=-\bulletpad]
-    \small
+    \footnotesize
     \itemsep0.6mm
 	#5
     \end{itemize}

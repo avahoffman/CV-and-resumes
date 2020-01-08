@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 JAN 2020 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 JAN 2020 11:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -630,13 +630,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \bigstrutjot=\dimen170
 )
 \bulletpad=\skip52
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
 )
 (./Ava_Hoffman_Resume.aux)
 \openout1 = `Ava_Hoffman_Resume.aux'.
@@ -985,7 +985,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
 Here is how much of TeX's memory you used:
  21296 strings out of 492616
  404126 string characters out of 6129482
- 588462 words of memory out of 5000000
+ 588607 words of memory out of 5000000
  24858 multiletter control sequences out of 15000+600000
  32556 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

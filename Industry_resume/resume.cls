@@ -23,6 +23,7 @@
 % Allow and define colors to be used
 \RequirePackage{xcolor}
 \definecolor{special}{HTML}{1b941b}
+\definecolor{header}{HTML}{1b941b}
 \definecolor{specialdark}{HTML}{0c410c}
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{midgray}{HTML}{666666}
@@ -153,7 +154,7 @@
 %----------------------------------------------------------------------------------------
 \newcommand\addeducation[1]{
     \newcommand\educationfloat{
-                \Large\underline{EDUCATION} \\
+                \Large\textcolor{header}{\underline{EDUCATION}} \\
                 \vspace{0.2cm}
                 {
                 \begin{tabularx}{\educationboxsize}{lX}
@@ -169,7 +170,7 @@
 \newcommand\addtoolbox[1]{
     \newcommand\toolboxfloat{
         \begin{tabularx}{\educationboxsize}{X}
-         \Large\underline{TOOLS \& PACKAGES} \\
+         \Large\textcolor{header}{\underline{TOOLS \& PACKAGES}} \\
          \vspace{-6mm}
 		#1
         \end{tabularx} 
@@ -182,7 +183,7 @@
 \newcommand\addtechniques[1]{
     \newcommand\techniquesfloat{
         \begin{tabularx}{\educationboxsize}{X} 
-         \Large\underline{TECHNIQUES} \\
+         \Large\textcolor{header}{\underline{TECHNIQUES}} \\
          \vspace{-6mm}
 		#1
         \end{tabularx} 
@@ -194,7 +195,7 @@
 %----------------------------------------------------------------------------------------
 \newcommand\addachievements[1]{
     \newcommand\achievementsfloat{
-        \Large\underline{ACHIEVEMENTS} \\
+        \Large\textcolor{header}{\underline{ACHIEVEMENTS}} \\
         \vspace{0.2cm}
         {
         \begin{tabularx}{\educationboxsize}{lX}
@@ -211,7 +212,7 @@
 \newcommand\addexperience[1]{
     \begin{tabularx}{\textwidth}{p{\experienceboxsize}p{\dividerwidth}X}
         
-            \Large\underline{EXPERIENCE} &  &\multirow[t]{2}{=}{
+            \Large\textcolor{header}{\underline{EXPERIENCE}} &  &\multirow[t]{2}{=}{
                     \educationfloat \\
                     \vspace{8mm}
                     \toolboxfloat \\

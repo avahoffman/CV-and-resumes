@@ -10,6 +10,7 @@
 %% Select font
 %% See https://www.tug.org/FontCatalogue/sansseriffonts.html for more options and usage of sans-serif fonts
 \usepackage[familydefault,light]{Chivo} %% Option 'familydefault' only if the base font of the document is to be sans serif
+\usepackage{helvet}
 \usepackage[T1]{fontenc}
 % Set margins for paper
 \usepackage[letterpaper, margin=0.2in]{geometry}
@@ -21,7 +22,8 @@
 \usepackage{tikz}
 % Allow and define colors to be used
 \RequirePackage{xcolor}
-\definecolor{special}{HTML}{1b941b} 
+\definecolor{special}{HTML}{1b941b}
+\definecolor{specialdark}{HTML}{0c410c}
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{midgray}{HTML}{666666}
 \definecolor{lightgray}{HTML}{999999}
@@ -42,6 +44,10 @@
 % Logo size, and how much to pad
 \newcommand{\logosize}{0.6cm}
 \newcommand{\logopad}{-0.5cm}
+\newcommand{\logopadeducation}{-0.3cm}
+\newcommand{\logopadachievements}{-0.4cm}
+\newcommand{\logopadexperience}{-0.2cm}
+\newcommand{\colordot}{\textcolor{special}{$\cdot$} }
 
 \newlength\bulletpad
 \settowidth\bulletpad{\textbullet}
@@ -54,6 +60,7 @@
 		\hspace{\logopad}
 	\end{tabular}
         & 
+         \hspace{\logopadeducation}
          \begin{tabular}{ll}
                 \small\textbf{#1 $\cdot$ #2 $\cdot$ #3} \vspace{-0.2cm} \\
                 \scriptsize\textcolor{darkgray}{#4 $\cdot$ #5} \\
@@ -69,6 +76,7 @@
 		\hspace{\logopad}
 	\end{tabular}
         & 
+        \hspace{\logopadexperience}
          {\begin{tabularx}{\experienceboxsize}{X}
                 \small\textbf{#1} \\
                 \small\textbf{#2} \vspace{-0.1cm} \\
@@ -104,6 +112,7 @@
 		\hspace{\logopad}
 	\end{tabular}
         & 
+        \hspace{\logopadachievements}
          \begin{tabular}{ll}
                 \small\textbf{#1} \vspace{-0.2cm} \\
                 \scriptsize\textcolor{darkgray}{#2 $\cdot$ #3} \\
@@ -161,7 +170,7 @@
     \newcommand\toolboxfloat{
         \begin{tabularx}{\educationboxsize}{X}
          \Large\underline{TOOLS \& PACKAGES} \\
-         \vspace{-0.4cm}
+         \vspace{-6mm}
 		#1
         \end{tabularx} 
     }
@@ -174,7 +183,7 @@
     \newcommand\techniquesfloat{
         \begin{tabularx}{\educationboxsize}{X} 
          \Large\underline{TECHNIQUES} \\
-         \vspace{-0.4cm}
+         \vspace{-6mm}
 		#1
         \end{tabularx} 
     }
@@ -204,11 +213,11 @@
         
             \Large\underline{EXPERIENCE} &  &\multirow[t]{2}{=}{
                     \educationfloat \\
-                    \vspace{1cm}
+                    \vspace{8mm}
                     \toolboxfloat \\
-                    \vspace{0.5cm}
+                    \vspace{8mm}
                     \techniquesfloat \\
-                    \vspace{1.2cm}
+                    \vspace{8mm}
                     \achievementsfloat \\
             } \\
            

@@ -1,4 +1,4 @@
-# CV-and-resumes
+# CV and Resume Templates
 
 Templates used and modified for my CV and resume. 
 

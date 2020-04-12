@@ -8,11 +8,11 @@
 %	SPACING
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % size of the lefthand column: 
-\newcommand{\experienceboxsize}{106mm}
+\newcommand{\experienceboxsize}{105mm}
 % size of the divider 
 \newcommand{\dividerwidth}{1mm}
 % size of the righthand column: 
-\newcommand{\educationboxsize}{82mm}
+\newcommand{\educationboxsize}{83mm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	CONTENTS
@@ -23,7 +23,7 @@
 %	 PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
 \name{AVA HOFFMAN}
-\jobtitle{Data Scientist $\cdot$ Ecologist}
+\jobtitle{Data Scientist \colordot Ecologist}
 
 \email{avamariehoffman@gmail.com}
 \phone{(804) 687-7476}
@@ -33,7 +33,7 @@
 
 \printheader
 
-\vspace{0.7cm}
+\vspace{9mm}
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
@@ -47,47 +47,48 @@
 %	 TOOLBOX
 %----------------------------------------------------------------------------------------
 \addtoolbox{
-        \LARGE\toolboxitem{midgray}{Python}
-        \LARGE\toolboxitem{midgray}{SQL}
-        \LARGE\toolboxitem{midgray}{R} 
-        \Large\toolboxitem{midgray}{PySpark}
-        \Large\toolboxitem{midgray}{git}
-        \Large\toolboxitem{midgray}{Unix}
-        \normalsize\toolboxitem{midgray}{Tableau}
-        \normalsize\toolboxitem{midgray}{Alteryx} \\ \vspace{-8.5mm}
-        \normalsize\toolboxitem{midgray}{Markdown} 
-        \normalsize\toolboxitem{midgray}{Sphinx}
-        \normalsize\toolboxitem{midgray}{\LaTeX} 
-        \normalsize\toolboxitem{midgray}{SAS} \\ \vspace{-8.5mm}
-        \normalsize\toolboxitem{lightgray}{scikit-learn}
-        \normalsize\toolboxitem{lightgray}{pandas}
-        \normalsize\toolboxitem{lightgray}{NumPy}
-        \normalsize\toolboxitem{lightgray}{SciPy} \\ \vspace{-8.5mm}
-        \normalsize\toolboxitem{lightgray}{pytest}
-        \normalsize\toolboxitem{lightgray}{statsmodels}
-        \normalsize\toolboxitem{lightgray}{seaborn}
-        \normalsize\toolboxitem{lightgray}{matplotlib}
+	\normalsize \toolboxitem{lightgray}{Python} \\ \small
+	scikit-learn \colordot
+        pandas \colordot
+        NumPy \colordot
+        SciPy \colordot
+        pytest \colordot
+        statsmodels \colordot
+        seaborn \colordot
+        matplotlib \\
         %	Bokeh
         %	Gensim 
         %	Jupyter Notebook 
-        	\toolboxitem{lightgray}{RStan}
-        	\toolboxitem{lightgray}{shiny}
-        	\toolboxitem{lightgray}{RStudio}
-        %	RMarkdown 
-        	\toolboxitem{lightgray}{leaps}
-        	\toolboxitem{lightgray}{lavaan}
+        	\vspace{-6mm} \normalsize \toolboxitem{lightgray}{R} \\ \small
+	RStan \colordot
+        	shiny \colordot
+        	leaps \colordot
+        	lavaan \colordot
         %	segmented 
-        %	dplyr 
-        %	reshape2 
-        	\toolboxitem{lightgray}{bioconductor}
-        	\toolboxitem{lightgray}{sva}
-        	\toolboxitem{lightgray}{vegan}
-        	\toolboxitem{lightgray}{ggplot2} \\ \vspace{-8.5mm}
-        %	\toolboxitem{lightgray}{ggtree}
+        dplyr  \colordot
+        reshape2  \colordot
+        	bioconductor \colordot
+        	sva \colordot
+        	vegan \colordot
+        	ggplot2 \colordot
+	rmarkdown  \colordot
+	RStudio \\
+        %	ggtree
         %	bayesplot 
         %	ggrepel 
         %	gridExtra 
         %	semPlot
+	\vspace{-6mm} \normalsize
+        \toolboxitem{lightgray}{SQL}
+        \toolboxitem{lightgray}{PySpark}
+        \toolboxitem{lightgray}{git}
+        \toolboxitem{lightgray}{Unix}
+        \toolboxitem{lightgray}{Tableau}
+        \toolboxitem{lightgray}{Alteryx} 
+        \toolboxitem{lightgray}{Markdown} 
+        % \toolboxitem{lightgray}{Sphinx}
+        \toolboxitem{lightgray}{\LaTeX} 
+        \toolboxitem{lightgray}{SAS}
         %\textbf{Shell / command line}\\
         %	Git $\cdot$ 
         %	SLURM $\cdot$ 
@@ -102,29 +103,30 @@
 %	 TECHNIQUES
 %----------------------------------------------------------------------------------------
 \addtechniques{
-        \small\toolboxitem{midgray}{Bayesian statistics}
-        \small\toolboxitem{midgray}{hierarchical models} \\ \vspace{-8.5mm}
-        \small\toolboxitem{midgray}{mixture models}
-        \small\toolboxitem{midgray}{multivariate statistics}
-        \small\toolboxitem{midgray}{ANOVA}
-        \small\toolboxitem{midgray}{MANOVA}
-        \small\toolboxitem{midgray}{PERMANOVA}
-        \small\toolboxitem{midgray}{multivariate statistics}
-        \small\toolboxitem{midgray}{dimensionality reduction}
-        \small\toolboxitem{midgray}{repeated measures} \\ \vspace{-8.5mm}
+	\normalsize \toolboxitem{lightgray}{statistics} \\ \small
+	Bayesian methods \colordot
+	hierarchical models \colordot
+	mixture models \colordot
+	multivariate statistics \colordot
+	ANOVA \colordot
+	MANOVA \colordot
+	PERMANOVA \colordot
+	dimensionality reduction \colordot
+	repeated measures \\
         % design matrices
         % hypothesis testing
         % Rstan $\cdot$ JAGS $\cdot$ SAS
-        \small\toolboxitem{midgray}{supervised learning}
-        \small\toolboxitem{midgray}{random forest}
-        \small\toolboxitem{midgray}{time series} 
-        \small\toolboxitem{midgray}{linear / nonlinear / logistic regression}
-        \small\toolboxitem{midgray}{LDA} \\ \vspace{-8.5mm}
-        \small\toolboxitem{midgray}{SEM}
-        \small\toolboxitem{midgray}{unsupervised learning}
-        \small\toolboxitem{midgray}{PCA}
-        \small\toolboxitem{midgray}{k-means}
-        \small\toolboxitem{midgray}{feature engineering} 
+        	\vspace{-6mm} \normalsize \toolboxitem{lightgray}{supervised learning} \\ \small
+        random forest \colordot
+        time series \colordot
+        linear, nonlinear, logistic regression \colordot
+        LDA \colordot
+        SEM \\
+
+        	\vspace{-6mm} \normalsize \toolboxitem{lightgray}{unsupervised learning} \\ \small
+        PCA \colordot
+        k-means \colordot
+        feature engineering
         % validation, predictive check 
         % feature reduction
 }
@@ -159,7 +161,7 @@
            \item Implemented repository logging and error handling for an automotive manufacturer's inventory intelligence software
            \item Lead theory and methodology workshops for client teams 
         }{gamma} \\
-        \vspace{-0.2cm}
+        \vspace{1mm}
         
         \experienceitem{Data Science Fellow}{Insight Data Science}{Remote Program}{September 2018 - March 2019}{
 %            \item Launched \textcolor{special}{\href{http://www.nationalperks.fun}{National Perks Project}} to improve visitor experience in crowded National Parks (time series with NPS \& NOAA datasets)
@@ -173,7 +175,7 @@
 %            \item Identified, defined, \& structured data management with PostgreSQL \& Amazon Web Services
             \item Built a customized web app using Git, Python, Flask, \& Heroku providing visitors with an actionable recommendation \& access to further resources 
         }{insight} \\
-        \vspace{-0.2cm}
+        \vspace{1mm}
         
         
         \experienceitem{USDA NIFA Predoctoral Fellow}{Colorado State University}{Fort Collins, CO}{January 2017 - December 2018}{
@@ -188,7 +190,7 @@
             \item Modeled hierarchical linkages between genomics, populations, \& plant appearance, developed analytical workflows using R and RStan, \& communicated genetic clusters in ggplot+shiny app
 %            \item Facilitated 6-member team collaboration for a large-scale project 
         }{nifa} \\
-        \vspace{-0.2cm}
+        \vspace{1mm}
         
         
         \experienceitem{Doctoral Researcher}{Colorado State University}{Fort Collins, CO}{August 2013 - December 2016}{

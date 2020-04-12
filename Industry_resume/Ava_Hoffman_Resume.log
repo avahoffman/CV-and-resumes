@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  9 DEC 2019 09:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  8 JAN 2020 11:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,6 +105,9 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 ))))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
@@ -627,13 +630,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \bigstrutjot=\dimen170
 )
 \bulletpad=\skip52
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
 )
 (./Ava_Hoffman_Resume.aux)
 \openout1 = `Ava_Hoffman_Resume.aux'.
@@ -652,14 +655,15 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for T1+Chivo-TLF on input line
- 20.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 20.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/chivo/T1Chivo-TLF.fd
-File: T1Chivo-TLF.fd 2016/05/05 (autoinst) Font definitions for T1/Chivo-TLF.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Font shape `T1/Chivo-TLF/l/n' will be
-(Font)              scaled to size 10.0pt on input line 20.
+
+LaTeX Font Warning: Font shape `T1/phv/l/n' undefined
+(Font)              using `T1/phv/m/n' instead on input line 20.
+
 Package scrbase Info: activating english \yourrefname on input line 20.
 Package scrbase Info: activating english \yourmailname on input line 20.
 Package scrbase Info: activating english \myrefname on input line 20.
@@ -748,7 +752,6 @@ Class scrlttr2 Info: used language is `english'.
 (scrlttr2)           `dutch', `italian', `spanish', `polish',
 (scrlttr2)           `croatian', `finnish', `norsk', `swedish',
 (scrlttr2)           `czech', `slovak' on input line 20.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -840,157 +843,124 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 34--35
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (562.38101pt too high) detected at line 212
+ []
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsphv.fd)
+Overfull \vbox (562.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (562.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (562.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (562.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (562.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (562.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (550.60545pt too high) detected at line 210
+Overfull \vbox (573.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (568.17294pt too high) detected at line 210
+Overfull \vbox (573.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (587.90475pt too high) detected at line 210
+Overfull \vbox (573.38101pt too high) detected at line 212
  []
 
 
-Overfull \vbox (587.90475pt too high) detected at line 210
+Overfull \vbox (592.86981pt too high) detected at line 212
  []
 
 
-Overfull \vbox (587.90475pt too high) detected at line 210
+Overfull \vbox (614.86981pt too high) detected at line 212
  []
 
 
-Overfull \vbox (631.60411pt too high) detected at line 210
+Overfull \vbox (625.86981pt too high) detected at line 212
  []
 
 
-Overfull \vbox (649.27907pt too high) detected at line 210
- []
-
-
-Overfull \vbox (649.27907pt too high) detected at line 210
+Overfull \vbox (625.86981pt too high) detected at line 212
  []
 
 File: ./logos/csu.png Graphic file (type png)
 <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png  used on input line 210.
+Package pdftex.def Info: ./logos/csu.png  used on input line 212.
 (pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
 File: ./logos/uva.png Graphic file (type png)
 <use ./logos/uva.png>
-Package pdftex.def Info: ./logos/uva.png  used on input line 210.
+Package pdftex.def Info: ./logos/uva.png  used on input line 212.
 (pdftex.def)             Requested size: 17.07117pt x 17.07117pt.
-
-Underfull \hbox (badness 1158) in paragraph at lines 210--210
-[]  []  []  []  []
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 210--210
-[]  []  []
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 210--210
-[]|[]  []  []  []
- []
-
 File: ./logos/csu.png Graphic file (type png)
 <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png  used on input line 210.
+Package pdftex.def Info: ./logos/csu.png  used on input line 212.
 (pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
 File: ./logos/csu.png Graphic file (type png)
 <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png  used on input line 210.
+Package pdftex.def Info: ./logos/csu.png  used on input line 212.
 (pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
 
-Overfull \vbox (649.27907pt too high) detected at line 210
+Overfull \vbox (625.86981pt too high) detected at line 212
  []
 
 File: ./logos/gamma.png Graphic file (type png)
 <use ./logos/gamma.png>
-Package pdftex.def Info: ./logos/gamma.png  used on input line 210.
+Package pdftex.def Info: ./logos/gamma.png  used on input line 212.
 (pdftex.def)             Requested size: 17.07056pt x 17.07002pt.
 
-Overfull \hbox (29.49786pt too wide) in paragraph at lines 210--210
-[]|[]| 
+Overfull \hbox (26.60716pt too wide) in paragraph at lines 212--212
+[]|  []| 
  []
 
 File: ./logos/insight.png Graphic file (type png)
 <use ./logos/insight.png>
-Package pdftex.def Info: ./logos/insight.png  used on input line 210.
+Package pdftex.def Info: ./logos/insight.png  used on input line 212.
 (pdftex.def)             Requested size: 17.07307pt x 17.07307pt.
 
-Overfull \hbox (29.50038pt too wide) in paragraph at lines 210--210
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 210--210
-[]\T1/Chivo-TLF/l/n/9 Launched [][]Na-tional Perks Project[][] to im-prove vis-
-i-tor ex-pe-ri-ence in
+Overfull \hbox (26.60968pt too wide) in paragraph at lines 212--212
+[]|  []| 
  []
 
 File: ./logos/nifa.png Graphic file (type png)
 <use ./logos/nifa.png>
-Package pdftex.def Info: ./logos/nifa.png  used on input line 210.
+Package pdftex.def Info: ./logos/nifa.png  used on input line 212.
 (pdftex.def)             Requested size: 17.07173pt x 17.07144pt.
 
-Overfull \hbox (29.49904pt too wide) in paragraph at lines 210--210
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 210--210
-[]\T1/Chivo-TLF/l/n/9 Pioneered ge-nomic fea-ture de-tec-tion (se-quenc-ing) of
- a key grass
+Overfull \hbox (26.60834pt too wide) in paragraph at lines 212--212
+[]|  []| 
  []
 
 File: ./logos/csu.png Graphic file (type png)
 <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png  used on input line 210.
+Package pdftex.def Info: ./logos/csu.png  used on input line 212.
 (pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
 
-Overfull \hbox (29.49236pt too wide) in paragraph at lines 210--210
-[]|[]| 
+Overfull \hbox (26.60165pt too wide) in paragraph at lines 212--212
+[]|  []| 
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 210--210
-[]\T1/Chivo-TLF/l/n/9 Optimized an-a-lyt-ics pipeline for genes & con-trasted f
-luc-tu-a-tion of
- []
-
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 210--211
+Overfull \hbox (10.0pt too wide) in paragraph at lines 212--213
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
@@ -999,39 +969,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
 /csu.png> <./logos/uva.png> <./logos/gamma.png> <./logos/insight.png> <./logos/
 nifa.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (./Ava_Hoffman_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `Ava_Hoffman_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 21275 strings out of 492616
- 404410 string characters out of 6129482
- 648591 words of memory out of 5000000
- 24831 multiletter control sequences out of 15000+600000
- 40821 words of font info for 59 fonts, out of 8000000 for 9000
+ 21296 strings out of 492616
+ 404126 string characters out of 6129482
+ 588607 words of memory out of 5000000
+ 24858 multiletter control sequences out of 15000+600000
+ 32556 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,25n,79p,959b,1086s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/chivo/chi_qbau2s.enc}{/us
-r/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/chivo/Chivo-Bold.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/chivo/Chivo-Light.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Ava_Hoffman_Resume.pdf (1 page, 173105 bytes).
+ 71i,26n,79p,959b,1083s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2019/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Ava_Hoffman_Resume.pdf (1 page, 160803 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

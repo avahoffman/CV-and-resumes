@@ -1,143 +1,311 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 APR 2020 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.10.29)  14 JUN 2020 20:15
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**Ava_Hoffman_Resume.tex
-(./Ava_Hoffman_Resume.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(./resume.cls
+**./Ava_Hoffman_Resume.tex
+(Ava_Hoffman_Resume.tex
+LaTeX2e <2018-04-01> patch level 4
+Babel <3.20> and hyphenation patterns for 0 language(s) loaded.
+(resume.cls
 Document Class: resume 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrlttr2.cls
-Document Class: scrlttr2 2017/04/13 v3.23 KOMA-Script document class (letter)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrlttr2.cls"
+Document Class: scrlttr2 2020/04/19 v3.30 KOMA-Script document class (letter)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrkbase.sty"
+Package: scrkbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrbase.sty"
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
-
-Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
-                  Copyright (C) Markus Kohm
-
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrlfile.sty"
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
 )))
-Class scrlttr2 Info: File `scrsize10pt.clo' used to setup font sizes on input l
-ine 1783.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
-File: scrsize10pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (10pt
-)
-)
-LaTeX Info: Redefining \textsubscript on input line 1924.
+Class scrlttr2 Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 1888.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2017/04/13 v3.23 KOMA-Script package (type area)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrsize11pt.clo"
+File: scrsize11pt.clo 2020/04/19 v3.30 KOMA-Script font size class option (11pt
+)
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/typearea.sty"
+Package: typearea 2020/04/19 v3.30 KOMA-Script package (type area)
 \ta@bcor=\skip41
-\ta@div=\count79
+\ta@div=\count80
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
 \footheight=\skip45
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 8
+(typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 373.44246pt
-(typearea)              DIV departure   = -4%
-(typearea)              \evensidemargin = 39.76274pt
-(typearea)              \oddsidemargin  = 39.76274pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 538.0pt
-(typearea)              \topmargin      = 0.36087pt
-(typearea)              \headheight     = 15.0pt
-(typearea)              \headsep        = 18.0pt
-(typearea)              \topskip        = 10.0pt
-(typearea)              \footskip       = 42.0pt
-(typearea)              \baselineskip   = 12.0pt
-(typearea)              on input line 1647.
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1738.
 )
-\c@letter=\count80
+\c@letter=\count81
 )
 Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 3.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/DIN.lco
-File: DIN.lco 2017/04/13 v3.23 KOMA-Script letter-class-option
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/DIN.lco"
+File: DIN.lco 2020/04/19 v3.30 KOMA-Script letter-class-option
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/fontawesome.sty"
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/ifxetex/ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
-neric.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
-ftex.tex)) (/usr/local/texlive/2017/texmf-dist/tex/latex/chivo/Chivo.sty
-Package: Chivo 2016/05/05 v1.0 Support for Chivo fonts (AE)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/fontawesomesymbols-generic.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/fontawesomesymbols-pdftex.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/arimo/arimo.sty"
+Package: arimo 2017/01/05 (Bob Tennent) Supports Arimo fonts for all LaTeX engi
+nes.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/mweights/mweights.sty
-Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
-font packages. 
-LaTeX Info: Redefining \bfseries on input line 22.
-LaTeX Info: Redefining \mdseries on input line 30.
-LaTeX Info: Redefining \rmfamily on input line 38.
-LaTeX Info: Redefining \sffamily on input line 66.
-LaTeX Info: Redefining \ttfamily on input line 94.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xkeyval/xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkeyval.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkvutils.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+\XKV@depth=\count82
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ts1enc.dfu"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/helvet.sty
-Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontaxes/fontaxes.sty"
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.sty"
+Package: geometry 2018/03/24 v5.7 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count81
-\Gm@cntv=\count82
-\c@Gm@tempcnt=\count83
+\Gm@cnth=\count83
+\Gm@cntv=\count84
+\c@Gm@tempcnt=\count85
 \Gm@bindingoffset=\dimen102
 \Gm@wd@mp=\dimen103
 \Gm@odd@mp=\dimen104
@@ -146,87 +314,111 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen107
 \Gm@layouthoffset=\dimen108
 \Gm@layoutvoffset=\dimen109
-\Gm@dimlist=\toks15
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\Gm@dimlist=\toks17
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.cfg"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/tabularx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen110
+\ar@mcellbox=\box26
 \extrarowheight=\dimen111
-\NC@list=\toks16
+\NC@list=\toks18
 \extratabsurround=\skip46
 \backup@length=\skip47
+\ar@cellbox=\box27
 )
 \TX@col@width=\dimen112
 \TX@old@table=\dimen113
 \TX@old@col=\dimen114
 \TX@target=\dimen115
 \TX@delta=\dimen116
-\TX@cols=\count84
-\TX@ftn=\toks17
+\TX@cols=\count86
+\TX@ftn=\toks19
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/enumitem/enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip48
 \enit@outerparindent=\dimen117
-\enit@toks=\toks18
-\enit@inbox=\box26
-\enitdp@description=\count85
+\enit@toks=\toks20
+\enit@inbox=\box28
+\enitdp@description=\count87
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
-\pgfutil@everybye=\toks19
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/frontendlayer/tikz.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/basiclayer/pgf.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/utilities/pgfrcs.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-common.tex"
+\pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen118
 \pgfutil@tempdimb=\dimen119
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box27
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-common-lists.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box29
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ms/everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/basiclayer/pgfcore.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count86
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-def/pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/systemlayer/pgfsys.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks20
-\pgfkeys@temptoks=\toks21
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
-\pgfkeys@tmptoks=\toks22
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen122
 \pgf@y=\dimen123
@@ -238,40 +430,44 @@ ode.tex
 \pgf@yc=\dimen129
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count87
-\c@pgf@countb=\count88
-\c@pgf@countc=\count89
-\c@pgf@countd=\count90
-\t@pgf@toka=\toks23
-\t@pgf@tokb=\toks24
-\t@pgf@tokc=\toks25
+\c@pgf@counta=\count88
+\c@pgf@countb=\count89
+\c@pgf@countc=\count90
+\c@pgf@countd=\count91
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count91
-\pgfsyssoftpath@bigbuffer@items=\count92
+\pgfsyssoftpath@smallbuffer@items=\count92
+\pgfsyssoftpath@bigbuffer@items=\count93
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/systemlayer/pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xcolor/xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -285,42 +481,49 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathcalc.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathutil.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen130
-\pgfmath@count=\count93
-\pgfmath@box=\box28
-\pgfmath@toks=\toks26
-\pgfmath@stack@operand=\toks27
-\pgfmath@stack@operation=\toks28
+\pgfmath@count=\count94
+\pgfmath@box=\box30
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count94
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.code.tex"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.basic.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.random.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.comparison.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.base.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.round.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.misc.code.tex")
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count95
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen131
 \pgf@picmaxx=\dimen132
@@ -337,123 +540,130 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen143
 \pgf@zy=\dimen144
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen145
 \pgf@path@lasty=\dimen146
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen147
 \pgf@shorten@start@additional=\dimen148
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box29
-\pgf@hbox=\box30
-\pgf@layerbox@main=\box31
-\pgf@picture@serial@count=\count95
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count96
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen149
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen150
 \pgf@pt@y=\dimen151
 \pgf@pt@temp=\dimen152
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen153
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen154
-\pgf@sys@shading@range@num=\count96
+\pgf@sys@shading@range@num=\count97
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box32
+\pgfexternal@startupbox=\box34
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/basiclayer/pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/modules/pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box33
+\pgfnodeparttextbox=\box35
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/modules/pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/compatibility/pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen155
 \pgf@nodesepend=\dimen156
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/compatibility/pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/utilities/pgffor.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/utilities/pgfkeys.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgfkeys.code.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/pgf/math/pgfmath.sty"
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex"))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/utilities/pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/math/pgfmath.code.tex")
 \pgffor@iter=\dimen157
 \pgffor@skip=\dimen158
-\pgffor@stack=\toks29
-\pgffor@toks=\toks30
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/libraries/pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count97
+\pgf@plot@mark@count=\count98
 \pgfplotmarksize=\dimen159
 )
 \tikz@lastx=\dimen160
@@ -462,48 +672,55 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen163
 \tikzleveldistance=\dimen164
 \tikzsiblingdistance=\dimen165
-\tikz@figbox=\box34
-\tikz@figbox@bg=\box35
-\tikz@tempbox=\box36
-\tikz@tempbox@bg=\box37
-\tikztreelevel=\count98
-\tikznumberofchildren=\count99
-\tikznumberofcurrentchild=\count100
-\tikz@fig@count=\count101
+\tikz@figbox=\box36
+\tikz@figbox@bg=\box37
+\tikz@tempbox=\box38
+\tikz@tempbox@bg=\box39
+\tikztreelevel=\count99
+\tikznumberofchildren=\count100
+\tikznumberofcurrentchild=\count101
+\tikz@fig@count=\count102
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/modules/pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count102
-\pgfmatrixcurrentcolumn=\count103
-\pgf@matrix@numberofcolumns=\count104
+\pgfmatrixcurrentrow=\count103
+\pgfmatrixcurrentcolumn=\count104
+\pgf@matrix@numberofcolumns=\count105
 )
-\tikz@expandcount=\count105
+\tikz@expandcount=\count106
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/hyperref.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -525,228 +742,269 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen166
-\Hy@linkcounter=\count106
-\Hy@pagecounter=\count107
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\Hy@SavedSpaceFactor=\count108
+\@linkdim=\dimen166
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/pd1enc.def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count109
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/00miktex/hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count109
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count110
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/url/url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen167
-\Fld@menulength=\count110
+\Fld@menulength=\count111
 \Field@Width=\dimen168
 \Fld@charsize=\dimen169
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count111
-\c@Item=\count112
-\c@Hfootnote=\count113
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count114
-\c@bookmark@seq@number=\count115
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip49
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2017/04/25 version 4.03 text color boxes
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tcolorbox/tcolorbox.sty"
+Package: tcolorbox 2020/04/28 version 4.30 text color boxes
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks31
-\verbatim@line=\toks32
+\every@verbatim=\toks33
+\verbatim@line=\toks34
 \verbatim@in@stream=\read2
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/environ/environ.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/environ/environ.sty"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/trimspaces/trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks33
+\@envbody=\toks35
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count116
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/etoolbox/etoolbox.sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count117
 )
-\tcb@titlebox=\box38
-\tcb@upperbox=\box39
-\tcb@lowerbox=\box40
-\tcb@phantombox=\box41
-\c@tcbbreakpart=\count117
-\c@tcblayer=\count118
-\tcolorbox@number=\count119
-\tcb@temp=\box42
-\tcb@temp=\box43
+\tcb@titlebox=\box40
+\tcb@upperbox=\box41
+\tcb@lowerbox=\box42
+\tcb@phantombox=\box43
+\c@tcbbreakpart=\count118
+\c@tcblayer=\count119
+\c@tcolorbox@number=\count120
 \tcb@temp=\box44
 \tcb@temp=\box45
+\tcb@temp=\box46
+\tcb@temp=\box47
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/multirow/multirow.sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
 \multirow@colwidth=\skip50
-\multirow@cntb=\count120
+\multirow@cntb=\count121
 \multirow@dima=\skip51
 \bigstrutjot=\dimen170
 )
 \bulletpad=\skip52
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/framed/framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen171
+\fb@frh=\dimen172
+\FrameRule=\dimen173
+\FrameSep=\dimen174
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-(./Ava_Hoffman_Resume.aux)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/upquote/upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (Ava_Hoffman_Resume.aux)
 \openout1 = `Ava_Hoffman_Resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for T1+Arimo-TLF on input line
+ 74.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/arimo/T1Arimo-TLF.fd"
+File: T1Arimo-TLF.fd 2017/01/04 (autoinst) Font definitions for T1/Arimo-TLF.
 )
-
-LaTeX Font Warning: Font shape `T1/phv/l/n' undefined
-(Font)              using `T1/phv/m/n' instead on input line 20.
-
-Package scrbase Info: activating english \yourrefname on input line 20.
-Package scrbase Info: activating english \yourmailname on input line 20.
-Package scrbase Info: activating english \myrefname on input line 20.
-Package scrbase Info: activating english \customername on input line 20.
-Package scrbase Info: activating english \invoicename on input line 20.
-Package scrbase Info: activating english \subjectname on input line 20.
-Package scrbase Info: activating english \ccname on input line 20.
-Package scrbase Info: activating english \enclname on input line 20.
-Package scrbase Info: activating english \headtoname on input line 20.
-Package scrbase Info: activating english \headfromname on input line 20.
-Package scrbase Info: activating english \datename on input line 20.
-Package scrbase Info: activating english \pagename on input line 20.
-Package scrbase Info: activating english \phonename on input line 20.
-Package scrbase Info: activating english \mobilephonename on input line 20.
-Package scrbase Info: activating english \faxname on input line 20.
-Package scrbase Info: activating english \emailname on input line 20.
-Package scrbase Info: activating english \wwwname on input line 20.
-Package scrbase Info: activating english \bankname on input line 20.
+LaTeX Font Info:    Font shape `T1/Arimo-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 74.
+Package scrbase Info: activating english \yourrefname on input line 74.
+Package scrbase Info: activating english \yourmailname on input line 74.
+Package scrbase Info: activating english \myrefname on input line 74.
+Package scrbase Info: activating english \customername on input line 74.
+Package scrbase Info: activating english \invoicename on input line 74.
+Package scrbase Info: activating english \subjectname on input line 74.
+Package scrbase Info: activating english \ccname on input line 74.
+Package scrbase Info: activating english \enclname on input line 74.
+Package scrbase Info: activating english \headtoname on input line 74.
+Package scrbase Info: activating english \headfromname on input line 74.
+Package scrbase Info: activating english \datename on input line 74.
+Package scrbase Info: activating english \pagename on input line 74.
+Package scrbase Info: activating english \phonename on input line 74.
+Package scrbase Info: activating english \mobilephonename on input line 74.
+Package scrbase Info: activating english \faxname on input line 74.
+Package scrbase Info: activating english \emailname on input line 74.
+Package scrbase Info: activating english \wwwname on input line 74.
+Package scrbase Info: activating english \bankname on input line 74.
 Class scrlttr2 Info: no date found for language `american'
-(scrlttr2)           --> skipped on input line 20.
-Class scrlttr2 Info: no date found for language `australien'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
+Class scrlttr2 Info: no date found for language `australian'
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `british'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `canadian'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `newzealand'
-(scrlttr2)           --> skipped on input line 20.
-Class scrlttr2 Info: no date found for language `USenglish'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `UKenglish'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
+Class scrlttr2 Info: no date found for language `ukenglish'
+(scrlttr2)           --> skipped on input line 74.
+Class scrlttr2 Info: no date found for language `USenglish'
+(scrlttr2)           --> skipped on input line 74.
+Class scrlttr2 Info: no date found for language `usenglish'
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `german'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `ngerman'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `austrian'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `naustrian'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `swissgerman'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `nswissgerman'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `acadian'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `canadien'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `francais'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `french'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `italian'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `spanish'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `croatian'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `dutch'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `finnish'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `norsk'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `swedish'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `polish'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `czech'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: no date found for language `slovak'
-(scrlttr2)           --> skipped on input line 20.
+(scrlttr2)           --> skipped on input line 74.
 Class scrlttr2 Info: trying to activate captions and date
-(scrlttr2)           of language `english' on input line 20.
+(scrlttr2)           of language `english' on input line 74.
 Class scrlttr2 Info: used language is `english'.
 (scrlttr2)           Supported languages are: `english', `UKenglish',
-(scrlttr2)           `british', `american', `USenglish', `australian`,
-(scrlttr2)           `canadian', `newzealand',
+(scrlttr2)           `ukenglish', `british', `american', `USenglish',
+(scrlttr2)           `usenglish', `australian`,`canadian', `newzealand',
 (scrlttr2)           `german', `ngerman', `austrian', `naustrian',
 (scrlttr2)           `swissgerman', `nswissgermsn',
 (scrlttr2)           `acadian', `canadien', `francais', `french', 
 (scrlttr2)           `dutch', `italian', `spanish', `polish',
 (scrlttr2)           `croatian', `finnish', `norsk', `swedish',
-(scrlttr2)           `czech'. `slovak'  on input line 20.
+(scrlttr2)           `czech', `slovak' on input line 74.
+\c@mv@tabular=\count122
+\c@mv@boldtabular=\count123
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -763,15 +1021,15 @@ Class scrlttr2 Info: used language is `english'.
 * \textheight=766.06245pt
 * \oddsidemargin=-57.81622pt
 * \evensidemargin=-57.81622pt
-* \topmargin=-90.81622pt
-* \headheight=15.0pt
-* \headsep=18.0pt
-* \topskip=10.0pt
-* \footskip=42.0pt
-* \marginparwidth=74.68849pt
+* \topmargin=-95.21623pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
 * \marginparsep=12.8401pt
 * \columnsep=0.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -782,268 +1040,262 @@ Class scrlttr2 Info: used language is `english'.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/conte
+xt/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen171
-\scratchbox=\box46
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen172
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks35
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\scratchcounter=\count124
+\scratchdimen=\dimen175
+\scratchbox=\box48
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen176
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks37
+)
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box49
+Package hyperref Info: Link coloring OFF on input line 74.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 20.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count127
+\c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
-
-(./Ava_Hoffman_Resume.out) (./Ava_Hoffman_Resume.out)
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
+ (Ava_Hoffman_Resume.out)
+(Ava_Hoffman_Resume.out)
 \@outlinefile=\write6
 \openout6 = `Ava_Hoffman_Resume.out'.
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd)
-Overfull \hbox (10.0pt too wide) in paragraph at lines 34--35
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fontawesome/ufontawesometwo.fd")
+Overfull \hbox (10.95pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
-<./logos/csu.png, id=19, 602.25pt x 603.25375pt> <use ./logos/csu.png>
-<./logos/uva.png, id=21, 200.75pt x 200.75pt> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<./logos/gamma.png, id=23, 388.45125pt x 410.53375pt> <use ./logos/gamma.png>
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsphv.fd)
-<./logos/insight.png, id=24, 25.09375pt x 25.09375pt>
-<use ./logos/insight.png> <./logos/nifa.png, id=26, 70.8246pt x 57.816pt>
-<use ./logos/nifa.png> <use ./logos/csu.png> <use ./logos/csu.png>
-<use ./logos/uva.png> <use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+("/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/arimo/TS1Arimo-TLF.fd")
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (562.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (573.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (573.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (573.38101pt too high) detected at line 217
+
+Overfull \vbox (584.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (592.86981pt too high) detected at line 217
+
+Overfull \vbox (595.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (614.86981pt too high) detected at line 217
+
+Overfull \vbox (606.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (625.86981pt too high) detected at line 217
+
+Overfull \vbox (606.96356pt too high) detected at line 216
  []
 
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-Overfull \vbox (625.86981pt too high) detected at line 217
- []
-
-<use ./logos/gamma.png> <use ./logos/insight.png> <use ./logos/nifa.png>
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/uva.png>
-<use ./logos/csu.png> <use ./logos/uva.png>
 File: ./logos/csu.png Graphic file (type png)
- <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 217.
+<use ./logos/csu.png>
+Package pdftex.def Info: ./logos/csu.png  used on input line 216.
 (pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
 File: ./logos/uva.png Graphic file (type png)
-
 <use ./logos/uva.png>
-Package pdftex.def Info: ./logos/uva.png used on input line 217.
+Package pdftex.def Info: ./logos/uva.png  used on input line 216.
 (pdftex.def)             Requested size: 17.07117pt x 17.07117pt.
- <use ./logos/csu.png> <use ./logos/csu.png>
-<use ./logos/csu.png> <use ./logos/csu.png>
-File: ./logos/csu.png Graphic file (type png)
- <use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 217.
-(pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
-File: ./logos/csu.png Graphic file (type png)
+File: figure/skills_plot-1.pdf Graphic file (type pdf)
+<use figure/skills_plot-1.pdf>
+Package pdftex.def Info: figure/skills_plot-1.pdf  used on input line 216.
+(pdftex.def)             Requested size: 216.80946pt x 180.68282pt.
 
-<use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 217.
-(pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
-
-Overfull \vbox (625.86981pt too high) detected at line 217
+Underfull \hbox (badness 5446) in paragraph at lines 216--216
+\T1/Arimo-TLF/m/n/9 models $\OMS/cmsy/m/n/9 $ \T1/Arimo-TLF/m/n/9 multivariate
+ statistics $\OMS/cmsy/m/n/9 $ \T1/Arimo-TLF/m/n/9 ANOVA $\OMS/cmsy/m/n/9 $ \
+T1/Arimo-TLF/m/n/9 MANOVA $\OMS/cmsy/m/n/9 $
  []
 
-<use ./logos/gamma.png> <use ./logos/gamma.png> <use ./logos/gamma.png>
-File: ./logos/gamma.png Graphic file (type png)
 
+Underfull \hbox (badness 4279) in paragraph at lines 216--216
+[]|\T1/Arimo-TLF/m/n/9 random forest $\OMS/cmsy/m/n/9 $ \T1/Arimo-TLF/m/n/9 ti
+me series $\OMS/cmsy/m/n/9 $ \T1/Arimo-TLF/m/n/9 linear, nonlinear, logistic
+ []
+
+File: ./logos/csu.png Graphic file (type png)
+<use ./logos/csu.png>
+Package pdftex.def Info: ./logos/csu.png  used on input line 216.
+(pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
+File: ./logos/csu.png Graphic file (type png)
+<use ./logos/csu.png>
+Package pdftex.def Info: ./logos/csu.png  used on input line 216.
+(pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
+
+Overfull \vbox (606.96356pt too high) detected at line 216
+ []
+
+File: ./logos/jhu.png Graphic file (type png)
+<use ./logos/jhu.png>
+Package pdftex.def Info: ./logos/jhu.png  used on input line 216.
+(pdftex.def)             Requested size: 17.06322pt x 17.05891pt.
+
+Overfull \hbox (27.03178pt too wide) in paragraph at lines 216--216
+[]|  []| 
+ []
+
+File: ./logos/gamma.png Graphic file (type png)
 <use ./logos/gamma.png>
-Package pdftex.def Info: ./logos/gamma.png used on input line 217.
+Package pdftex.def Info: ./logos/gamma.png  used on input line 216.
 (pdftex.def)             Requested size: 17.07056pt x 17.07002pt.
 
-Overfull \hbox (26.60715pt too wide) in paragraph at lines 217--217
+Overfull \hbox (27.03912pt too wide) in paragraph at lines 216--216
 []|  []| 
  []
 
-<use ./logos/insight.png> <use ./logos/insight.png> <use ./logos/insight.png>
-File: ./logos/insight.png Graphic file (type png)
 
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]\T1/Arimo-TLF/m/n/9 Productionalized PySpark pipeline describing client's 20K
++
+ []
+
+File: ./logos/insight.png Graphic file (type png)
 <use ./logos/insight.png>
-Package pdftex.def Info: ./logos/insight.png used on input line 217.
+Package pdftex.def Info: ./logos/insight.png  used on input line 216.
 (pdftex.def)             Requested size: 17.07307pt x 17.07307pt.
 
-Overfull \hbox (26.60966pt too wide) in paragraph at lines 217--217
+Overfull \hbox (27.04164pt too wide) in paragraph at lines 216--216
 []|  []| 
  []
 
-<use ./logos/nifa.png> <use ./logos/nifa.png> <use ./logos/nifa.png>
-File: ./logos/nifa.png Graphic file (type png)
 
+Underfull \hbox (badness 1509) in paragraph at lines 216--216
+[]\T1/Arimo-TLF/m/n/9 Built a fully customized web app using Git, Python, & Fla
+sk,
+ []
+
+File: ./logos/nifa.png Graphic file (type png)
 <use ./logos/nifa.png>
-Package pdftex.def Info: ./logos/nifa.png used on input line 217.
+Package pdftex.def Info: ./logos/nifa.png  used on input line 216.
 (pdftex.def)             Requested size: 17.07173pt x 17.07144pt.
 
-Overfull \hbox (26.60832pt too wide) in paragraph at lines 217--217
-[]|  []| 
- []
-
-<use ./logos/csu.png> <use ./logos/csu.png> <use ./logos/csu.png>
-File: ./logos/csu.png Graphic file (type png)
-
-<use ./logos/csu.png>
-Package pdftex.def Info: ./logos/csu.png used on input line 217.
-(pdftex.def)             Requested size: 17.06505pt x 17.06587pt.
-
-Overfull \hbox (26.60164pt too wide) in paragraph at lines 217--217
+Overfull \hbox (27.0403pt too wide) in paragraph at lines 216--216
 []|  []| 
  []
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 217--218
+Underfull \hbox (badness 1997) in paragraph at lines 216--216
+[]\T1/Arimo-TLF/m/n/9 Pioneered genomic sequencing & population delineation usi
+ng
+ []
+
+File: figure/experience_plot-1.pdf Graphic file (type pdf)
+<use figure/experience_plot-1.pdf>
+Package pdftex.def Info: figure/experience_plot-1.pdf  used on input line 216.
+(pdftex.def)             Requested size: 275.99173pt x 103.50189pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 216--217
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
-/csu.png> <./logos/uva.png> <./logos/gamma.png> <./logos/insight.png> <./logos/
-nifa.png>]
+{/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/data/pdftex/config
+/pdftex.map} <./logos/csu.png> <./logos/uva.png> <./figure/skills_plot-1.pdf> <
+./logos/jhu.png> <./logos/gamma.png> <./logos/insight.png> <./logos/nifa.png> <
+./figure/experience_plot-1.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
- (./Ava_Hoffman_Resume.aux)
+ (Ava_Hoffman_Resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `Ava_Hoffman_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 21178 strings out of 492995
- 401173 string characters out of 6132704
- 574248 words of memory out of 5000000
- 24380 multiletter control sequences out of 15000+600000
- 32556 words of font info for 48 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 71i,26n,79p,959b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Ava_Hoffman_Resume.pdf (1 page, 160867 bytes).
+ 22048 strings out of 494894
+ 425455 string characters out of 3176743
+ 575692 words of memory out of 3000000
+ 25296 multiletter control sequences out of 15000+200000
+ 17876 words of font info for 54 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 71i,26n,82p,1026b,984s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install/fonts/en
+c/dvips/arimo/arm_c3z4r2.enc}{/Users/avahoffman/Library/Application Support/MiK
+TeX/texmfs/install/fonts/enc/dvips/arimo/arm_l3opzb.enc}{/Users/avahoffman/Libr
+ary/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome/fonta
+wesometwo.enc}</Users/avahoffman/Library/Application Support/MiKTeX/texmfs/inst
+all/fonts/type1/google/arimo/Arimo-Bold.pfb></Users/avahoffman/Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/google/arimo/Arimo.pfb></Users/av
+ahoffman/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/f
+ontawesome/FontAwesome.pfb></Users/avahoffman/Library/Application Support/MiKTe
+X/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/avahoffman/L
+ibrary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></Users/avahoffman/Library/Application Support/MiKTeX/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Ava_Hoffman_Resume.pdf (1 page, 243562 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

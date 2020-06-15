@@ -1,5 +1,5 @@
 \ProvidesClass{resume}
-\LoadClass[fontsize=10pt]{scrlttr2}
+\LoadClass[fontsize=11pt]{scrlttr2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	PACKAGES AND PREAMBLE
@@ -9,8 +9,8 @@
 \usepackage{fontawesome}
 %% Select font
 %% See https://www.tug.org/FontCatalogue/sansseriffonts.html for more options and usage of sans-serif fonts
-\usepackage[familydefault,light]{Chivo} %% Option 'familydefault' only if the base font of the document is to be sans serif
-\usepackage{helvet}
+%\usepackage[familydefault,light]{Chivo} %% Option 'familydefault' only if the base font of the document is to be sans serif
+\usepackage[sfdefault]{arimo}
 \usepackage[T1]{fontenc}
 % Set margins for paper
 \usepackage[letterpaper, margin=0.2in]{geometry}
@@ -57,13 +57,13 @@
 \newcommand{\educationitem}[6]{
 	\begin{tabular}{c}
 		\hspace{-0.4cm}
-		{\includegraphics[width=\logosize, height=\logosize]{#6}} 
+		{\includegraphics[width=\logosize, height=\logosize]{#6}}
 		\hspace{\logopad}
 	\end{tabular}
-        & 
+        &
          \hspace{\logopadeducation}
          \begin{tabular}{ll}
-                \small\textbf{#1 $\cdot$ #2 $\cdot$ #3} \vspace{-0.2cm} \\
+                \small\textbf{#1 #2 $\cdot$ #3} \vspace{-0.2cm} \\
                 \scriptsize\textcolor{darkgray}{#4 $\cdot$ #5} \\
          \end{tabular}  \\
 }
@@ -73,18 +73,17 @@
     {\begin{tabularx}{\experienceboxsize}{lX}
     	\begin{tabular}{c}
 		\hspace{\logopad}
-		{\includegraphics[width=\logosize, height=\logosize]{#6}} 
+		{\includegraphics[width=\logosize, height=\logosize]{#6}}
 		\hspace{\logopad}
 	\end{tabular}
-        & 
+        &
         \hspace{\logopadexperience}
          {\begin{tabularx}{\experienceboxsize}{X}
-                \small\textbf{#1} \\
-                \small\textbf{#2} \vspace{-0.1cm} \\
+                \small\textbf{#1} $\cdot$ \small\textbf{#2} \vspace{-0.1cm} \\
                 \scriptsize\textcolor{darkgray}{#3 $\cdot$ #4} \\
          \end{tabularx} }
-    \end{tabularx}} 
-    
+    \end{tabularx}}
+
     % Bullet points
     \vspace{-5mm}
     \noindent\begin{itemize}[leftmargin=*,labelsep=-\bulletpad]
@@ -96,12 +95,12 @@
 
 \newcommand\toolboxitem[2]{%
     \tikz[baseline]{%
-        \node[anchor=base, 
-                    text=white, 
-                    fill=#1, 
-                    text depth=.5mm, 
+        \node[anchor=base,
+                    text=white,
+                    fill=#1,
+                    text depth=.5mm,
                     below=1mm, % space underneath skill boxes
-                    rounded corners=0.1cm] 
+                    rounded corners=0.1cm]
         {#2};
     }
 }
@@ -109,10 +108,10 @@
 \newcommand{\achievementitem}[4]{
 	\begin{tabular}{c}
 		\hspace{-0.7cm}
-		#4 
+		#4
 		\hspace{\logopad}
 	\end{tabular}
-        & 
+        &
         \hspace{\logopadachievements}
          \begin{tabular}{ll}
                 \small\textbf{#1} \vspace{-0.2cm} \\
@@ -138,7 +137,7 @@
         \Huge \name \\
         \large \textcolor{darkgray}{\jobtitle} \\
     \end{tabular}
-    & 
+    &
     \begin{tabular}{rc}
         \footnotesize \href{mailto:\email}{\email} & {\faEnvelopeO} \\
         \footnotesize \phone & {\faMobile} \\
@@ -154,7 +153,7 @@
 %----------------------------------------------------------------------------------------
 \newcommand\addeducation[1]{
     \newcommand\educationfloat{
-                \Large\textcolor{header}{\underline{EDUCATION}} \\
+                \Large\textcolor{header}{EDUCATION} \\
                 \vspace{0.2cm}
                 {
                 \begin{tabularx}{\educationboxsize}{lX}
@@ -173,7 +172,7 @@
          \Large\textcolor{header}{\underline{TOOLS \& PACKAGES}} \\
          \vspace{-6mm}
 		#1
-        \end{tabularx} 
+        \end{tabularx}
     }
 }
 
@@ -182,11 +181,11 @@
 %----------------------------------------------------------------------------------------
 \newcommand\addtechniques[1]{
     \newcommand\techniquesfloat{
-        \begin{tabularx}{\educationboxsize}{X} 
-         \Large\textcolor{header}{\underline{TECHNIQUES}} \\
+        \begin{tabularx}{\educationboxsize}{X}
+         \Large\textcolor{header}{SKILLS} \\
          \vspace{-6mm}
 		#1
-        \end{tabularx} 
+        \end{tabularx}
     }
 }
 
@@ -195,13 +194,13 @@
 %----------------------------------------------------------------------------------------
 \newcommand\addachievements[1]{
     \newcommand\achievementsfloat{
-        \Large\textcolor{header}{\underline{ACHIEVEMENTS}} \\
+        \Large\textcolor{header}{ACHIEVEMENTS} \\
         \vspace{0.2cm}
         {
         \begin{tabularx}{\educationboxsize}{lX}
 		#1
         \end{tabularx}
-        } 
+        }
     }
 }
 
@@ -211,18 +210,16 @@
 % This one works a little differently since it incorporates all the previous sections into it
 \newcommand\addexperience[1]{
     \begin{tabularx}{\textwidth}{p{\experienceboxsize}p{\dividerwidth}X}
-        
-            \Large\textcolor{header}{\underline{EXPERIENCE}} &  &\multirow[t]{2}{=}{
+
+            \Large\textcolor{header}{EXPERIENCE} &  &\multirow[t]{2}{=}{
                     \educationfloat \\
-                    \vspace{8mm}
-                    \toolboxfloat \\
                     \vspace{8mm}
                     \techniquesfloat \\
                     \vspace{8mm}
                     \achievementsfloat \\
             } \\
-           
+
     		#1
-            
+
         \end{tabularx}
 }

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6650) (preloaded format=xelatex 2018.5.11)  9 NOV 2020 22:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6650) (preloaded format=xelatex 2018.5.11)  9 NOV 2020 22:31
 entering extended mode
 **"./Ava Hoffman CV.tex"
 ("Ava Hoffman CV.tex"
@@ -982,18 +982,18 @@ Overfull \hbox (4.98645pt too wide) in paragraph at lines 200--210
  []
 
 [2]
-Underfull \hbox (badness 2351) in paragraph at lines 250--251
+Underfull \hbox (badness 2351) in paragraph at lines 253--254
 []|\TU/Lato-Lig(0)/m/sc/10 Genotypes of a tallgrass prairie species respond dif
 ferently to drought, despite high plasticity within
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
  ("Ava Hoffman CV.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 313.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 317.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `"Ava Hoffman CV".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
@@ -1004,7 +1004,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
  19799 strings out of 429721

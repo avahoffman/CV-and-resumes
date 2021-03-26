@@ -1,1 +1,4 @@
 *.DS_Store
+
+# Customized CVs and Resumes for specific jobs
+Custom/*

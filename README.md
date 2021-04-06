@@ -14,4 +14,6 @@ I encountered some font incompatibilities switching from TeXShop to RStudio, so 
 ```
 ├── Academic_CV
 ```
-This repo contains TeX files for my CV, based off of the Deedy CV/Resume. Take note of which compiler to use within TeX (XeLaTex). Many thanks to existing developers and resources for giving me a jumping off point!
+This repo contains TeX files for my CV, based off the Johns Hopkins official CV template. 
+
+Peruse back to previous versions to see my rendition of the Deedy CV/Resume. If doing so, take note of which compiler to use within TeX (XeLaTex). Many thanks to existing developers and resources for giving me a jumping off point!

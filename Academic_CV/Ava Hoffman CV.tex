@@ -1,317 +1,427 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy CV/Resume
-% XeLaTeX Template
-% Version 1.0 (5/5/2014)
+% Written by Ava Hoffman
+% Please use as you like, but it would be nice if you credited me :)
+% 
+% Use LaTeX to compile and ensure style file (cv.cls) is in the same directory.
 %
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Debarghya Das (http://www.debarghyadas.com)
-% With extensive modifications by:
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important notes:
-% This template needs to be compiled with XeLaTeX.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO: really hate the hangparas solution here. Would love to find alternative..
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
-
-\usepackage{array}
-\usepackage{xcolor}
-\usepackage{marvosym} % symbols
+\documentclass{cv}
 
 \begin{document}
-\fontsize{10pt}{14pt}\selectfont 
-
-
 
 %----------------------------------------------------------------------------------------
-%	TITLE SECTION
+%	PROFESSIONAL DATA
 %----------------------------------------------------------------------------------------
 
-\namesection{Ava}{Hoffman}
-{ECOLOGIST $\cdot$ DATA SCIENTIST} %title 
-{
-% use \Letter~ .. \Mobilefone~ .. \Mundus~ for little icons
- \href{mailto:avamariehoffman@gmail.com}{avamariehoffman@gmail.com}  $\cdot$ %email
-+1 804 687 7476  $\cdot$ %phone
-\href{http://avahoffman.com/}{avahoffman.com}
-}
-\hfill
+\name{AVA M. HOFFMAN}
+
+\section*{PROFESSIONAL DATA}
 
 
+Johns Hopkins University Krieger School of Arts \& Sciences
+
+Department of Earth and Planetary Sciences
+
+3400 N. Charles St
+
+Baltimore, MD 21218
+
+(804) 687-7476
+
+\emailcontact{ava.hoffman@jhu.edu} $\cdot$ \emailcontact{avamariehoffman@gmail.com}
+
+Pronouns: she/her/hers
+
+\subsection*{Social Media}
+
+github: avahoffman
+
+website: \href{https://www.avahoffman.com}{https://www.avahoffman.com}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION
+%	EDUCATION AND TRAINING
 %----------------------------------------------------------------------------------------
 
-\section{Education} 
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{6cm}p{10cm}}
-2019 & \textbf{Ph.D. Ecology} & Colorado State University $\cdot$ Fort Collins, CO\\
-2012 & \textbf{B.S. Biology} & University of Virginia $\cdot$ Charlottesville, VA\\
-\end{tabular}
-\sectionspace
+\section*{EDUCATION AND TRAINING}
+
+Ph.D. / 2019 -- Colorado State University, Ecology
+
+B.S. / 2012 -- University of Virginia, Biology \textit{with distinction}
+
+\subsection*{Postdoctoral Training}
+
+2019--present Department of Earth and Planetary Sciences,  Johns Hopkins University
 
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Professional Experience}
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
-2019-2020 & \textbf{The Boston Consulting Group} $\cdot$ Data Scientist $\cdot$ Boston, MA\\
-2018-2019 & \textbf{Insight Data Science} $\cdot$ Insight Data Science Fellow $\cdot$ Remote Program\\
-2017-2018 & \textbf{US Department of Agriculture} $\cdot$ NIFA-AFRI Predoctoral Fellow $\cdot$ Colorado State University $\cdot$ Fort Collins, CO\\
-2012-2013 & \textbf{DuPont Pioneer} $\cdot$ Laboratory Assistant $\cdot$ Biotechnology Division $\cdot$ Wilmington, DE\\
-2011-2012 & \textbf{University of Virginia} $\cdot$ Undergraduate Researcher $\cdot$ Department of Biology $\cdot$ Charlottesville, VA\\
-2011 & \textbf{Coweeta Hydrologic Laboratory LTER and United States Forest Service} $\cdot$ Research Intern $\cdot$ Otto, NC\\
-2010 & \textbf{Virginia Commonwealth University} $\cdot$ Research Assistant $\cdot$ Richmond, VA\\
-\end{tabular}
-\sectionspace
-\sectionspace
+\section*{PROFESSIONAL EXPERIENCE}
+
+\subsection*{Johns Hopkins University}
+
+Postdoctoral Fellow, Department of Earth and Planetary Sciences, Johns Hopkins Krieger School of Arts \& Sciences (3/23/20--present)
+
+\subsection*{Other Non-JHU Professional Experience}
+
+Data Scientist, The Boston Consulting Group (3/4/19--3/4/20), \textit{data science-based consulting role working for corporate clients}
+
+Data Science Fellow, Insight Data Science (9/10/18--3/4/19), \textit{applied learning role building both technical products and career-focused community among fellows}
+
+Laboratory Assistant, Biotechnology Division, DuPont-Pioneer (2012--2013)
+
+Undergraduate Researcher, Department of Biology, University of Virginia (2011--2012)
+
+Research Intern, United States Forest Service at Coweeta Hydrologic Laboratory LTER (2011)
+
+Laboratory Assistant, Department of Biology, Virginia Commonwealth University (2010)
 
 %----------------------------------------------------------------------------------------
-%	FELLOWSHIPS / GRANTS
+%	PROFESSIONAL ACTIVITIES
 %----------------------------------------------------------------------------------------
 
-\section{Fellowships | Grants | Awards} 
-\raggedright\textbf{Total received: \$118,112}\\
-\sectionspace
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
-2018 & \textbf{Colorado State University} $\cdot$ Research Mentoring to Advance Inclusivity in STEM Research Grant (\$2500)\\
-2017-2018 & \textbf{Colorado State University} $\cdot$ School of Global Environmental Sustainability Leadership Fellowship\\
-2016-2018 & \textbf{United States Department of Agriculture} $\cdot$ NIFA-AFRI Predoctoral Fellowship (\$94,999) \\
-2016 & \textbf{City of Boulder Open Space and Mountain Parks} $\cdot$ Research Grant  (\$5669) \\
-2016-2017 & \textbf{Colorado State University} $\cdot$ Vice President of Research Graduate Fellow (\$3125) \\
-2016 & \textbf{The Nature Conservancy} $\cdot$ J.E. Weaver Competitive Grant (\$1000) \\
-2016 & \textbf{The Ecological Society of America} $\cdot$ `Hackathon' beginner app developer first place award\\
-2016 & \textbf{Colorado State University} $\cdot$ Graduate Degree Program in Ecology Small Research Grant (\$2000)\\
-2016 & \textbf{Colorado State University} $\cdot$ Graduate Degree Program in Ecology Travel Grant (\$175)\\
-2015-2016 & \textbf{Colorado State University} $\cdot$ Graduate Degree Program in Ecology Teaching Fellowship\\
-2015 & \textbf{Colorado State University} $\cdot$ Harold Harrington Fellowship  (\$1900)\\
-2014-2015 & \textbf{Colorado State University} $\cdot$ Stavros Family Fund Recipient  (\$3021) \\
-2014-2015 & \textbf{Colorado State University} $\cdot$ Department of Biology Travel Awards (\$2258) \\
-2014 & \textbf{National Science Foundation} $\cdot$ Graduate Research Fellowship Program (Honorable Mention)\\
-2014	 & \textbf{Colorado State University} $\cdot$ Sharon E. and David E. Kabes Scholarship  (\$590)\\
-2013 & \textbf{Colorado State University} $\cdot$ Graduate Fellowship Award (\$1000)\\
-2012 & \textbf{University of Virginia} $\cdot$ Undergraduate Research Travel Grant (\$1000)\\
-\end{tabular}
-\sectionspace
-\sectionspace
+\section*{PROFESSIONAL ACTIVITIES}
 
-%------------------------------------------------
-% PUBLICATIONS
-%------------------------------------------------
+R--Ladies Baltimore, member (2020--present)
 
-\section{Publications}
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
+500 Women Scientists, pod member (2016--present)
 
-2020 & \textbf{Hoffman, AM} and MD Smith. Nonlinear drought plasticity reveals intraspecific diversity in a dominant grass species. \textcolor{special}{\textit{Functional Ecology}}.\\
+Ecological Society of America, member (2012--present)
 
-2020 & Knapp, AK, A Chen, RJ Griffin-Nolan, LE Baur, CJW Carroll, JE Gray, \textbf{AM Hoffman}, X Li, AK Post, IJ Slette, SL Collins, Y Luo, MD Smith. Resolving the Dust Bowl paradox of grassland responses to extreme drought. \textcolor{special}{\textit{PNAS}}.\\
+Women in Machine Learning and Data Science (Boston), member (2019--2020)
 
-2020 & \textbf{Hoffman, AM}, JA Bushey, TW Ocheltree, MD Smith. \href{https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16547}{Genetic and functional variation across regional and local scales is associated with climate in a foundational prairie grass.} \textcolor{special}{\textit{New Phytologist}}.\\
+Front Range Student Ecology Symposium, Colorado State University, abstract review committee (2015--2016)
 
-% FORCE PAGE BREAK
-\end{tabular}
-\section{Publications (continued)}
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
+Front Range Student Ecology Symposium, Colorado State University, executive committee (2014--2015)
 
-2020 & KR Wilcox, SE Koerner, DL Hoover, AK Borkenhagen, DE Burkepile, SL Collins, \textbf{AM Hoffman}, KP Kirkman, AK Knapp, T Strydom, DI Thompson, and MD Smith. \href{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.2983}{Rapid recovery of ecosystem function following extreme drought in a South African savanna-grassland}. \textcolor{special}{\textit{Ecology}}.\\
+Front Range Student Ecology Symposium, Colorado State University, webmaster (2014--2015)
 
-2019 & \textbf{Hoffman, AM}, H Perretta\textbf{*}, NP Lemoine, and MD Smith. \href{https://doi.org/10.1016/j.actao.2019.03.001}{Blue grama grass genotype affects palatability and preference by semi-arid steppe grasshoppers}. \textcolor{special}{\textit{Acta Oecologia}}.\\
+Graduate Degree Program in Ecology, Colorado State University, Journal Club founder and member (2014)
 
-2019 & Griffin-Nolan, RJ, D Blumenthal, S Collins, T Farkas, \textbf{AM Hoffman}, K Mueller, TW Ocheltree, MD Smith, AK Knapp. \href{https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2745.13252}{Shifts in plant functional composition following long-term drought in grasslands.} \textcolor{special}{\textit{Journal of Ecology}}.\\
+%----------------------------------------------------------------------------------------
+%	EDITORIAL AND OTHER PEER REVIEW ACTIVITIES
+%----------------------------------------------------------------------------------------
 
-2019 & Smith, MD, SE Koerner, AK Knapp, ML Avolio, FA Chaves, EM Denton, J Dietrich, DJ Gibson, J Gray, \textbf{Hoffman, AM}, DL Hoover, KJ Komatsu, A Silletti, KR Wilcox, Q Yu, and JM Blair. \href{https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2745.13330}{Mass ratio effects underlie ecosystem responses to environmental change}. \textcolor{special}{\textit{Journal of Ecology}}.\\
+\section*{EDITORIAL AND OTHER PEER REVIEW ACTIVITIES}
 
-2018 & \textbf{Hoffman, AM} and MD Smith. \href{https://www.scirp.org/Journal/PaperInformation.aspx?PaperID=87129}{Thinking inside the box: Tissue culture for plant propagation in a key ecological species, \textit{Andropogon gerardii}}. \textcolor{special}{\textit{American Journal of Plant Sciences}}.\\	
+\subsection*{Peer Review}
 
-2018 & Knapp, AK, C Carroll, RJ Griffin-Nolan, IJ Slette, F Chaves, L Baur, AJ Felton, JE Gray, \textbf{AM Hoffman}, NP Lemoine, W Mao, A Post, MD Smith. A reality check for climate change experiments: do they reflect the real world? \textcolor{special}{\textit{Ecology}}. \\
+Journals: Global Change Biology, Journal of Ecology, New Phytologist, Plant Ecology, Plos One, Agronomy, Plant Biology, Plants
 
-2018 & Griffin-Nolan, RJ, JA Bushey, CJW Carroll, A Challis, J Chieppa, M Garbowski, \textbf{AM Hoffman}, AK Post, IJ Slette, D Spitzer, D Zambonini, TW Ocheltree, DT Tissue, AK Knapp. \href{https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2435.13135}{Trait selection and community weighting are key to understanding ecosystem responses to changing precipitation regimes.} \textcolor{special}{\textit{Functional Ecology}}.\\
+%----------------------------------------------------------------------------------------
+%	HONORS AND AWARDS
+%----------------------------------------------------------------------------------------
 
-2018 & \textbf{Hoffman, AM}, ML Avolio, AK Knapp, MD Smith. \href{https://peerj.com/articles/4394.pdf}{Co-dominant grasses differ in gene expression under experimental climate extremes in native tallgrass prairie.} \textcolor{special}{\textit{PeerJ}}.\\
+\section*{HONORS AND AWARDS}
 
-2017 & \textbf{Hoffman, AM} and MD Smith. \href{http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12733/full}{Gene expression differs in codominant prairie grasses under drought}. \textcolor{special}{\textit{Molecular Ecology Resources}}.\\
-
-2017 & Avolio, ML, \textbf{AM Hoffman}, MD Smith. \href{https://link.springer.com/article/10.1007/s11258-017-0773-3}{Linking gene regulation, physiology, and plant biomass allocation in \textit{Andropogon gerardii} in response to drought}. \textcolor{special}{\textit{Plant Ecology}}. \\
-
-2016 & Lemoine, NP, \textbf{AM Hoffman}, A Felton, L Baur, F Chaves, J Gray, Q Yu, MD Smith. \href{http://onlinelibrary.wiley.com/doi/10.1002/ecy.1506/full}{Underappreciated problems of low statistical power in ecological field studies}. \textcolor{special}{\textit{Ecology}}. \\
-
-2016 & Smith, MD, \textbf{AM Hoffman}, ML Avolio. \href{http://www.nature.com/articles/srep25522}{Gene expression patterns of two dominant tallgrass prairie species differ in response to warming and altered precipitation}. \textcolor{special}{\textit{Scientific Reports}}.\\
-
-2012 & Mellor, KE, \textbf{AM Hoffman}, MP Timko. \href{http://www.plantmethods.com/content/pdf/1746-4811-8-22.pdf}{Use of ex vitro composite plants to study the interaction of cowpea (\textit{Vigna unguiculata} L.) with the root parasitic angiosperm \textit{Striga gesnerioides}}. \textcolor{special}{\textit{Plant Methods}}. \\
-
-2012 & \textbf{Hoffman, AM} \href{http://issuu.com/theoculus/docs/spring2012/}{Estimating tree transpiration accurately depends on wood type and species: a study of four southern Appalachian tree species.} \textcolor{special}{\textit{The Oculus}}.\\
-
-2011 & Zinnert, JC, JD Nelson, \textbf{AM Hoffman}. \href{http://link.springer.com/article/10.1007\%2Fs11104-011-0955-z}{Effects of salinity on physiological responses and the photochemical reflectance index in two co-occurring coastal shrubs.} \textcolor{special}{\textit{Plant \&\ Soil}}. \\
-
-2010 & Zinnert, JC, JD Nelson, JK Vick, \textbf{AM Hoffman}, DR Young. Rethinking chlorophyll responses to stress:  Fluorescence and reflectance remote sensing in a coastal environment.  \textit{Proceedings of the 4th International Workshop on Remote Sensing of Vegetation Fluorescence}, Valencia, Spain.\\
-
-%In prep. & \textbf{Hoffman, AM}, M Swall*, JA Bushey, TW Ocheltree, and MD Smith. BOUTELOUA GENE EXP PAPER
-
-% In review & \textbf{Hoffman, AM}, CC Hoffman, F Chaves, A Felton, JE Gray, W Mao, A Tatarko, L Vilonen, L Gerhardi, MD Smith. Predicting dryland ecosystem responses to global change through dominant grasses. \textcolor{special}{\textit{Functional Ecology}}. \textit{Manuscript available upon request}.\\
-
-In review & \textbf{Hoffman, AM}, NP Lemoine, TW Ocheltree. Metabolomic and physiological responses to nitrogen addition in dominant semi-arid grassland species. \textit{Manuscript available upon request}.\\
-
-In review & Bushey, JA, \textbf{AM Hoffman}, TW Ocheltree, S Gleason, MD Smith. Water limitation reveals local adaptation and plasticity in the drought tolerance strategies of \textit{Bouteloua gracilis}. \textcolor{special}{\textit{Environmental and Experimental Botany}}. \textit{Manuscript available upon request}.\\
-
-&\textbf{*Denotes undergraduate mentee}\\
-
-\end{tabular}
-\sectionspace
-
-
-%%------------------------------------------------
-%% SKILLS
-%%------------------------------------------------
-%
-%\section{Skills}
-%\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
-%\textbf{Programming} & R $\cdot$  python \\
-%\end{tabular}
-%\sectionspace
-
-%------------------------------------------------
-% TEACHING
-%------------------------------------------------
-
-\section{Teaching}
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{8cm}p{8cm}}
-2016 & \textbf{Data visualization using R and ggplot (guest lecture)} & Colorado State University\\
-2014-2016 & \textbf{Molecular and General Genetics (Recitation)} & Colorado State University\\
-2016 & \textbf{Community Ecology (Recitation)} & Colorado State University\\
-2015 & \textbf{Foundations of Ecology (Recitation, guest lectures)} & Colorado State University\\
-2012 & \textbf{Organic Chemistry Lab II} & University of Virginia\\
-2011 & \textbf{Organic Chemistry Lab I} & University of Virginia\\
-\end{tabular}
-\sectionspace
-
-%------------------------------------------------
-% STUDENTS
-%------------------------------------------------
-
-\section{Student Mentoring}
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{8cm}p{8cm}}
-2018 & \textbf{Maddie Swall} $\cdot$ RMAIS mentee &Colorado State University\\
-2016-2017 & \textbf{Holly Perretta} $\cdot$ REU student &Colorado State University\\
-2017 & \textbf{Abigail Lock} $\cdot$ Research Assistant & Colorado State University\\
-2016 & \textbf{Brigitte Gaudreault } $\cdot$ Laboratory Research Assistant &Colorado State University\\
-2015 & \textbf{Daniel Robotham} $\cdot$ Honors Thesis student \textcolor{special}{Thesis committee member} &Colorado State University\\
-2014-2015 & \textbf{Brianna Magbual} $\cdot$ Research Assistant &Colorado State University\\
-2014 & \textbf{Destiny Brown} $\cdot$ Research Assistant &Colorado State University\\
-\end{tabular}
-\sectionspace
-
-%------------------------------------------------
-% PRESENTATIONS
-%------------------------------------------------
-
-\section{Presentations}
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
-
-2020 & \textbf{Ecological Society of America} $\cdot$ \textit{Remote}\\
-	& Gene expression reveals different drought response strategies in dominant dryland grass populations.\\
-
-2018 & \textbf{Ecological Society of America} $\cdot$ \textit{New Orleans, LA}\\
-	& Plastic prairie: Genetic diversity and local adaptation within blue grama grass.\\
-
-2018 & \textbf{Front Range Student Ecology Symposium} $\cdot$ \textit{Fort Collins, CO}\\
-	& Dominant grasses in drylands: linking species and traits to global change in ecosystems.\\
-
-2017 & \textbf{Colorado State University Drought Symposium} $\cdot$ \textit{Fort Collins, CO}\\
-	& Phenotypic diversity within dominant blue grama grass across an aridity gradient. \textcolor{special}{Third place winner}\\
+\subsection*{Awards}
 	
-%\end{tabular}
-%\section{Presentations (continued)}
-%\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
+National Science Foundation Postdoctoral Research Fellowship in Biology (3/9/21, declined) %$216,000
 
-2017 & \textbf{Front Range Open Space Research Symposium} $\cdot$ \textit{Boulder, CO} \\
-	& Phenotypic diversity within dominant blue grama grass across an aridity gradient. \textcolor{special}{Invited speaker} \\
+Colorado State University Research Mentoring to Advance Inclusivity in STEM Research Grant (1/1/18) %$2500
 
-2017 & \textbf{Ecological Society of America} $\cdot$ \textit{Portland, OR} \\
-	& Phenotypic diversity within dominant blue grama grass across an aridity gradient. \\
+Colorado State University School of Global Environmental Sustainability Leadership Fellowship (9/1/17) 
 
-2017 & \textbf{Front Range Student Ecology Symposium} $\cdot$ \textit{Fort Collins, CO}\\
-	& Phenotypic diversity within dominant blue grama grass across a precipitation gradient.\\
+United States Department of Agriculture NIFA-AFRI Predoctoral Fellowship (1/1/17) %$94,999
 
-2016 & \textbf{Ecological Society of America} $\cdot$ \textit{Fort Lauderdale, FL} \\
-	& Thresholds of drought response differ in a tallgrass prairie population. \\
+Colorado State University Graduate Degree Program in Ecology Travel Grant (4/4/16) %$175
 
-2016 & \textbf{Vice President Office of Research Fellowship Symposium} $\cdot$ \textit{Fort Collins, CO}\\
-	& Breaking down the drought portfolio in grasslands. \textcolor{special}{3-Minute Thesis Invited Speaker} \\
+Colorado State University Graduate Degree Program in Ecology Research Grant (4/2/16) %$2000
 
-2015 & \textbf{Graduate Student Forum} $\cdot$ \textit{Fort Collins, CO}\\
-	& \LaTeX : Introduction and tricks of the trade. \textcolor{special}{Invited speaker}\\
+City of Boulder Colorado Open Space and Mountain Parks Research Grant (3/1/2016) %$5669
 
-2015 & \textbf{Ecological Society of America} $\cdot$ \textit{Baltimore, MD} \\
-	& Genotypes of a tallgrass prairie species respond differently to drought, despite high plasticity within populations. \textcolor{special}{Invited Speaker}\\
+Colorado State University Vice President of Research Graduate Fellow (2/29/16) %$3125
 
-2015 & \textbf{Front Range Student Ecology Symposium} $\cdot$ \textit{Fort Collins, CO}\\
-	& Genotypes of a tallgrass prairie species respond differently to drought, despite high plasticity in populations.\\
+The Nature Conservancy J.E. Weaver Competitive Grant (2/10/16) %$1000
 
-2015 & \textbf{Graduate Student Forum} $\cdot$ \textit{Fort Collins, CO}\\
-	& Predicting diversity: Old hypotheses, new critiques, and why you should be paying attention. \textcolor{special}{Invited speaker}\\
+Colorado State University Department of Biology Harold Harrington Fellowship (4/10/15) %$1900
 
-2014 & \textbf{Colorado State University Plant Supergroup} $\cdot$ \textit{Fort Collins, CO}\\
-	& Within-population variation under drought in a tallgrass prairie species. \textcolor{special}{Invited speaker}\\
+Colorado State University Department of Biology Stavros Family Fund Scholarship (4/10/15) %3021
 
-2014 & \textbf{Ecological Society of America} $\cdot$ \textit{Sacramento, CA} \\
-	& Gene expression in co-dominant prairie grasses: comparing transcriptomes using RNA-seq and de novo assembly. \\
+National Science Foundation Graduate Research Fellowship Program (Honorable mention, 3/31/14) 
 
-2012 & \textbf{Ecological Society of America} $\cdot$ \textit{Portland, OR} \\
-	& Composite plants: A novel method for gene screening in cowpea.\\
+Colorado State University Department of Biology Sharon E. and David E. Kabes Scholarship (2014) %$590
 
-\end{tabular}
-\sectionspace
+Colorado State University Department of Biology Graduate Fellowship Award (2013) %$1000
 
-%------------------------------------------------
-% PROFESSIONAL SERVICE
-%------------------------------------------------
-
-\section{Professional Service} 
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
-	 & \textbf{Peer review}: \textcolor{special}{\textit{Global Change Biology}} $\cdot$ 
- 	\textcolor{special}{\textit{Journal of Ecology}} $\cdot$ 
- 	\textcolor{special}{\textit{New Phytologist}} $\cdot$ 
- 	\textcolor{special}{\textit{Plant Ecology}} $\cdot$
-	\textcolor{special}{\textit{Plos One}} $\cdot$
-	\textcolor{special}{\textit{Agronomy}} $\cdot$
-	\textcolor{special}{\textit{Plant Biology}} $\cdot$
-	\textcolor{special}{\textit{Plants}}
-	\\
-2011 - 2020 & \textbf{Ecological Society of America} $\cdot$ Member \\
-2016 - 2017 & \textbf{Front Range Student Ecology Symposium} $\cdot$ Undergraduate research poster judge\\
-2015 - 2016 & \textbf{Graduate Degree Program in Ecology} $\cdot$ Executive Committee Student Representative\\
-2015 - 2016 & \textbf{Front Range Student Ecology Symposium} $\cdot$ Abstract Selection and Review Committee member\\
-	2015 & \textbf{Colorado State University Department of Biology} $\cdot$ Faculty search committee student organizer\\
-2014 - 2015 & \textbf{Front Range Student Ecology Symposium} $\cdot$ Executive Board Member\\
-2013 - 2014 & \textbf{Front Range Student Ecology Symposium} $\cdot$ Webmaster\\
-2011 - 2014 & \textbf{Ecological Society of America} $\cdot$ Student Volunteer\\
-% & member National Society of Collegiate Scholars
-\end{tabular}
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-% COMMUNITY ENGAGEMENT
-%------------------------------------------------
-
-\section{Community Engagement} 
-\begin{tabular}{>{\raggedleft\arraybackslash}p{2cm}p{16cm}}
-2016 & \textbf{Colorado Odyssey of the Mind} $\cdot$ Science fair judge $\cdot$ \textit{Fort Collins, CO}\\
-2014-2015 & \textbf{Bella Romero Elementary School} $\cdot$ science fair judge and guest educator $\cdot$ \textit{Greeley, CO}\\
-\end{tabular}
-\sectionspace % Some whitespace after the section
+University of Virginia Undergraduate Research Travel Grant (2012) %$1000
 
 
+%2016 & \textbf{The Ecological Society of America} $\cdot$ `Hackathon' beginner app developer first place award\\
+%2014-2015 & \textbf{Colorado State University} $\cdot$ Department of Biology Travel Awards (\$2258) \\
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section*{PUBLICATIONS}
+
+* indicates a mentored student %or post-doctoral fellow
+
+\subsection*{Journal Articles (Peer Reviewed)}
+
+\begin{pubs}
+
+%\textbf{Hoffman, AM}, M Swall*, JA Bushey, TW Ocheltree, and MD Smith. Bouteloua Gene Expession
+
+%\textbf{Hoffman, AM}, CC Hoffman, F Chaves, A Felton, JE Gray, W Mao, A Tatarko, L Vilonen, L Gerhardi, MD Smith. Predicting dryland ecosystem responses to global change through dominant grasses. \textit{Functional Ecology}.\\
+
+%\textbf{Hoffman, AM}, NP Lemoine, TW Ocheltree. Metabolomic and physiological responses to nitrogen addition in dominant semi-arid grassland species. \textit{Plos One}.\\
+
+%Bushey, JA, \textbf{AM Hoffman}, TW Ocheltree, S Gleason, MD Smith. Water limitation reveals local adaptation and plasticity in the drought tolerance strategies of \textit{Bouteloua gracilis}. \textit{Environmental and Experimental Botany}. \\
+
+Carroll, CJW, IJ Slette, RJ Griffin-Nolan, LE Baur, \textbf{AM Hoffman}, EM Denton, JE Gray, AK Post, MK Johnston, Q Yu, SL Collins, Y Luo, MD Smith, AK Knapp (2021) Is a drought a drought in grasslands? Productivity responses to different types of drought. \textit{Oecologia}. \doi{10.1007/s00442-020-04793-8}
+
+\textbf{Hoffman, AM} and MD Smith (2020) Nonlinear drought plasticity reveals intraspecific diversity in a dominant grass species. \textit{Functional Ecology}. \doi{10.1111/1365-2435.13713}
+
+Knapp, AK, A Chen, RJ Griffin-Nolan, LE Baur, CJW Carroll, JE Gray, \textbf{AM Hoffman}, X Li, AK Post, IJ Slette, SL Collins, Y Luo, MD Smith (2020) Resolving the Dust Bowl paradox of grassland responses to extreme drought. \textit{PNAS}. \doi{10.1073/pnas.1922030117}
+
+\textbf{Hoffman, AM}, JA Bushey, TW Ocheltree, MD Smith (2020) Genetic and functional variation across regional and local scales is associated with climate in a foundational prairie grass. \textit{New Phytologist}. \doi{10.1111/nph.16547}
+
+KR Wilcox, SE Koerner, DL Hoover, AK Borkenhagen, DE Burkepile, SL Collins, \textbf{AM Hoffman}, KP Kirkman, AK Knapp, T Strydom, DI Thompson, and MD Smith (2020) Rapid recovery of ecosystem function following extreme drought in a South African savanna-grassland. \textit{Ecology}. \doi{10.1002/ecy.2983}
+
+\textbf{Hoffman, AM}, H Perretta*, NP Lemoine, and MD Smith (2019) Blue grama grass genotype affects palatability and preference by semi-arid steppe grasshoppers. \textit{Acta Oecologia}. \doi{10.1016/j.actao.2019.03.001}
+
+Griffin-Nolan, RJ, D Blumenthal, S Collins, T Farkas, \textbf{AM Hoffman}, K Mueller, TW Ocheltree, MD Smith, AK Knapp (2019) Shifts in plant functional composition following long-term drought in grasslands. \textit{Journal of Ecology}. \doi{10.1111/1365-2745.13252}
+
+Smith, MD, SE Koerner, AK Knapp, ML Avolio, FA Chaves, EM Denton, J Dietrich, DJ Gibson, J Gray, \textbf{AM Hoffman}, DL Hoover, KJ Komatsu, A Silletti, KR Wilcox, Q Yu, and JM Blair (2019) Mass ratio effects underlie ecosystem responses to environmental change. \textit{Journal of Ecology}. \doi{10.1111/1365-2745.13330}
+
+\textbf{Hoffman, AM} and MD Smith (2018) Thinking inside the box: Tissue culture for plant propagation in a key ecological species, \textit{Andropogon gerardii}. \textit{American Journal of Plant Sciences}. \doi{10.4236/ajps.2018.910144} 
+
+Knapp, AK, C Carroll, RJ Griffin-Nolan, IJ Slette, F Chaves, L Baur, AJ Felton, JE Gray, \textbf{AM Hoffman}, NP Lemoine, W Mao, A Post, MD Smith (2018) A reality check for climate change experiments: do they reflect the real world? \textit{Ecology}. \doi{10.1002/ecy.2474}
+
+Griffin-Nolan, RJ, JA Bushey, CJW Carroll, A Challis, J Chieppa, M Garbowski, \textbf{AM Hoffman}, AK Post, IJ Slette, D Spitzer, D Zambonini, TW Ocheltree, DT Tissue, AK Knapp  (2018) Trait selection and community weighting are key to understanding ecosystem responses to changing precipitation regimes. \textit{Functional Ecology}. \doi{10.1111/1365-2435.13135}
+
+\textbf{Hoffman, AM}, ML Avolio, AK Knapp, MD Smith (2018) Co-dominant grasses differ in gene expression under experimental climate extremes in native tallgrass prairie. \textit{PeerJ}. \doi{10.7717/peerj.4394}
+
+\textbf{Hoffman, AM} and MD Smith (2017) Gene expression differs in codominant prairie grasses under drought. \textit{Molecular Ecology Resources}. \doi{10.1111/1755-0998.12733}
+
+Avolio, ML, \textbf{AM Hoffman}, MD Smith (2017) Linking gene regulation, physiology, and plant biomass allocation in \textit{Andropogon gerardii} in response to drought. \textit{Plant Ecology}. \doi{10.1007/s11258-017-0773-3}
+
+Lemoine, NP, \textbf{AM Hoffman}, A Felton, L Baur, F Chaves, J Gray, Q Yu, MD Smith (2016) Underappreciated problems of low statistical power in ecological field studies. \textit{Ecology}. \doi{10.1002/ecy.1506}
+
+Smith, MD, \textbf{AM Hoffman}, ML Avolio (2016) Gene expression patterns of two dominant tallgrass prairie species differ in response to warming and altered precipitation. \textit{Scientific Reports}. \doi{10.1038/srep25522}
+
+Mellor, KE, \textbf{AM Hoffman}, MP Timko (2012) Use of ex vitro composite plants to study the interaction of cowpea (\textit{Vigna unguiculata} L.) with the root parasitic angiosperm \textit{Striga gesnerioides}. \textit{Plant Methods}. \doi{10.1186/1746-4811-8-22}
+
+\sloppy % break url onto next line
+\textbf{Hoffman, AM} (2012) Estimating tree transpiration accurately depends on wood type and species: a study of four southern Appalachian tree species. \textit{The Oculus}. \href{https://issuu.com/theoculus/docs/spring2012}{https://issuu.com/theoculus/docs/spring2012}
+
+Zinnert, JC, JD Nelson, \textbf{AM Hoffman} (2011) Effects of salinity on physiological responses and the photochemical reflectance index in two co-occurring coastal shrubs. \textit{Plant \& Soil}. \doi{10.1007/s11104-011-0955-z}
+
+\end{pubs}
+
+\subsection*{Articles, Editorials and Other Publications Not Peer Reviewed}
+
+Zinnert, JC, JD Nelson, JK Vick, \textbf{AM Hoffman}, DR Young (2010) Rethinking chlorophyll responses to stress: Fluorescence and reflectance remote sensing in a coastal environment. Proceedings of the 4th International Workshop on Remote Sensing of Vegetation Fluorescence, Valencia, Spain.
+
+%----------------------------------------------------------------------------------------
+%	PRACTICE ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section*{PRACTICE ACTIVITIES}
+
+\subsection*{Presentations to Policymakers, Communities, and Other Stakeholders}
+
+Front Range Open Space Research Symposium (Boulder, CO, 4/11/17): Phenotypic diversity within dominant blue grama grass across an aridity gradient
+
+%----------------------------------------------------------------------------------------
+% Break page and add Part II header
+\newpage
+\name{AVA M. HOFFMAN}
+\parttwo
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section*{TEACHING}
 
 
+\subsection*{Capstone Advisees}
+
+Robotham, Daniel J., B.S. in Biological Sciences with Honors, Colorado State University (presented 5/15/15)
+
+\hangpara{5pt}{0}Thesis Title: Determining the effects of water stress on co-occurring native \textit{Andropogon gerardii} and exotic (\textit{Bothriochloa bladhii}) C4 grasses
+
+\subsection*{Research Advisees}
+
+Swall, Madeleine, Undergraduate Student Researcher and Research Mentoring to Advance Inclusivity in STEM mentee, Colorado State University (2018)
+
+Perretta, Holly, Undergraduate REU Student Researcher, Colorado State University (2016--2017)
+
+Lock, Abigail, Undergraduate Research Assistant, Colorado State University (2017)
+
+Gaudrealt, Brigitte, Undergraduate Research Assistant, Colorado State University (2016)
+
+Magbual, Brianna, Undergraduate Research Assistant, Colorado State University (2014-2015)
+
+Brown, Destiny, Undergraduate Research Assistant, Colorado State University (2014)
 
 
+\subsection*{Classroom Instruction -- Teaching Fellow / Assistant}
+
+\subsubsection*{Colorado State University}
+
+Molecular and General Genetics (BZ 350), Recitation instructor (Fall 2016)
+
+Community Ecology (ECOL 600), Recitation instructor (Spring 2016)
+
+Foundations of Ecology (ECOL 505), Recitation instructor with class lectures (Fall 2015)
+
+Molecular and General Genetics (BZ 350), Recitation instructor (Spring 2015)
+
+Molecular and General Genetics (BZ 350), Recitation instructor (Fall 2014)
+
+\subsubsection*{University of Virginia}
+
+Organic Chemistry Lab II (CHEM 2421), Laboratory instructor (Spring 2011)
+
+Organic Chemistry Lab I (CHEM 2411), Laboratory instructor (Fall 2010)
+
+
+\subsection*{Other Teaching}
+
+Data Visualization using R and ggplot guest lecture (2016)
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH GRANT PARTICIPATION
+%----------------------------------------------------------------------------------------
+
+\section*{RESEARCH GRANT PARTICIPATION}
+
+\subsection*{Current Support}
+
+Project Title: EVO-LTER: Leveraging long-term ecological research in grasslands: facilitating collaborations between ecologists and evolutionary biologists (DEB-2110351)
+
+Dates: 3/2022-2/2024 (current)
+
+Sponsoring Agency: National Science Foundation
+
+Principal Investigator: Meghan L. Avolio
+
+Funding Amount: \$99,933
+
+Main Grant Objective: Facilitate collaborative workshop to foster more evolutionary and molecular work at NSF Long Term Ecological Research sites
+
+Role: Co-PI
+
+\vspace{3mm}
+
+Project Title: Collaborative Research: MSB-FRA: Alternative futures for the American residential macro systems (DEB-1836034)
+
+Dates: 01/2017--12/2020 (current)
+
+Sponsoring Agency: National Science Foundation
+
+Principal Investigator: Meghan L. Avolio
+
+Funding Amount: \$90,963
+
+Main Grant Objective: Reveal genomic population structure and phenotypic differences among urban weeds in North American cities
+
+Role: Postdoctoral fellow / Project Manager
+
+\subsection*{Past Support}
+
+Project Title: CityCress: A plant model for genetic, phenotypic, and gene regulatory relationships in urban environments (NSF-2109727)
+
+Dates: Award declined by PI
+
+Sponsoring Agency: National Science Foundation
+
+Principal Investigator: Ava M. Hoffman
+
+Funding Amount: \$216,000
+
+Main Grant Objective: Sponsor postdoctoral fellow in development of a model plant system for understanding urban molecular ecology
+
+\vspace{3mm}
+
+Project Title: Drought Adaptation Within Dominant Rangeland Species: Can Genetic and Phenotypic Diversity Buffer Against Stress? (USDA 2017-67011-26072)
+
+Dates: 01/01/2017-02/14/2019
+
+Sponsoring Agency: USDA-NIFA-National Institute of Food and Agriculture
+
+Principal Investigator: Melinda D. Smith
+
+Funding Amount: \$94,999
+
+Main Grant Objective: Sponsor predoctoral fellow stipend and research on genetic and phenotypic diversity in key prairie grass
+
+Role: Project Director / Applicant
+
+%edge project.. ?
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC SERVICE
+%----------------------------------------------------------------------------------------
+
+\section*{ACADEMIC SERVICE}
+
+Executive Committee student member, Graduate Degree Program in Ecology, Colorado State University (7/1/15-6/30/16)
+
+Faculty search committee student organizer, Department of Biology, Colorado State University (2015)
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section*{PRESENTATIONS}
+
+\subsection*{Scientific Meetings}
+
+\subsubsection*{Oral Presentations}
+
+Plastic prairie: Genetic diversity and local adaptation within blue grama grass, Ecological Society of America (8/7/18)
+
+Dominant grasses in drylands: linking species and traits to global change in ecosystems, Front Range Student Ecology Symposium (2/14/18)
+
+Phenotypic diversity within dominant blue grama grass across an aridity gradient, Ecological Society of America (8/8/17)
+
+Phenotypic diversity within dominant blue grama grass across a precipitation gradient, Front Range Student Ecology Symposium (2/23/17)
+
+Thresholds of drought response differ in a tallgrass prairie population, Ecological Society of America (8/10/16)
+
+Genotypes of a tallgrass prairie species respond differently to drought, despite high plasticity within populations, Ecological Society of America (8/14/15)
+
+Genotypes of a tallgrass prairie species respond differently to drought, despite high plasticity in populations, Front Range Student Ecology Symposium (2/25/15)
+
+\subsubsection*{Poster Presentations}
+
+Gene expression reveals different drought response strategies in dominant dryland grass populations, Ecological Society of America (8/3-8/6/20, virtual)
+
+Phenotypic diversity within dominant blue grama grass across an aridity gradient, Colorado State University Drought Symposium (10/11/17)
+
+Gene expression in co-dominant prairie grasses: comparing transcriptomes using RNA-seq and de novo assembly, Ecological Society of America (8/15/14)
+
+Composite plants: A novel method for gene screening in cowpea, Ecological Society of America (8/8/12)
+
+\subsection*{Invited Seminars}
+
+Breaking down the drought portfolio in grasslands, Vice President Office of Research Symposium (2/15/16)
+
+\LaTeX: Introduction and tricks of the trade, GDPE Graduate Student Forum (10/7/15)
+
+Predicting diversity: Old hypotheses, new critiques, and why you should be paying attention, GDPE Graduate Student Forum (2/18/15)
+
+Within-population variation under drought in a tallgrass prairie species, Colorado State University Plant Supergroup (12/5/14)
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\section*{ADDITIONAL INFORMATION}
+
+\subsection*{Personal Statement}
+
+My primary goal is to make data science and bioinformatic tools more accessible to diverse audiences by synthesizing across approaches, disciplines, and data sources. I aim to communicate across multiple domains, from academic publications to peer and community education and outreach, by developing reproducible and approachable educational resources. I am particularly interested in empowering individuals to gain intuition for data that does not adhere to traditional norms or structure, especially in genetics research. I am also interested in integrating ecological knowledge with human health in urban areas. Overall, my broad, interdisciplinary background helps me approach problems holistically and serves to bring multiple stakeholders and experts together.
+
+\subsection*{Keywords}
+
+Genomics, data tools, data literacy, education, population genetics, gene expression, evolution, ecology
 
 \end{document}

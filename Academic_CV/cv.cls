@@ -11,6 +11,7 @@
 \usepackage{fancyhdr} % Special page numbering
 \usepackage{hanging} % Allow for hanging paragraphs
 \usepackage{titlesec} % Section font sizing
+\usepackage{etaremune} % Allow for reverse numbering of publications
 \usepackage{hyperref} % Allow links
 \usepackage{breakurl} % Line break possible for links
 
@@ -61,12 +62,7 @@
 \setlength\parindent{0pt}
 
 % Set line spacing
-\setlength{\parskip}{2mm}
-
-% Line spacing in publications (just a little roomier)
-\newenvironment{pubs}{ %
-	\parskip=4mm
-}
+\setlength{\parskip}{0.5em}
 
 % Size for sections
 \titleformat{\section}
@@ -76,10 +72,11 @@
 \titleformat{\subsection}
 	{\normalfont\fontsize{12pt}{12pt}\itshape\bfseries}{\thesubsection}{1em}{}
   
-%Size for subsubsections
+% Size for subsubsections
 \titleformat{\subsubsection}
 	{\normalfont\fontsize{12pt}{12pt}\itshape}{\thesubsubsection}{1em}{}
-	
+
+% Formatting of links	
 \hypersetup{
     colorlinks=true,    
     urlcolor=blue,
@@ -87,6 +84,22 @@
 }
 
 \urlstyle{same}
+
+% No indentation of numbered publication list
+\newenvironment{pubenum}
+  {\renewcommand\labelenumi{[\theenumi]}%
+   \etaremune[
+     topsep=0pt,
+     itemsep=1em,
+     parsep=0pt,
+     partopsep=0pt,
+     labelwidth=0pt,
+     labelsep=5.475pt,
+     itemindent=5.475pt,
+     leftmargin=0pt,
+   ]\renewcommand{\makelabel}[1]{##1\hss}%
+}
+  {\endetaremune}
 
 %----------------------------------------------------------------------------------------
 %	Helpful functions

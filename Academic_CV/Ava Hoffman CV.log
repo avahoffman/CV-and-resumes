@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2021 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2021 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,20 +288,20 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 87.
 ) (./Ava Hoffman CV.aux)
 \openout1 = `"Ava Hoffman CV.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -364,7 +364,7 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks23
 )))
-Package hyperref Info: Link coloring ON on input line 11.
+Package hyperref Info: Link coloring ON on input line 10.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -373,30 +373,30 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 
 (./Ava Hoffman CV.out) (./Ava Hoffman CV.out)
 \@outlinefile=\write3
 \openout3 = `"Ava Hoffman CV.out"'.
 
 
-Overfull \hbox (3.0pt too wide) in paragraph at lines 17--18
+Overfull \hbox (3.0pt too wide) in paragraph at lines 16--17
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 31.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 33.14754pt.
@@ -407,28 +407,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 [2] [3] [4]
-Underfull \hbox (badness 1735) in paragraph at lines 209--210
+Underfull \hbox (badness 1735) in paragraph at lines 208--209
 []\OT1/cmr/bx/n/12 Hoffman, AM \OT1/cmr/m/n/12 (2012) Es-ti-mat-ing tree tran-s
 pi-ra-tion ac-cu-rately de-pends on wood
  []
 
 [5]
-Overfull \hbox (3.0pt too wide) in paragraph at lines 232--239
+Overfull \hbox (3.0pt too wide) in paragraph at lines 231--238
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--239
+Underfull \hbox (badness 10000) in paragraph at lines 231--238
 
  []
 
 [6] [7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
  [9] [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
  (./Ava Hoffman CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `"Ava Hoffman CV".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -446,7 +446,7 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Ava Hoffman CV.pdf" (10 pages, 103280 bytes).
+Output written on "Ava Hoffman CV.pdf" (10 pages, 103029 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream

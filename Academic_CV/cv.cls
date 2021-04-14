@@ -9,7 +9,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{datetime} % Set revised date to specific format
 \usepackage{fancyhdr} % Special page numbering
-\usepackage{hanging} % Hanging paragraphs
+\usepackage{hanging} % Allow for hanging paragraphs
 \usepackage{titlesec} % Section font sizing
 \usepackage{hyperref} % Allow links
 \usepackage{breakurl} % Line break possible for links

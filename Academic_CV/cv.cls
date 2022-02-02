@@ -14,6 +14,7 @@
 \usepackage{etaremune} % Allow for reverse numbering of publications
 \usepackage{hyperref} % Allow links
 \usepackage{breakurl} % Line break possible for links
+\usepackage[symbol]{footmisc} % Use symbols in the footnotes instead of numbers
 
 %----------------------------------------------------------------------------------------
 %	Page numbers and headers

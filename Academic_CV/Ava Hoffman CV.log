@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  1 FEB 2022 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  18 FEB 2022 10:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,15 +499,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
 
 [5]
-Overfull \hbox (3.0pt too wide) in paragraph at lines 241--245
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--245
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 33.14754pt, for example:
@@ -517,18 +508,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
 
 [6]
+Overfull \hbox (3.0pt too wide) in paragraph at lines 251--255
+[] []
+ []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 33.14754pt, for example:
-(fancyhdr)                \setlength{\headheight}{33.14754pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 251--255
 
-[7]
-Overfull \hbox (14.47343pt too wide) in paragraph at lines 362--363
-[]\OT1/cmr/m/n/12 Project Ti-tle: The Ge-nomic Data Sci-ence Com-mu-nity Net-wo
-rk (NIH/NHLBI 75N92020P00235) 
  []
 
 
@@ -539,7 +525,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
 
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 33.14754pt, for example:
+(fancyhdr)                \setlength{\headheight}{33.14754pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
+
 [8]
+Overfull \hbox (14.47343pt too wide) in paragraph at lines 372--373
+[]\OT1/cmr/m/n/12 Project Ti-tle: The Ge-nomic Data Sci-ence Com-mu-nity Net-wo
+rk (NIH/NHLBI 75N92020P00235) 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 33.14754pt, for example:
@@ -566,13 +566,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
 
-[11] (./Ava Hoffman CV.aux)
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 33.14754pt, for example:
+(fancyhdr)                \setlength{\headheight}{33.14754pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-21.14754pt}.
+
+[12] (./Ava Hoffman CV.aux)
 Package rerunfilecheck Info: File `"Ava Hoffman CV".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9923 strings out of 478994
- 146721 string characters out of 5858184
+ 9924 strings out of 478994
+ 146728 string characters out of 5858184
  475747 words of memory out of 5000000
  27259 multiletter control sequences out of 15000+600000
  408361 words of font info for 43 fonts, out of 8000000 for 9000
@@ -590,10 +599,10 @@ cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "Ava Hoffman CV.pdf" (11 pages, 152390 bytes).
+Output written on "Ava Hoffman CV.pdf" (12 pages, 154107 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 12 named destinations out of 1000 (max. 500000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

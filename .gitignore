@@ -2,3 +2,12 @@
 
 # Customized CVs and Resumes for specific jobs
 Custom/*
+
+# LaTeX rendering files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+

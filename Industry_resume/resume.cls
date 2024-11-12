@@ -37,6 +37,11 @@
 \usepackage{tcolorbox}
 % Allow better alignment of text boxes within tabular env
 \usepackage{multirow}
+% Cheeky Footer packages
+\usepackage[absolute]{textpos}
+\usepackage{calc}
+\usepackage{metalogo}
+\textblockorigin{1cm}{\paperheight-1cm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	USER DEFINED FUNCTIONS
@@ -222,4 +227,35 @@
     		#1
 
         \end{tabularx}
+}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE - Page 2 
+%----------------------------------------------------------------------------------------
+% This one does not include previous sections
+\newcommand\addexperienceonly[1]{
+    \begin{tabularx}{\textwidth}{p{\experienceboxsize}p{\dividerwidth}X}
+
+            \Large\textcolor{header}{EXPERIENCE (cont.)} &  &\multirow[t]{2}{=}{
+                    \vspace{8mm}
+            } \\
+
+    		#1
+
+        \end{tabularx}
+}
+
+%----------------------------------------------------------------------------------------
+%	 Cheeky Footer
+%----------------------------------------------------------------------------------------
+% Because I can't help myself
+\newcommand\cheekyfooter[1]{
+
+    \begin{textblock*}{\paperwidth-1cm}(0mm,0mm)
+    	\begin{center}
+       \footnotesize
+       #1
+       	\end{center}
+    \end{textblock*}
+  
 }

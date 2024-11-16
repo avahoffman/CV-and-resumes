@@ -1,8 +1,5 @@
 *.DS_Store
 
-# Customized CVs and Resumes for specific jobs
-Custom/*
-
 # LaTeX rendering files
 *.aux
 *.bbl
@@ -10,4 +7,5 @@ Custom/*
 *.log
 *.out
 *.synctex.gz
-Industry_resume/Ava_Hoffman_Resume-concordance.tex
+Industry_resume/Ava_Hoffman_Resume-*.tex
+Industry_resume/Ava_Hoffman_Resume-*.pdf

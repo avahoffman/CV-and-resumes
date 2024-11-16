@@ -4,9 +4,9 @@ dat <-
     skill = c(
       "12R",
       "11python",
-      "10SQL",
-      "09Pyspark",
-      "08git",
+      "10git",
+      "09SQL",
+      "08Pyspark",
       "07bash",
       "06Tableau",
       "05Alteryx",
@@ -15,7 +15,7 @@ dat <-
       "02SAS",
       "01HTML"
     ),
-    rating = c(90, 75, 50, 40, 50, 40, 35, 35, 40, 50, 25, 5),
+    rating = c(90, 75, 70, 40, 50, 40, 35, 35, 40, 50, 25, 5),
     type = c("L", "L", "L", "L", "L", "L", "S", "S", "L", "L", "S", "L")
   )
 
@@ -28,11 +28,11 @@ skills_plot <-
     yend = skill
   ),
   x = 0,
-  size = 2) +
+  linewidth = 3) +
   xlim(c(0, 100)) +
   geom_point(
     aes(x = rating, y = skill, color = type),
-    size = 2,
+    size = 4,
     shape = 21,
     stroke = 3,
     fill = "white"
@@ -54,9 +54,9 @@ skills_plot <-
       "Alteryx",
       "Tableau",
       "bash",
-      "git",
       "PySpark",
       "SQL",
+      "git",
       "python",
       "R"
     )
@@ -67,7 +67,7 @@ skills_plot <-
     axis.ticks = element_blank(),
     legend.position = "none",
     panel.background = element_rect(fill = "white"),
-    axis.text.y = element_text(size = 10, color = "black"),
+    axis.text.y = element_text(size = 18, color = "black"),
     axis.text.x = element_blank()
   )
 

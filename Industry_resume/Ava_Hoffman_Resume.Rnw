@@ -21,6 +21,7 @@
 %	CONTENTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
@@ -63,14 +64,19 @@
 %----------------------------------------------------------------------------------------
 \addtechniques{
 
-    %-------------------
-    %	 Techniques plot
-    %-------------------
-    <<skills_plot, echo=FALSE, warning=FALSE, message=FALSE, fig.height=2.5, fig.width=3, fig.align='left',>>=
-    source("skills.R")
-    skills_plot
-    @
-    
+%-------------------
+%	 Techniques plot
+%-------------------
+
+\setkeys{Gin}{width=3in}
+
+\vspace{5mm}
+
+<<skills_plot, echo=FALSE, warning=FALSE, message=FALSE, fig=TRUE, height=5, fig.align='left'>>=
+source("skills.R")
+skills_plot
+@
+
 	\normalsize \toolboxitem{lightgray}{statistics} \\ \footnotesize
 	Bayesian methods (RStan) $\cdot$
 	hierarchical models $\cdot$
@@ -84,6 +90,7 @@
 	
   \vspace{-6mm} 
   \normalsize \toolboxitem{lightgray}{supervised learning} \\ \footnotesize
+  large language model APIs $\cdot$
   random forest $\cdot$
   time series $\cdot$
   linear, nonlinear, logistic regression $\cdot$
@@ -93,7 +100,8 @@
   \vspace{-6mm} 
   \normalsize \toolboxitem{lightgray}{unsupervised learning} \\ \footnotesize
   PCA $\cdot$
-  k-means $\cdot$
+  NMDS $\cdot$
+  k-means / hierarchical clustering $\cdot$
   feature engineering
 }
 
@@ -101,13 +109,16 @@
 %	 ACHIEVEMENTS
 %----------------------------------------------------------------------------------------
 \addachievements{
-        \achievementitem{Sustainability Leadership Fellow}{2017-2018}{Colorado State University}{
-        {\includegraphics[width=\logosize, height=\logosize]{csu}} % logo
-        } % 25\% acceptance rate
-        \achievementitem{Vice President for Research Fellow}{2016-2017}{Colorado State University}{
-        {\includegraphics[width=\logosize, height=\logosize]{csu}} % logo
-        } % <10\% acceptance rate
-        \achievementitem{17 peer-reviewed publications}{2010-2020}{\textcolor{special}{\href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{Google Scholar}}}{
+        % \achievementitem{Sustainability Leadership Fellow}{2017-2018}{Colorado State University}{
+        % {\includegraphics[width=\logosize, height=\logosize]{csu}} % logo
+        % } % 25\% acceptance rate
+        % \achievementitem{Vice President for Research Fellow}{2016-2017}{Colorado State University}{
+        % {\includegraphics[width=\logosize, height=\logosize]{csu}} % logo
+        % } % <10\% acceptance rate
+        \achievementitem{Excellence in Teaching Award}{2022 (2x), 2023 (2x), 2024 (2x)}{Johns Hopkins University}{
+        {\includegraphics[width=\logosize, height=\logosize]{jhu}} % logo
+        }
+        \achievementitem{29 peer-reviewed publications}{2010-2020}{\textcolor{special}{\href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{Google Scholar}}}{
         \faBook % logo
         }
 }
@@ -117,10 +128,54 @@
 %----------------------------------------------------------------------------------------
 \addexperience{
 
-       \experienceitem{Johns Hopkins University}{Postdoctoral Fellow}{03/2020 - present}{Baltimore, MD}{
+       \experienceitem{Fred Hutch Cancer Center}{Senior Staff Scientist}{07/2022 - present}{Seattle, WA (remote)}{
+          \item Led \$579k NIH-funded program (\textcolor{special}{\href{https://reporter.nih.gov/search/RBdFWQthTk2yA8DWBOpd8g/project-details/10854368}{"GEMs"}}) that designs open-source genomic data science training modules with under-resourced colleges
+          \item Developed and taught \$200k/yr \textcolor{special}{\href{https://daseh.org}{Data Science for Environmental Health program}}, educating ~40 trainees and public health government professionals annually
+          \item Co-lead outreach and user research for the NIH \textcolor{special}{\href{https://anvilproject.org}{AnVIL Platform}}, enabling genomic data science via cloud computing for 500+ users
+          \item Built outreach software for publishing content, previewing data, and helping scientists comply with NIH policies using Shiny, GitHub Actions, and other tools
+          \item Co-lead and curated data for (\textcolor{special}{\href{https://biodigs.org}{BioDIGS}}, a soil microbe genetics research consortium of over 100 students and faculty at under-resourced institutions.
+       }{hutch} \\
+       \vspace{1mm}
+
+       \experienceitem{Johns Hopkins University}{Faculty Associate}{05/2021 - present}{Baltimore, MD}{
+          \item Started projects listed above
+          \item Taught grad-level \textcolor{special}{\href{https://jhudatascience.org/intro_to_r/}{Introduction to R for Public Health Researchers}} (7x), including wrangling, stats, and visualization essentials
+          \item Taught grad-level \textcolor{special}{\href{https://jhudatascience.org/Baltimore_Community_Course}{Baltimore Community Data Science}} (2x): consulting-like service learning course that partners with community organizations to meet their data-related needs 
+       }{jhu} \\
+       \vspace{1mm}
+
+       \experienceitem{Johns Hopkins University}{Postdoctoral Fellow}{03/2020 - 05/2020}{Baltimore, MD}{
           \item Led the Urban Evolution Comparative Study, quantifying how 1000+ plants adapted to 6 city landscapes at the genomic level
        }{jhu} \\
        \vspace{1mm}
+      
+%--------------------
+%	 EXPERIENCE Plot
+%--------------------
+
+\setkeys{Gin}{width=4in}
+
+<<experience_plot, echo=FALSE, warning=FALSE, message=FALSE, fig=TRUE, height=3, fig.align='center'>>=
+source("experience_breakdown.R")
+print(experience_plot)
+@
+
+      \vspace{-40mm}
+}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE 
+%----------------------------------------------------------------------------------------
+\clearpage
+\printheader
+
+\vspace{9mm}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGEEXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\addexperienceonly{
 
         \experienceitem{Boston Consulting Group}{Data Scientist}{03/2019 - 03/2020}{Boston, MA}{
            \item Productionalized PySpark pipeline describing client's 20K+ commercial banking customers for better product recommendations \& risk intervention
@@ -134,26 +189,15 @@
         }{insight} \\
         \vspace{1mm}
 
-
         \experienceitem{Colorado State University}{USDA NIFA Fellow}{01/2017 - 12/2018}{Fort Collins, CO}{
         \item Proposed \& established the \textcolor{special}{\href{https://github.com/avahoffman/blue-grama-diversity}{Blue Grama Diversity Project}} to reveal genetic diversity \& guide conservation in a key grass species, while communicating take-home facts to the Front Range non-science community
         \item Pioneered genomic sequencing \& population delineation using 9,000+ genomic features
         \item Modeled hierarchical linkages between genomics, populations, \& plant traits, developing analytical workflows using R \& RStan
         }{nifa} \\
         \vspace{1mm}
-      
-      %--------------------
-      %	 EXPERIENCE Plot
-      %--------------------
-            
-      <<experience_plot, echo=FALSE, warning=FALSE, message=FALSE, fig.height=1.5, fig.width=4, fig.align='center',>>=
-      source("experience_breakdown.R")
-      experience_plot
-      @  
-      \vspace{-30mm}   
-
 }
 
+\cheekyfooter{I built this resume using LaTeX and R. My code can be found \textcolor{special}{\href{https://github.com/avahoffman/CV-and-resumes}{here}}.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document} 

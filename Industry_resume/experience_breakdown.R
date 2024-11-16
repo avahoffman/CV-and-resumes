@@ -9,7 +9,7 @@ dat <-
       "2community ecology",
       "1biotech &\ninformatics"
     ),
-    pct = c(10, 25, 30, 35),
+    pct = c(30, 40, 20, 10),
     y = as.factor(c(4,4,4,4))
   )
 experience_plot <- 
@@ -22,7 +22,7 @@ experience_plot <-
   theme_void() +
   theme(legend.position = "none") +
   geom_text(
-    x = c(22.5, 22.5, 50, 82.5),
+    x = c(22.5, 50, 80, 90),
     y = c("6", "2", "1", "6"),
     label = c(
       "communication & teaching",
@@ -30,25 +30,25 @@ experience_plot <-
       "community ecology",
       "biotech & informatics"
     ),
-    size = 4
+    size = 5
   ) +
   geom_segment(y = 4,
                yend = 5.5,
-               x = 5,
-               xend = 5,
-               size = 0.2) +
+               x = 15,
+               xend = 15,
+               linewidth = 0.2) +
   geom_segment(y = 4,
                yend = 2.5,
-               x = 22.5,
-               xend = 22.5,
-               size = 0.2) +
-  geom_segment(y = 4,
-               yend = 1.5,
                x = 50,
                xend = 50,
-               size = 0.2) +
+               linewidth = 0.2) +
+  geom_segment(y = 4,
+               yend = 1.5,
+               x = 80,
+               xend = 80,
+               linewidth = 0.2) +
   geom_segment(y = 4,
                yend = 5.5,
-               x = 82.5,
-               xend = 82.5,
-               size = 0.2)
+               x = 95,
+               xend = 95,
+               linewidth = 0.2)

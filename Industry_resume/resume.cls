@@ -253,7 +253,7 @@
 
     \begin{textblock*}{\paperwidth-1cm}(0mm,0mm)
     	\begin{center}
-       \footnotesize
+       \scriptsize
        #1
        	\end{center}
     \end{textblock*}

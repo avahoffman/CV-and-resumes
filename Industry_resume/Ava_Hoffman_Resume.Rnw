@@ -27,7 +27,7 @@
 %	 PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
 \name{AVA HOFFMAN}
-\jobtitle{Data Scientist \colordot Ecologist}
+\jobtitle{Data Scientist \colordot Molecular Ecologist}
 
 \email{avamariehoffman@gmail.com}
 \phone{(804) 687-7476}
@@ -118,7 +118,7 @@ skills_plot
         \achievementitem{Excellence in Teaching Award}{2022 (2x), 2023 (2x), 2024 (2x)}{Johns Hopkins University}{
         {\includegraphics[width=\logosize, height=\logosize]{jhu}} % logo
         }
-        \achievementitem{29 peer-reviewed publications}{2010-2020}{\textcolor{special}{\href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{Google Scholar}}}{
+        \achievementitem{29 peer-reviewed publications}{2010-2024}{\textcolor{special}{\href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{Google Scholar}}}{
         \faBook % logo
         }
 }
@@ -128,76 +128,50 @@ skills_plot
 %----------------------------------------------------------------------------------------
 \addexperience{
 
-       \experienceitem{Fred Hutch Cancer Center}{Senior Staff Scientist}{07/2022 - present}{Seattle, WA (remote)}{
-          \item Led \$579k NIH-funded program (\textcolor{special}{\href{https://reporter.nih.gov/search/RBdFWQthTk2yA8DWBOpd8g/project-details/10854368}{"GEMs"}}) that designs open-source genomic data science training modules with under-resourced colleges
-          \item Developed and taught \$200k/yr \textcolor{special}{\href{https://daseh.org}{Data Science for Environmental Health program}}, educating ~40 trainees and public health government professionals annually
-          \item Co-lead outreach and user research for the NIH \textcolor{special}{\href{https://anvilproject.org}{AnVIL Platform}}, enabling genomic data science via cloud computing for 500+ users
+        \experienceitem{Fred Hutch Cancer Center}{Senior Staff Scientist}{07/2022 - present}{Seattle, WA (remote)}{
+
           \item Built outreach software for publishing content, previewing data, and helping scientists comply with NIH policies using Shiny, GitHub Actions, and other tools
-          \item Co-lead and curated data for (\textcolor{special}{\href{https://biodigs.org}{BioDIGS}}, a soil microbe genetics research consortium of over 100 students and faculty at under-resourced institutions.
+          \item Co-lead, analyzed, and curated data for (\textcolor{special}{\href{https://biodigs.org}{BioDIGS}}, a soil microbe genetics research consortium of over 100 students and faculty 
+          \item Co-lead outreach and user research for the NIH \textcolor{special}{\href{https://anvilproject.org}{AnVIL Platform}}, enabling genomic data science via cloud computing for 500+ users
+          \item Led \$579k NIH-funded program (\textcolor{special}{\href{https://reporter.nih.gov/search/RBdFWQthTk2yA8DWBOpd8g/project-details/10854368}{"GEMs"}}) that designs open-source genomic data science training modules with under-resourced colleges
+          \item Led and developed \$200k/yr \textcolor{special}{\href{https://daseh.org}{Data Science for Environmental Health program}}, educating ~40 trainees and public health government professionals annually
+          \item Taught graduate-level courses in R programming and community data science consulting
+          \item \textit{Note that this work was conducted at Johns Hopkins University from 05/2021 - 06/2022.}
        }{hutch} \\
        \vspace{1mm}
 
-       \experienceitem{Johns Hopkins University}{Faculty Associate}{05/2021 - present}{Baltimore, MD}{
-          \item Started projects listed above
-          \item Taught grad-level \textcolor{special}{\href{https://jhudatascience.org/intro_to_r/}{Introduction to R for Public Health Researchers}} (7x), including wrangling, stats, and visualization essentials
-          \item Taught grad-level \textcolor{special}{\href{https://jhudatascience.org/Baltimore_Community_Course}{Baltimore Community Data Science}} (2x): consulting-like service learning course that partners with community organizations to meet their data-related needs 
-       }{jhu} \\
-       \vspace{1mm}
-
        \experienceitem{Johns Hopkins University}{Postdoctoral Fellow}{03/2020 - 05/2020}{Baltimore, MD}{
-          \item Led the Urban Evolution Comparative Study, quantifying how 1000+ plants adapted to 6 city landscapes at the genomic level
+          \item Used bioinformatic tools to quantify genomic patterns among 1000+ plants adapted to 6 city landscapes
        }{jhu} \\
        \vspace{1mm}
+       
+       \experienceitem{Boston Consulting Group}{Data Scientist}{03/2019 - 03/2020}{Boston, MA}{
+           \item Productionalized PySpark pipeline describing and modeling client's 20K+ commercial banking customers for better product recommendations \& risk intervention
+           \item Designed \& hosted fully customized RShiny dashboard for reducing internal carbon emissions by 30\% in 5 years
+        }{gamma} \\
+        \vspace{1mm}
+        
+        \experienceitem{Colorado State University}{USDA NIFA Fellow}{01/2017 - 12/2018}{Fort Collins, CO}{
+        \item Led the Blue Grama Diversity Project, implementing hierarchical Bayesian models and analyzing 9,000+ genomic features to understand plant traits from population genetics
+        }{nifa} \\
+      
+      
       
 %--------------------
 %	 EXPERIENCE Plot
 %--------------------
 
-\setkeys{Gin}{width=4in}
-
-<<experience_plot, echo=FALSE, warning=FALSE, message=FALSE, fig=TRUE, height=3, fig.align='center'>>=
-source("experience_breakdown.R")
-print(experience_plot)
-@
-
-      \vspace{-40mm}
+% \setkeys{Gin}{width=4in}
+% 
+% <<experience_plot, echo=FALSE, warning=FALSE, message=FALSE, fig=TRUE, height=3, fig.align='center'>>=
+% source("experience_breakdown.R")
+% print(experience_plot)
+% @
+% 
+%       \vspace{-40mm}
 }
 
-%----------------------------------------------------------------------------------------
-%	 SECOND PAGE 
-%----------------------------------------------------------------------------------------
-\clearpage
-\printheader
-
-\vspace{9mm}
-
-%----------------------------------------------------------------------------------------
-%	 SECOND PAGEEXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\addexperienceonly{
-
-        \experienceitem{Boston Consulting Group}{Data Scientist}{03/2019 - 03/2020}{Boston, MA}{
-           \item Productionalized PySpark pipeline describing client's 20K+ commercial banking customers for better product recommendations \& risk intervention
-           \item Designed \& hosted fully customized RShiny dashboard for reducing internal carbon emissions by 30\% in 5 years
-        }{gamma} \\
-        \vspace{1mm}
-
-        \experienceitem{Insight Data Science}{Data Science Fellow}{09/2018 - 03/2019}{Remote Program}{
-            \item Developed and launched \textcolor{special}{\href{https://github.com/avahoffman/Natural_parks}{National Perks Project}} to improve National Park visitor experience, modeling crowds over 500+ months \& accommodating user preferences
-            \item Built a fully customized web app using Git, Python, \& Flask, providing visitors with actionable recommendations \& access to further resources
-        }{insight} \\
-        \vspace{1mm}
-
-        \experienceitem{Colorado State University}{USDA NIFA Fellow}{01/2017 - 12/2018}{Fort Collins, CO}{
-        \item Proposed \& established the \textcolor{special}{\href{https://github.com/avahoffman/blue-grama-diversity}{Blue Grama Diversity Project}} to reveal genetic diversity \& guide conservation in a key grass species, while communicating take-home facts to the Front Range non-science community
-        \item Pioneered genomic sequencing \& population delineation using 9,000+ genomic features
-        \item Modeled hierarchical linkages between genomics, populations, \& plant traits, developing analytical workflows using R \& RStan
-        }{nifa} \\
-        \vspace{1mm}
-}
-
-\cheekyfooter{I built this resume using LaTeX and R. My code can be found \textcolor{special}{\href{https://github.com/avahoffman/CV-and-resumes}{here}}.}
+\cheekyfooter{Résumé built using \textcolor{special}{\href{https://github.com/avahoffman/CV-and-resumes}{LaTeX and R}}.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document} 

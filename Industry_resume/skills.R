@@ -1,34 +1,40 @@
 library(ggplot2)
+
+skills <- c(
+  "R",
+  "python",
+  "git",
+  "SQL",
+  "PySpark",
+  "bash",
+  "Tableau",
+  "Alteryx",
+  "Markdown",
+  "LaTeX",
+  "WDL",
+  "SAS",
+  "HTML"
+)
+
 dat <-
   data.frame(
-    skill = c(
-      "12R",
-      "11python",
-      "10git",
-      "09SQL",
-      "08Pyspark",
-      "07bash",
-      "06Tableau",
-      "05Alteryx",
-      "04Markdown",
-      "03Latex",
-      "02SAS",
-      "01HTML"
-    ),
-    rating = c(90, 75, 70, 40, 50, 40, 35, 35, 40, 50, 25, 5),
-    type = c("L", "L", "L", "L", "L", "L", "S", "S", "L", "L", "S", "L")
+    skill = factor(skills, levels = rev(skills)),
+    rating = c(90, 70, 75, 40, 40, 50, 20, 20, 55, 50, 15, 10, 30),
+    type = c("L", "L", "L", "L", "L", "L", "S", "S", "L", "L", "L", "S", "L")
   )
 
 skills_plot <-
   ggplot(dat) +
-  geom_segment(aes(
-    color = type,
-    xend = rating,
-    y = skill,
-    yend = skill
-  ),
-  x = 0,
-  linewidth = 3) +
+  geom_segment(
+    aes(
+      color = type,
+      xend = rating,
+      y = forcats::fct_reorder(skill, rating),
+      yend = skill
+    ),
+    x = 0,
+    linewidth = 3
+  ) +
   xlim(c(0, 100)) +
   geom_point(
     aes(x = rating, y = skill, color = type),
@@ -44,22 +50,6 @@ skills_plot <-
   scale_x_continuous(
     breaks = c(16.65, 50, 83.35),
     labels = c("novice", "skilled", "expert")
-  ) +
-  scale_y_discrete(
-    labels = c(
-      "HTML",
-      "SAS",
-      "LaTeX",
-      "Markdown",
-      "Alteryx",
-      "Tableau",
-      "bash",
-      "PySpark",
-      "SQL",
-      "git",
-      "python",
-      "R"
-    )
   ) +
   theme(
     axis.title.x = element_blank(),

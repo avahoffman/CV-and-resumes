@@ -1,0 +1,205 @@
+% Written by Ava Hoffman
+% Please use as you like, but it would be nice if you credited me :)
+% 
+% I find it easiest to edit and compile this in RStudio - won't work with TexShop due to
+% embedded ggplot plots.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{ats_resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	SPACING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% size of the lefthand column: 
+\newcommand{\experienceboxsize}{180mm}
+% general spacing out of items
+\newcommand{\itemspace}{\vspace{-2mm}}
+% top header on 2nd page
+\newcommand{\pgtwoheader}{\vspace{0.75in}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	CONTENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+\name{AVA HOFFMAN}
+\jobtitle{Data Scientist}
+
+\email{avamariehoffman@gmail.com}
+\phone{(804) 687-7476}
+\linkedin{/in/avahoffman}
+\github{avahoffman}
+\website{www.avahoffman.com}
+
+\printheader
+
+\vspace{9mm}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\addexperience{
+
+	% Note that this work was conducted at Johns Hopkins University from 05/2021 - 06/2022.
+        \experienceitem{Fred Hutch Cancer Center / Johns Hopkins University}{Senior Staff Scientist}{May 2021 - present}{Seattle, WA (remote)}{
+          \item Built outreach software for publishing content, previewing data, and helping scientists comply with NIH policies using Shiny, GitHub Actions, and other tools
+          \item Co-lead, analyzed, and curated data for \textcolor{special}{\href{https://biodigs.org}{BioDIGS}}, a soil microbe genetics research consortium of over 100 students and faculty 
+          \item Co-lead outreach and user research for the NIH \textcolor{special}{\href{https://anvilproject.org}{AnVIL Platform}}, enabling genomic data science via cloud computing for 500+ users
+          \item Led and managed \$579k NIH-funded program (\textcolor{special}{\href{https://genomicseducation.org}{"GEMs"}}) that designs open-source genomic data science training modules with under-resourced colleges
+          \item Led, developed, and managed \$200k/yr \textcolor{special}{\href{https://daseh.org}{Data Science for Environmental Health program}}, educating ~40 trainees and public health government professionals annually
+          \item Taught graduate-level courses in R programming and community data science consulting
+       }{hutch} \\
+       
+       \itemspace
+
+       \experienceitem{Johns Hopkins University}{Postdoctoral Fellow}{Mar 2020 -  May 2021}{Baltimore, MD}{
+          \item Used bioinformatic tools to quantify genomic patterns among 1000+ plants adapted to 6 city landscapes
+       }{jhu} \\
+       
+       \itemspace
+       
+       \experienceitem{Boston Consulting Group}{Data Scientist}{Mar 2019 - Mar 2020}{Boston, MA}{
+           \item Productionalized PySpark pipeline describing and modeling client's 20K+ commercial banking customers for better product recommendations \& risk intervention
+           \item Designed \& hosted fully customized RShiny dashboard for reducing internal carbon emissions by 30\% in 5 years
+        }{gamma} \\
+       
+        \itemspace
+        
+        \experienceitem{Colorado State University}{Researcher}{Aug 2013 - Mar 2019}{Fort Collins, CO}{
+        \item Led the Blue Grama Diversity Project, implementing hierarchical Bayesian models and analyzing 9,000+ genomic features to understand plant traits from population genetics
+        }{nifa} \\
+
+}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{5mm}
+\addeducation{
+        	\educationitem{PhD}{Ecology}{Colorado State University}{05/2019}{Fort Collins, CO}{csu} \\
+	\itemspace
+        	\educationitem{BS}{Biology}{University of Virginia}{05/2012}{Charlottesville, VA}{uva}
+}
+
+%----------------------------------------------------------------------------------------
+%	 TOOLBOX
+%----------------------------------------------------------------------------------------
+
+\addtoolbox{
+	% Python and packages
+    	\toolboxitem{midgray}{Python} \\ \footnotesize
+        scikit-learn $\cdot$
+        pandas $\cdot$
+        NumPy $\cdot$
+        SciPy $\cdot$
+        pytest $\cdot$
+        statsmodels $\cdot$
+        seaborn $\cdot$
+        matplotlib $\cdot$
+        Jupyter \\
+        %	Bokeh
+        %	Gensim 
+        
+        % R and packages
+        \vspace{-5mm} 
+        \toolboxitem{midgray}{R} \\ \footnotesize
+        tidyverse  $\cdot$
+        RStan  $\cdot$
+        	shiny  $\cdot$
+        	leaps  $\cdot$
+        	lavaan  $\cdot$
+        %	segmented 
+        %	dplyr 
+        %	reshape2 
+        	bioconductor  $\cdot$
+        	sva  $\cdot$
+        	vegan  $\cdot$
+        	ggplot2  $\cdot$ 
+	RStudio \\
+	%RMarkdown
+        %	bayesplot 
+        %	ggrepel 
+        %	gridExtra 
+        %	semPlot
+
+	\vspace{-5mm} 
+        \toolboxitem{midgray}{SQL}
+        \toolboxitem{midgray}{git}
+        \toolboxitem{midgray}{GitHub Actions}
+        \toolboxitem{midgray}{Google Cloud}
+        \toolboxitem{midgray}{Unix}
+        \toolboxitem{midgray}{PySpark}
+        \toolboxitem{midgray}{Tableau}
+        \toolboxitem{midgray}{Alteryx}
+        \toolboxitem{midgray}{Markdown}  \\ \vspace{-15.5mm} 
+        \toolboxitem{midgray}{\LaTeX} 
+        \toolboxitem{midgray}{SAS} \\ 
+        %\toolboxitem{midgray}{Sphinx}
+
+        %\textbf{Shell / command line}\\
+        %	SLURM $\cdot$ 
+        %	distributed computing $\cdot$ 
+        %	software compilation 
+        %	\textbf{SQL} (PostgreSQL)\\
+        %	Python interface $\cdot$ Amazon Web Services 
+        %	%$\cdot$ SQLAlchemy $\cdot$ psycopg2\\
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 TECHNIQUES
+%----------------------------------------------------------------------------------------
+\vspace{4mm}
+\addtechniques{
+
+     \toolboxitem{lightgray}{statistics} \\ \footnotesize
+    Bayesian methods (RStan) $\cdot$
+    hierarchical models $\cdot$
+    mixture models $\cdot$
+    multivariate statistics $\cdot$
+    ANOVA $\cdot$
+    MANOVA $\cdot$
+    PERMANOVA $\cdot$
+    dimensionality reduction $\cdot$
+    repeated measures \\
+    	
+    \vspace{-6mm} 
+     \toolboxitem{lightgray}{supervised learning} \\ \footnotesize
+    large language model APIs $\cdot$
+    random forest $\cdot$
+    time series $\cdot$
+    linear, nonlinear, logistic regression $\cdot$
+    LDA $\cdot$
+    SEM \\
+    
+    \vspace{-6mm} 
+     \toolboxitem{lightgray}{unsupervised learning} \\ \footnotesize
+    PCA $\cdot$
+    NMDS $\cdot$
+    k-means / hierarchical clustering $\cdot$
+    feature engineering
+    
+}
+
+%----------------------------------------------------------------------------------------
+%	 ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+\vspace{5mm}
+\addachievements{
+
+        \achievementitem{Excellence in Teaching Award}{2022 - 2025 (7x)}{Johns Hopkins University}{\faStar}
+        
+        \achievementitem{29 peer-reviewed publications}{2010-2025}{\textcolor{special}{\href{https://scholar.google.com/citations?user=k6RyLHsAAAAJ&hl=en}{Google Scholar}}}{\faBook}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cheekyfooter{Résumé built using \textcolor{special}{\href{https://github.com/avahoffman/CV-and-resumes}{LaTeX}} \today.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document} 

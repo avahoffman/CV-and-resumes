@@ -116,6 +116,14 @@
     }
 }
 
+\newcommand{\technicalskillitem}[2]{
+\vspace{0.001cm}
+    % Bullet points
+    \noindent
+    \footnotesize
+	\textbf{#1} $\cdot$ {#2}
+}
+
 \newcommand{\achievementitem}[4]{
 \vspace{0.1cm}
     {\begin{tabularx}{\experienceboxsize}{lX}
@@ -178,6 +186,17 @@
     \begin{tabularx}{\textwidth}{p{\experienceboxsize}}
             \Large\textcolor{header}{EDUCATION} \\
     		#1
+        \end{tabularx}
+}
+
+%----------------------------------------------------------------------------------------
+%	 TECH SKILLS
+%----------------------------------------------------------------------------------------
+\newcommand\addtechnicalskills[1]{
+        \begin{tabularx}{\experienceboxsize}{X}
+        \pgtwoheader % header for page two is scrunched without this
+         \Large\textcolor{header}{TECHNICAL SKILLS} \\
+		#1
         \end{tabularx}
 }
 

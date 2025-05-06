@@ -1,8 +1,7 @@
 % Written by Ava Hoffman
 % Please use as you like, but it would be nice if you credited me :)
 % 
-% I find it easiest to edit and compile this in RStudio - won't work with TexShop due to
-% embedded ggplot plots.
+% Compile with LaTeX.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass{ats_resume}
@@ -46,31 +45,47 @@
 
 	% Note that this work was conducted at Johns Hopkins University from 05/2021 - 06/2022.
         \experienceitem{Fred Hutch Cancer Center / Johns Hopkins University}{Senior Staff Scientist}{May 2021 - present}{Seattle, WA (remote)}{
-          \item Built outreach software for publishing content, previewing data, and helping scientists comply with NIH policies using Shiny, GitHub Actions, and other tools
-          \item Co-lead, analyzed, and curated data for \textcolor{special}{\href{https://biodigs.org}{BioDIGS}}, a soil microbe genetics research consortium of over 100 students and faculty 
-          \item Co-lead outreach and user research for the NIH \textcolor{special}{\href{https://anvilproject.org}{AnVIL Platform}}, enabling genomic data science via cloud computing for 500+ users
-          \item Led and managed \$579k NIH-funded program (\textcolor{special}{\href{https://genomicseducation.org}{"GEMs"}}) that designs open-source genomic data science training modules with under-resourced colleges
-          \item Led, developed, and managed \$200k/yr \textcolor{special}{\href{https://daseh.org}{Data Science for Environmental Health program}}, educating ~40 trainees and public health government professionals annually
-          \item Taught graduate-level courses in R programming and community data science consulting
+%            \item Built outreach software for publishing content, previewing data, and helping scientists comply with NIH policies using Shiny, GitHub Actions, and other tools
+%            \item Co-lead, analyzed, and curated data for \textcolor{special}{\href{https://biodigs.org}{BioDIGS}}, a soil microbe genetics research consortium of over 100 students and faculty 
+%            \item Co-lead outreach and user research for the NIH \textcolor{special}{\href{https://anvilproject.org}{AnVIL Platform}}, enabling genomic data science via cloud computing for 500+ users
+%            \item Led and managed \$579k NIH-funded program (\textcolor{special}{\href{https://genomicseducation.org}{"GEMs"}}) that designs open-source genomic data science training modules with under-resourced colleges
+%            \item Led, developed, and managed \$200k/yr \textcolor{special}{\href{https://daseh.org}{Data Science for Environmental Health program}}, educating ~40 trainees and public health government professionals annually
+%            \item Taught graduate-level courses in R programming and community data science consulting
+            
+            \item Led user research for NIH AnVIL Platform through survey design and interview analysis, identifying key feature priorities to increase platform adoption
+            \item Developed interactive data planning dashboards with R Shiny, improving NIH policy compliance for NIH scientists
+            \item Co-developed and deployed automated content publishing software using GitHub Actions and R that reduced manual content publishing time processing time by 50\%
+            \item Designed and implemented statistical analyses for BioDIGS soil microbiome project, processing 50+ TB of genomic sequencing and soil property data across 300+ samples and 100+ students and faculty
+            \item Secured and managed \$579k NIH grant through data-driven proposal development, creating genomic data science curriculum among 6 faculty at 4 institutions
+            \item Established the \$200k/yr Data Science for Environmental Health program, teaching and evaluating data science pedagogy using repeated measures ML approaches
+            \item Taught R programming courses focusing on data wrangling, geospatial analysis, and machine learning applications in public health
        }{hutch} \\
        
        \itemspace
 
        \experienceitem{Johns Hopkins University}{Postdoctoral Fellow}{Mar 2020 -  May 2021}{Baltimore, MD}{
-          \item Used bioinformatic tools to quantify genomic patterns among 1000+ plants adapted to 6 city landscapes
+%            \item Used bioinformatic tools to quantify genomic patterns among 1000+ plants adapted to 6 city landscapes
+            \item Developed and implemented custom bioinformatic pipelines in R and Python to analyze 1TB+ of genomic data from 1,000+ plant samples
+            \item Implemented evolutionary isolation models to understand genetic differences among distinct city environments
+            \item Visualized complex genomic relationships using dimensional reduction techniques and genetic structure plots, leading to a publication in preparation
        }{jhu} \\
        
        \itemspace
        
        \experienceitem{Boston Consulting Group}{Data Scientist}{Mar 2019 - Mar 2020}{Boston, MA}{
-           \item Productionalized PySpark pipeline describing and modeling client's 20K+ commercial banking customers for better product recommendations \& risk intervention
-           \item Designed \& hosted fully customized RShiny dashboard for reducing internal carbon emissions by 30\% in 5 years
+            \item Productionalized PySpark pipeline describing and modeling client's 20K+ commercial banking customers for better product recommendations \& risk intervention, using logistic regression and random forest methods
+            \item Created interactive RShiny dashboard integrating multiple data sources for carbon emissions tracking, enabling leadership to explore strategies for reducing internal carbon emissions by 30\% in 5 years
+            \item Optimized and clustered client's vehicle inventory with Python and k-means clustering approach, improving confidence in leadership's nationwide product delivery decisions
+
         }{gamma} \\
        
         \itemspace
         
         \experienceitem{Colorado State University}{Researcher}{Aug 2013 - Mar 2019}{Fort Collins, CO}{
-        \item Led the Blue Grama Diversity Project, implementing hierarchical Bayesian models and analyzing 9,000+ genomic features to understand plant traits from population genetics
+            %\item Led the Blue Grama Diversity Project, implementing hierarchical Bayesian models and analyzing 9,000+ genomic features to understand plant traits from population genetics
+            \item Led statistical analysis for Blue Grama Diversity Project, implementing hierarchical Bayesian models in R to analyze 9,000+ genomic markers
+            \item Developed the first custom computational pipelines for next-gen sequencing analysis in several species, improving reproducibility and future research capabilities
+            \item Created reproducible analysis workflows using R Markdown and version control
         }{nifa} \\
 
 }
@@ -78,7 +93,6 @@
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
-\vspace{5mm}
 \addeducation{
         	\educationitem{PhD}{Ecology}{Colorado State University}{05/2019}{Fort Collins, CO}{csu} \\
 	\itemspace
@@ -88,7 +102,7 @@
 %----------------------------------------------------------------------------------------
 %	 TECHNICAL SKILLS
 %----------------------------------------------------------------------------------------
-
+\vspace{8mm}
 \addtechnicalskills{
 	% Python and packages
 	%\technicalskillitem{\item Programming languages}

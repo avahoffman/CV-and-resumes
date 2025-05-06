@@ -103,19 +103,6 @@
     \end{itemize}
 }
 
-\newcommand\toolboxitem[2]{%
-\vspace{0.1cm}
-    \tikz[baseline]{%
-        \node[anchor=base,
-                    text=white,
-                    fill=#1,
-                    text depth=.5mm,
-                    below=1.5mm, % space underneath skill boxes
-                    rounded corners=0.1cm]
-        {#2};
-    }
-}
-
 \newcommand{\technicalskillitem}[2]{
 \vspace{0.001cm}
     % Bullet points
@@ -173,17 +160,9 @@
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
-%\newcommand\addeducation[1]{
-%                \Large\textcolor{header}{EDUCATION} \\
-%                \vspace{0.2cm}
-%                {
-%                \begin{tabularx}{\experienceboxsize}{lX}
-%			#1
-%                \end{tabularx}
-%    }
-%}
 \newcommand\addeducation[1]{
     \begin{tabularx}{\textwidth}{p{\experienceboxsize}}
+    \pgtwoheader % header for page two is scrunched without this
             \Large\textcolor{header}{EDUCATION} \\
     		#1
         \end{tabularx}
@@ -194,31 +173,7 @@
 %----------------------------------------------------------------------------------------
 \newcommand\addtechnicalskills[1]{
         \begin{tabularx}{\experienceboxsize}{X}
-        \pgtwoheader % header for page two is scrunched without this
          \Large\textcolor{header}{TECHNICAL SKILLS} \\
-		#1
-        \end{tabularx}
-}
-
-%----------------------------------------------------------------------------------------
-%	 TOOLBOX
-%----------------------------------------------------------------------------------------
-\newcommand\addtoolbox[1]{
-        \begin{tabularx}{\experienceboxsize}{X}
-        \pgtwoheader % header for page two is scrunched without this
-         \Large\textcolor{header}{TOOLS \& PACKAGES} \\
-         \vspace{-6mm}
-		#1
-        \end{tabularx}
-}
-
-%----------------------------------------------------------------------------------------
-%	 TECHNIQUES
-%----------------------------------------------------------------------------------------
-\newcommand\addtechniques[1]{
-        \begin{tabularx}{\experienceboxsize}{X}
-         \Large\textcolor{header}{SKILLS} \\
-         \vspace{-6mm}
 		#1
         \end{tabularx}
 }
